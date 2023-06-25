@@ -1,0 +1,22 @@
+name: Bump dependencies
+on:
+  schedule:
+    - cron: 0 20 * * *
+  workflow_dispatch:
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Bump dependencies 🔧
+        run: |
+          go run ./main.go
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.UPDATE_BOT_TOKEN }}
+          commit-message: ':arrow_up: Update index'
+          title: ':arrow_up: Update index'
+          branch: "update/index"
+          body: Update index
+          signoff: true

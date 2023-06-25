@@ -176,7 +176,7 @@ func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 
 			continue
 		}
-		fileURL := fmt.Sprintf("https://huggingface.co/models/%s/raw/main/%s", repository, sibling.RFileName)
+		fileURL := fmt.Sprintf("https://huggingface.co/%s/resolve/main/%s", repository, sibling.RFileName)
 		shaURL := fmt.Sprintf("https://huggingface.co/%s/blob/main/%s", repository, sibling.RFileName)
 		sha, err := getSHA256(shaURL)
 		if err != nil {

@@ -1,23 +1,26 @@
-name: Bump dependencies
+name: Auto update
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: 0 20 * * *
   workflow_dispatch:
 jobs:
-  bump:
+  format-code:
     runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
     steps:
       - uses: actions/checkout@v3
       - name: Bump dependencies 🔧
         run: |
           go mod tidy
           go run ./main.go
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.UPDATE_BOT_TOKEN }}
-          commit-message: ':arrow_up: Update index'
-          title: ':arrow_up: Update index'
-          branch: "update/index"
-          body: Update index
-          signoff: true
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v4

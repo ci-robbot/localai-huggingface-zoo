@@ -1,4 +1,4 @@
-name: Auto update
+name: Checking models on huggingface
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
     - cron: 0 20 * * *
   workflow_dispatch:
 jobs:
-  format-code:
+  automatic-updates:
     runs-on: ubuntu-latest
 
     permissions:
@@ -17,8 +17,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Bump dependencies 🔧
+      - name: Check updates 🔧
         run: |
+          go get github.com/go-skynet/LocalAI@master
           go mod tidy
           go run ./main.go
 

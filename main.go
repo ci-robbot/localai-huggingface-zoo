@@ -65,15 +65,16 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	dat, err := ioutil.ReadFile("index.yaml")
-	if err != nil {
-		log.Fatal(err)
-	}
+
 	currentGallery := []GalleryModel{}
 	currentGalleryMap := map[string]GalleryModel{}
-	err = yaml.Unmarshal(dat, &currentGallery)
-	if err != nil {
-		log.Fatal(err)
+
+	dat, err := ioutil.ReadFile("index.yaml")
+	if err == nil {
+		err = yaml.Unmarshal(dat, &currentGallery)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	for _, model := range currentGallery {

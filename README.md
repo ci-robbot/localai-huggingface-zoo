@@ -21,7 +21,7 @@ and install is something like:
 
 To search something, you can use `jq`:
 ```
-  curl http://localhost:8080/models/list | jq '.[] | select(.name | contains("open-llama"))'
+  curl http://localhost:8080/models/available | jq '.[] | select(.name | contains("open-llama"))'
 ```
 
 and try it out with:

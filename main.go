@@ -203,7 +203,7 @@ func scraperWorker(wg *sync.WaitGroup, c chan string, g chan GalleryModel) {
 				License: mm.CardData.License,
 				Icon:    "",
 				Overrides: map[string]interface{}{
-					"params": map[string]interface{}{
+					"parameters": map[string]interface{}{
 						"model": m.Filename,
 					},
 				},

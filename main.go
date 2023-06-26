@@ -196,7 +196,7 @@ func scraperWorker(wg *sync.WaitGroup, c chan string, g chan GalleryModel) {
 				}
 			}
 
-			modelName := fmt.Sprintf("%s/%s", model, m.Filename)
+			modelName := strings.ReplaceAll(strings.ToLower(fmt.Sprintf("%s/%s", model, m.Filename)), "/", "__")
 			g <- GalleryModel{
 				Name:    modelName,
 				URLs:    []string{fmt.Sprintf("https://huggingface.co/%s", model)},

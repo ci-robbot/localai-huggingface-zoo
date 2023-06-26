@@ -76,6 +76,28 @@
       sha256: 9e46509569a37b694706f7b9a9526eaa60764abcce7e4bfd94b37de321b25b06
       uri: https://huggingface.co/Aeala/GPT4-x-AlpacaDente2-30b-ggml/resolve/main/GPT4-x-AlpacaDente2-30b-ggml-q5_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: Aeala/VicUnlocked-alpaca-30b-q4_0.bin
+  urls:
+    - https://huggingface.co/Aeala/VicUnlocked-alpaca-30b-ggml
+  overrides:
+    params:
+        model: VicUnlocked-alpaca-30b-q4_0.bin
+  files:
+    - filename: VicUnlocked-alpaca-30b-q4_0.bin
+      sha256: 05ef6d1052e8ca3277168026e1d91292874ac50ec600d9c96996ca6ebfc19975
+      uri: https://huggingface.co/Aeala/VicUnlocked-alpaca-30b-ggml/resolve/main/VicUnlocked-alpaca-30b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Aeala/VicUnlocked-alpaca-30b-q5_1.bin
+  urls:
+    - https://huggingface.co/Aeala/VicUnlocked-alpaca-30b-ggml
+  overrides:
+    params:
+        model: VicUnlocked-alpaca-30b-q5_1.bin
+  files:
+    - filename: VicUnlocked-alpaca-30b-q5_1.bin
+      sha256: 66c3aad7c66bdbf165bc0ca877e6c4d428aae057c12c897f8d30c1a50a280379
+      uri: https://huggingface.co/Aeala/VicUnlocked-alpaca-30b-ggml/resolve/main/VicUnlocked-alpaca-30b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: Aeala/alpaca-elina-65b-q4_0-ggml.bin
   urls:
     - https://huggingface.co/Aeala/Alpaca-elina-65b-ggml
@@ -119,6 +141,76 @@
     - filename: alpaca-elina-65b-q5_1-ggml.bin
       sha256: 25b847caa5ea889e4d61872c870e65c2bb771edb54a84299039a1b07ce298bab
       uri: https://huggingface.co/Aeala/Alpaca-elina-65b-ggml/resolve/main/alpaca-elina-65b-q5_1-ggml.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: Anachronous/guanaco-33b-merged-ggml-q4_0.bin
+  urls:
+    - https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3
+  tags:
+    - llama
+    - text-generation
+  overrides:
+    params:
+        model: guanaco-33b-merged-ggml-q4_0.bin
+  files:
+    - filename: guanaco-33b-merged-ggml-q4_0.bin
+      sha256: 709803f9ecd25359f85592651db115e0f72d9780f27c01712454e18539d1aae6
+      uri: https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3/resolve/main/guanaco-33b-merged-ggml-q4_0.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: Anachronous/guanaco-33b-merged-ggml-q4_1.bin
+  urls:
+    - https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3
+  tags:
+    - llama
+    - text-generation
+  overrides:
+    params:
+        model: guanaco-33b-merged-ggml-q4_1.bin
+  files:
+    - filename: guanaco-33b-merged-ggml-q4_1.bin
+      sha256: 50d2ec7bc436406624cf7f0bf703bb56415c0670257a5f9a3caa9b891c3fd78b
+      uri: https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3/resolve/main/guanaco-33b-merged-ggml-q4_1.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: Anachronous/guanaco-33b-merged-ggml-q5_0.bin
+  urls:
+    - https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3
+  tags:
+    - llama
+    - text-generation
+  overrides:
+    params:
+        model: guanaco-33b-merged-ggml-q5_0.bin
+  files:
+    - filename: guanaco-33b-merged-ggml-q5_0.bin
+      sha256: 56b242a946b4686e2a6ba2cf685d6fc7abed8db78b9caa09925d249cfa9b7754
+      uri: https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3/resolve/main/guanaco-33b-merged-ggml-q5_0.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: Anachronous/guanaco-33b-merged-ggml-q5_1.bin
+  urls:
+    - https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3
+  tags:
+    - llama
+    - text-generation
+  overrides:
+    params:
+        model: guanaco-33b-merged-ggml-q5_1.bin
+  files:
+    - filename: guanaco-33b-merged-ggml-q5_1.bin
+      sha256: 844669070f0b10d03b65a64315439de246c6362096df244270bbfa2821662d8a
+      uri: https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3/resolve/main/guanaco-33b-merged-ggml-q5_1.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: Anachronous/guanaco-33b-merged-ggml-q8_0.bin
+  urls:
+    - https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3
+  tags:
+    - llama
+    - text-generation
+  overrides:
+    params:
+        model: guanaco-33b-merged-ggml-q8_0.bin
+  files:
+    - filename: guanaco-33b-merged-ggml-q8_0.bin
+      sha256: 37d700e015b8a936c2e0c4eab971b6c8db4ce098f1a0287e2337d8064fea9fec
+      uri: https://huggingface.co/Anachronous/guanaco-33b-merged-ggmlv3/resolve/main/guanaco-33b-merged-ggml-q8_0.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
   name: Bakanayatsu/wizardlm-7B-unfiltered-GGML-q4_0.bin
   urls:
@@ -1583,14 +1675,28 @@
 - url: github:go-skynet/model-gallery/base.yaml
   name: Drararara/ggml-model-q4_0.bin
   urls:
-    - https://huggingface.co/Drararara/llama-7b-ggml
+    - https://huggingface.co/Drararara/llama-13B-ggml
   overrides:
     params:
         model: ggml-model-q4_0.bin
   files:
     - filename: ggml-model-q4_0.bin
-      sha256: 2dad53e70ca521fedcf9f9be5c26c15df602487a9c008bdafbb2bf8f946b6bf0
-      uri: https://huggingface.co/Drararara/llama-7b-ggml/resolve/main/ggml-model-q4_0.bin
+      sha256: 9cd4d6c1f5f42d5abf529c51bde3303991fba912ab8ed452adfd7c97a4be77d7
+      uri: https://huggingface.co/Drararara/llama-13B-ggml/resolve/main/ggml-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Fredithefish/ggml-CrimsonPajama-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Fredithefish/CrimsonPajama-3B-GGML
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: ggml-CrimsonPajama-q4_0.bin
+  files:
+    - filename: ggml-CrimsonPajama-q4_0.bin
+      sha256: 63d28a13e0bda5550e2168ba5f40c9d8d40de0234ebb32efb7796febbd8b8920
+      uri: https://huggingface.co/Fredithefish/CrimsonPajama-3B-GGML/resolve/main/ggml-CrimsonPajama-q4_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: Green-Sky/mpt-7b-storywriter-ggml_v0-f16.bin
   license: apache-2.0
@@ -1858,7 +1964,32 @@
     - filename: ggml-alpaca-7b-q4.bin
       sha256: 9c1bb4808f40aa0059d5343d3aac05fb75d368c240b664878d53d16bf27ade2b
       uri: https://huggingface.co/Hamsa/ggml-alpaca-7b-q4.bin/resolve/main/ggml-alpaca-7b-q4.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Henk717/AI-Dungeon-2-Classic.bin
+  license: mit
+  urls:
+    - https://huggingface.co/Henk717/ai-dungeon2-classic-ggml
+  tags:
+    - license:mit
+  overrides:
+    params:
+        model: AI-Dungeon-2-Classic.bin
+  files:
+    - filename: AI-Dungeon-2-Classic.bin
+      sha256: ff479e35bdf518df0cc1f35fd34829be5c8f6130c846b0934cc01ca4d86f1a51
+      uri: https://huggingface.co/Henk717/ai-dungeon2-classic-ggml/resolve/main/AI-Dungeon-2-Classic.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Henk717/ggml-model-f16.bin
+  urls:
+    - https://huggingface.co/Henk717/MDEL-theblackcat-chat-5-experts-ggml
+  overrides:
+    params:
+        model: ggml-model-f16.bin
+  files:
+    - filename: ggml-model-f16.bin
+      sha256: 2ba362f1476ba08b04c2cba9e17417acd9a414854a4c5a19b629b17a1e046806
+      uri: https://huggingface.co/Henk717/MDEL-theblackcat-chat-5-experts-ggml/resolve/main/ggml-model-f16.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: Jahaz/13B-ggml-model-WizardVicunaUnsensored-StarCoderq5_1.bin
   urls:
     - https://huggingface.co/Jahaz/multi-lora-llama-7b-ggml-q5-1
@@ -1972,6 +2103,330 @@
     - filename: Alpacino-30b-q4_0.bin
       sha256: ac8487e14714bda9bf6efdbbba983913f207f8f15e62be00dd4f9a926ddfb6f3
       uri: https://huggingface.co/Melbourne/Alpacino-30b-ggml/resolve/main/Alpacino-30b-q4_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-169M-20230520-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-169M-20230520-q4_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-169M-20230520-q4_0.bin
+      sha256: 3a110fda6b018231860d436dca9e5226bf53cb6ef149414fdc632eb0b1b90152
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-169M-20230520-q4_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-169M-20230520-q5_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-169M-20230520-q5_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-169M-20230520-q5_0.bin
+      sha256: 296f1aea6c0dc9c326312fe179b618af7b2f830fa151135897cb35044c61a36c
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-169M-20230520-q5_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-169M-20230520-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-169M-20230520-q5_1.bin
+  files:
+    - filename: RWKV-4-PilePlus-169M-20230520-q5_1.bin
+      sha256: 668cfa1d50a0e81da4b5bdfa23055d26776797a63f5da5348d9259e4b738f029
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-169M-20230520-q5_1.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-1B5-20230520-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-1B5-20230520-q4_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-1B5-20230520-q4_0.bin
+      sha256: 662e4b8c44e1affc1381df66278dcf4ac684c7b4291fabb69085b8f6aa119b7a
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-1B5-20230520-q4_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-1B5-20230520-q5_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-1B5-20230520-q5_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-1B5-20230520-q5_0.bin
+      sha256: 0614773b040923b82437c68c9975a1c8e4f62e048e4cd1712b266311abef431b
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-1B5-20230520-q5_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-1B5-20230520-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-1B5-20230520-q5_1.bin
+  files:
+    - filename: RWKV-4-PilePlus-1B5-20230520-q5_1.bin
+      sha256: 78bc214fae271a824790ded7b488049edb4f783fdc5691c5c161c8b851811470
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-1B5-20230520-q5_1.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-3B-20230520-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-3B-20230520-q4_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-3B-20230520-q4_0.bin
+      sha256: ec94df96d74e215127446ac310bfd2b1824204e3a3acc74e06d1ccace67fea40
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-3B-20230520-q4_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-3B-20230520-q5_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-3B-20230520-q5_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-3B-20230520-q5_0.bin
+      sha256: e6954358e4cf62368a4d7c14719cf2df63c85a9eb4b24d03db30b6ec747637f8
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-3B-20230520-q5_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-3B-20230520-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-3B-20230520-q5_1.bin
+  files:
+    - filename: RWKV-4-PilePlus-3B-20230520-q5_1.bin
+      sha256: 75856a820e2236f9d0c7f89ac7d5661a29d535901e78f744675f63ab69ff6cd2
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-3B-20230520-q5_1.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-430M-20230520-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-430M-20230520-q4_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-430M-20230520-q4_0.bin
+      sha256: fa275c1096dfc0d8588be4ecc1fc8bae87a062e774de1d6b282e925917e85825
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-430M-20230520-q4_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-430M-20230520-q5_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-430M-20230520-q5_0.bin
+  files:
+    - filename: RWKV-4-PilePlus-430M-20230520-q5_0.bin
+      sha256: e9dc848f3cf04576616ba7d0aabd1b587ac721bc9cda72eda8aaedcf52814609
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-430M-20230520-q5_0.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: Merry/RWKV-4-PilePlus-430M-20230520-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/Merry/ggml-rwkv-4-pileplus
+  tags:
+    - en
+    - dataset:EleutherAI/pile
+    - dataset:togethercomputer/RedPajama-Data-1T
+    - ggml
+    - text-generation
+    - causal-lm
+    - rwkv
+    - license:apache-2.0
+  overrides:
+    params:
+        model: RWKV-4-PilePlus-430M-20230520-q5_1.bin
+  files:
+    - filename: RWKV-4-PilePlus-430M-20230520-q5_1.bin
+      sha256: 4a631c48fa958b282d9b526d0f3f6ad2ec9f63cfc3ddd35b3aa711f7b14fd13f
+      uri: https://huggingface.co/Merry/ggml-rwkv-4-pileplus/resolve/main/RWKV-4-PilePlus-430M-20230520-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Merry/ggmlv2-pygmalion-1.3b-q4_0.bin
+  license: agpl-3.0
+  urls:
+    - https://huggingface.co/Merry/ggml-pygmalion-1.3b
+  tags:
+    - en
+    - ggml
+    - text generation
+    - conversational
+    - license:agpl-3.0
+  overrides:
+    params:
+        model: ggmlv2-pygmalion-1.3b-q4_0.bin
+  files:
+    - filename: ggmlv2-pygmalion-1.3b-q4_0.bin
+      sha256: f3a40a2911ab1db2c8c702de296f7738700f445292ddff5bd8083ba39e9acbf9
+      uri: https://huggingface.co/Merry/ggml-pygmalion-1.3b/resolve/main/ggmlv2-pygmalion-1.3b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Merry/ggmlv2-pygmalion-1.3b-q5_1.bin
+  license: agpl-3.0
+  urls:
+    - https://huggingface.co/Merry/ggml-pygmalion-1.3b
+  tags:
+    - en
+    - ggml
+    - text generation
+    - conversational
+    - license:agpl-3.0
+  overrides:
+    params:
+        model: ggmlv2-pygmalion-1.3b-q5_1.bin
+  files:
+    - filename: ggmlv2-pygmalion-1.3b-q5_1.bin
+      sha256: 49773830f198b23d140bce0d70804ee6a747200509a246a7ffbf04f2e26fe9e3
+      uri: https://huggingface.co/Merry/ggml-pygmalion-1.3b/resolve/main/ggmlv2-pygmalion-1.3b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Merry/ggmlv3-pygmalion-1.3b-q4_0.bin
+  license: agpl-3.0
+  urls:
+    - https://huggingface.co/Merry/ggml-pygmalion-1.3b
+  tags:
+    - en
+    - ggml
+    - text generation
+    - conversational
+    - license:agpl-3.0
+  overrides:
+    params:
+        model: ggmlv3-pygmalion-1.3b-q4_0.bin
+  files:
+    - filename: ggmlv3-pygmalion-1.3b-q4_0.bin
+      sha256: dabb54c858f8520f3f0bf9ce6ca93c3cc1763e0a52cc90922d46d37ab2911839
+      uri: https://huggingface.co/Merry/ggml-pygmalion-1.3b/resolve/main/ggmlv3-pygmalion-1.3b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Merry/ggmlv3-pygmalion-1.3b-q5_1.bin
+  license: agpl-3.0
+  urls:
+    - https://huggingface.co/Merry/ggml-pygmalion-1.3b
+  tags:
+    - en
+    - ggml
+    - text generation
+    - conversational
+    - license:agpl-3.0
+  overrides:
+    params:
+        model: ggmlv3-pygmalion-1.3b-q5_1.bin
+  files:
+    - filename: ggmlv3-pygmalion-1.3b-q5_1.bin
+      sha256: f457df36b8410c2585cb1b9628e6e44a441c18d76a0e267615e577ab4deea08b
+      uri: https://huggingface.co/Merry/ggml-pygmalion-1.3b/resolve/main/ggmlv3-pygmalion-1.3b-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: Merry/ggmlv3-pythia-1.4b-deduped-q4_0.bin
   license: apache-2.0
@@ -2646,6 +3101,20 @@
     - filename: starcoderbase-ggml-q8_0.bin
       sha256: d92d17680714b4e9ef197e6af9f4adcbce8ad5f158c027addea0ddacc0d261d7
       uri: https://huggingface.co/NeoDim/starcoderbase-GGML/resolve/main/starcoderbase-ggml-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: OdiaGenAI/ggml-model-q4_0.bin
+  license: cc-by-nc-4.0
+  urls:
+    - https://huggingface.co/OdiaGenAI/odiagenAI-ggml-model-base-q4_0-v1
+  tags:
+    - license:cc-by-nc-4.0
+  overrides:
+    params:
+        model: ggml-model-q4_0.bin
+  files:
+    - filename: ggml-model-q4_0.bin
+      sha256: 84905e755a89828b935fc0f1031a28bc2199c7710095fe3dbe64e8afee5f187b
+      uri: https://huggingface.co/OdiaGenAI/odiagenAI-ggml-model-base-q4_0-v1/resolve/main/ggml-model-q4_0.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: Pi3141/ggml-model-q4_0.bin
   urls:
@@ -2975,6 +3444,87 @@
     - filename: vicuna-7B-1.1-ggml_q4_0-ggjt_v3.bin
       sha256: b546e17f2d7941975dbe46f1a2ef632cd66293367fedc61f79fefe4bfb8b481e
       uri: https://huggingface.co/Sosaka/Vicuna-7B-4bit-ggml/resolve/main/vicuna-7B-1.1-ggml_q4_0-ggjt_v3.bin
+- url: github:go-skynet/model-gallery/openllama_3b.yaml
+  name: Sovenok-Hacker/ggml-openllama-3b-350bt-q4_0.bin
+  urls:
+    - https://huggingface.co/Sovenok-Hacker/ggml-openllama-3b-q4_0
+  tags:
+    - en
+  overrides:
+    params:
+        model: ggml-openllama-3b-350bt-q4_0.bin
+  files:
+    - filename: ggml-openllama-3b-350bt-q4_0.bin
+      sha256: bc4e8f6aee255f84451f0a53a9a1333018b0a39c78efb5bb9b86d34a56173a1c
+      uri: https://huggingface.co/Sovenok-Hacker/ggml-openllama-3b-q4_0/resolve/main/ggml-openllama-3b-350bt-q4_0.bin
+- url: github:go-skynet/model-gallery/openllama_3b.yaml
+  name: Sovenok-Hacker/ggml-openllama-3b-600bt-q4_0.bin
+  urls:
+    - https://huggingface.co/Sovenok-Hacker/ggml-openllama-3b-q4_0
+  tags:
+    - en
+  overrides:
+    params:
+        model: ggml-openllama-3b-600bt-q4_0.bin
+  files:
+    - filename: ggml-openllama-3b-600bt-q4_0.bin
+      sha256: 878a64232542f174ecd41ca76f18b959cdf41944fb878b5cf6cb89ab264bd59b
+      uri: https://huggingface.co/Sovenok-Hacker/ggml-openllama-3b-q4_0/resolve/main/ggml-openllama-3b-600bt-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Metharme-13b-Q4_0.bin
+  urls:
+    - https://huggingface.co/TehVenom/Metharme-13b-GGML
+  overrides:
+    params:
+        model: Metharme-13b-Q4_0.bin
+  files:
+    - filename: Metharme-13b-Q4_0.bin
+      sha256: a975a72a36f6f38a6b4c4ac477d75e82dfb6faa68ad2dfcf513090ee52331325
+      uri: https://huggingface.co/TehVenom/Metharme-13b-GGML/resolve/main/Metharme-13b-Q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Metharme-13b-Q4_1.bin
+  urls:
+    - https://huggingface.co/TehVenom/Metharme-13b-GGML
+  overrides:
+    params:
+        model: Metharme-13b-Q4_1.bin
+  files:
+    - filename: Metharme-13b-Q4_1.bin
+      sha256: d521ffb3c38e71e51ac6feaaf46089292823793daf7eeced0d6f90bc18ce6e97
+      uri: https://huggingface.co/TehVenom/Metharme-13b-GGML/resolve/main/Metharme-13b-Q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Metharme-13b-Q5_0.bin
+  urls:
+    - https://huggingface.co/TehVenom/Metharme-13b-GGML
+  overrides:
+    params:
+        model: Metharme-13b-Q5_0.bin
+  files:
+    - filename: Metharme-13b-Q5_0.bin
+      sha256: 1b37ab803e4cb12060423abb5448ead8b071f8d10f3b88e776504fef9138a960
+      uri: https://huggingface.co/TehVenom/Metharme-13b-GGML/resolve/main/Metharme-13b-Q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Metharme-13b-Q5_1.bin
+  urls:
+    - https://huggingface.co/TehVenom/Metharme-13b-GGML
+  overrides:
+    params:
+        model: Metharme-13b-Q5_1.bin
+  files:
+    - filename: Metharme-13b-Q5_1.bin
+      sha256: a7f1bdc685eadaf5872ff783440dcddf5ed6e9b4195c357f8c50bdb120265202
+      uri: https://huggingface.co/TehVenom/Metharme-13b-GGML/resolve/main/Metharme-13b-Q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Metharme-13b-Q8_0.bin
+  urls:
+    - https://huggingface.co/TehVenom/Metharme-13b-GGML
+  overrides:
+    params:
+        model: Metharme-13b-Q8_0.bin
+  files:
+    - filename: Metharme-13b-Q8_0.bin
+      sha256: cc049712343abb8ce649bb13219c81d08f7bef8656bc3031727d12d1fb8061a1
+      uri: https://huggingface.co/TehVenom/Metharme-13b-GGML/resolve/main/Metharme-13b-Q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: TehVenom/Metharme-7b-4bit-Q4_1-GGML-V2.bin
   urls:
@@ -3002,6 +3552,72 @@
     - filename: Metharme-7b-4bit-Q5_1-GGML-V2.bin
       sha256: 9b97ad23614da6b36a4b1af657f7bfd018b292133a9e86a5ef7ee33c7ba94ae2
       uri: https://huggingface.co/TehVenom/Metharme-7b-4bit-Q5_1-GGML/resolve/main/Metharme-7b-4bit-Q5_1-GGML-V2.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Pygmalion-13b-F16.bin
+  urls:
+    - https://huggingface.co/TehVenom/Pygmalion-13b-GGML
+  overrides:
+    params:
+        model: Pygmalion-13b-F16.bin
+  files:
+    - filename: Pygmalion-13b-F16.bin
+      sha256: 62a2bf4f209d5007262e2131b91474635b84a612175546c6abd45b30fb6e0dee
+      uri: https://huggingface.co/TehVenom/Pygmalion-13b-GGML/resolve/main/Pygmalion-13b-F16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Pygmalion-13b-Q4_0.bin
+  urls:
+    - https://huggingface.co/TehVenom/Pygmalion-13b-GGML
+  overrides:
+    params:
+        model: Pygmalion-13b-Q4_0.bin
+  files:
+    - filename: Pygmalion-13b-Q4_0.bin
+      sha256: 9df3bec4272b20c39348961a147545134ed0afd4631415583c75a35d3b4f95bb
+      uri: https://huggingface.co/TehVenom/Pygmalion-13b-GGML/resolve/main/Pygmalion-13b-Q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Pygmalion-13b-Q4_1.bin
+  urls:
+    - https://huggingface.co/TehVenom/Pygmalion-13b-GGML
+  overrides:
+    params:
+        model: Pygmalion-13b-Q4_1.bin
+  files:
+    - filename: Pygmalion-13b-Q4_1.bin
+      sha256: 0c5c68a6d4a868ee3332bd9d28b024caa154db3061d57a1476c7c9bbad9a3062
+      uri: https://huggingface.co/TehVenom/Pygmalion-13b-GGML/resolve/main/Pygmalion-13b-Q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Pygmalion-13b-Q5_0.bin
+  urls:
+    - https://huggingface.co/TehVenom/Pygmalion-13b-GGML
+  overrides:
+    params:
+        model: Pygmalion-13b-Q5_0.bin
+  files:
+    - filename: Pygmalion-13b-Q5_0.bin
+      sha256: 2731daaf36ed7f88395b7b27bebd7e2aac3c37213cc0f2d6e5cbed6fd91bfccb
+      uri: https://huggingface.co/TehVenom/Pygmalion-13b-GGML/resolve/main/Pygmalion-13b-Q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Pygmalion-13b-Q5_1.bin
+  urls:
+    - https://huggingface.co/TehVenom/Pygmalion-13b-GGML
+  overrides:
+    params:
+        model: Pygmalion-13b-Q5_1.bin
+  files:
+    - filename: Pygmalion-13b-Q5_1.bin
+      sha256: 6b6e600e3c109d3261ba7e1e4dd99c1c4fac39a55e7778445b06622f80b2f1cf
+      uri: https://huggingface.co/TehVenom/Pygmalion-13b-GGML/resolve/main/Pygmalion-13b-Q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: TehVenom/Pygmalion-13b-Q8_0.bin
+  urls:
+    - https://huggingface.co/TehVenom/Pygmalion-13b-GGML
+  overrides:
+    params:
+        model: Pygmalion-13b-Q8_0.bin
+  files:
+    - filename: Pygmalion-13b-Q8_0.bin
+      sha256: 6a4674b863d4341002046bb124a3957ef72e5456e88a3ce40481842256e2211e
+      uri: https://huggingface.co/TehVenom/Pygmalion-13b-GGML/resolve/main/Pygmalion-13b-Q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: TehVenom/Pygmalion-7b-4bit-Q4_1-GGML-V2.bin
   urls:
@@ -5733,7 +6349,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: df739fe44b0356c53e4b1aa5f423c4120082b9dba27e81f469f4ecc82e86eecd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_S.bin
   license: other
   urls:
@@ -5763,7 +6379,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1f08b147a5bce41cfcbb3fd5d51ba765dea1786e15b5655ab69ba3a337a893b7
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -5793,7 +6409,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 77b741f78e5c1eb929425f1a2f23f8dde8076b3b9bdefb336ae2a0203d8c8bcd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_S.bin
   license: other
   urls:
@@ -5823,7 +6439,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_0.bin
       sha256: 550ed0bd50acace2940bc39a1da89706cb6afd514deb481dacf54e4ccc56d0f8
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -5853,7 +6469,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: d33f16f2d124d54b5f9bb48e270bc907d188d1c86551e8e05e43b4870973d49c
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
   license: other
   urls:
@@ -5898,7 +6514,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin
       sha256: 76bea6b983f79a4dda3228a9d29760103ae0a8d3970eb5cd4239722ea86ed809
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q2_K.bin
   license: other
   urls:
@@ -5926,7 +6542,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_L.bin
       sha256: 5416485a12dd1e3496a61f02cdb8b21c87996e4c93761b61dd557b849cffa5ff
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_M.bin
   license: other
   urls:
@@ -5940,7 +6556,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: 82ab2e1305aff5e40d93aeb9ac452666c4d432063c1880826fa41914060136f4
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_S.bin
   license: other
   urls:
@@ -5954,7 +6570,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_S.bin
       sha256: d12b4e8c37fc5895496984380a4dd631c8f647c5e007992abea1053d58be6ff6
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -5968,7 +6584,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1a493c051bbe272d95d7db3bd5747f02e6a6e8c96de24fd863b4cf9b53b63637
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -5996,7 +6612,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 124793cd078ff66d3f79e2960e540f27013de30deb1dfee4b5a92b4656250f0d
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
   license: other
   urls:
@@ -6010,7 +6626,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: 7f820ce130bf8f8ff80a7d0f7d6755b9e2b3d6770a9314610efec47b75fd2f62
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -6024,7 +6640,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_0.bin
       sha256: afec38087f503fa404f2629b71ea22b9a17f59b8a5e1fbca6378cb25de441eef
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -6038,7 +6654,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
       sha256: 1d78246264566e529f5ffde4ed5c845f66f6c091ae21ff8e56c7e6de64310919
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
   license: other
   urls:
@@ -6052,7 +6668,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: 60b40922a954486d5ddf7b046f746ba406a7d260156d42b512e0c002cb1c1336
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_S.bin
   license: other
   urls:
@@ -6080,7 +6696,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q6_K.bin
       sha256: 01f0a6d75935e257d6ba0d0adae4c117bbfded0a5a125e0608db5740ee89a37c
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-30B-Uncensored.ggmlv3.q8_0.bin
   license: other
   urls:
@@ -6094,7 +6710,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q8_0.bin
       sha256: 513de4ac22b500f6cf5f813378502237dab165edd61fc30448d5b975a19efed6
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q2_K.bin
   license: other
   urls:
@@ -6136,7 +6752,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: 3d9295af40fbf78e9be216c4435885494adabae06b08a580f861edec34e2a361
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
   license: other
   urls:
@@ -6150,7 +6766,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
       sha256: 13c47bc79f7433eaf28d0a659b9dae450c33d37301969c985af792d5dabc4c23
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -6178,7 +6794,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
       sha256: 84779e2b9beeacd3a049561202c001d3f254050065a873326518eb225bfdd024
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_M.bin
   license: other
   urls:
@@ -6192,7 +6808,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 06596a2057660074407bd519c82d2697b26966ebef10fbec95aad0881e7237ca
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_S.bin
   license: other
   urls:
@@ -6248,7 +6864,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: 3807faf5a8aad1cbf23af9630e1c43d36dca19c7b09352ae7c00e948dcb17ecc
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
   license: other
   urls:
@@ -6276,7 +6892,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q6_K.bin
       sha256: f615081aef74120663e6717580115e278d1632a92d9f8c61a16115aabc8190ce
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/Wizard-Vicuna-7B-Uncensored.ggmlv3.q8_0.bin
   license: other
   urls:
@@ -27302,7 +27918,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q2_K.bin
       sha256: 59729c9597327bede0e17dfa6d1aab037cafccd9cc56c7180deadc9d7b4455fb
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/wizard-vicuna-13B.ggmlv3.q3_K_L.bin
   license: other
   urls:
@@ -27317,7 +27933,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q3_K_L.bin
       sha256: 39b9e977a7e4f006b6c54ec160b33a794fffeb720cd3fa637c19a80ca7174a83
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/wizard-vicuna-13B.ggmlv3.q3_K_M.bin
   license: other
   urls:
@@ -27422,7 +28038,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_0.bin
       sha256: b9e3378a033ec0b470c391097b6e3b697c978360c5e542bd641590ef49f02106
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: TheBloke/wizard-vicuna-13B.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -27437,7 +28053,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_1.bin
       sha256: f5b92a22d1eb0469e55155086ffd9af50c5e25e8a91eac4181ec23fa142ced9b
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: TheBloke/wizard-vicuna-13B.ggmlv3.q5_K_M.bin
   license: other
   urls:
@@ -28749,6 +29365,48 @@
       sha256: 395b9499798d407cae074046340ade48de6562b7b7c0b38e601705e3db733947
       uri: https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGML/resolve/main/wizardlm-7b-v1.0-uncensored.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: Vetehinen/gpt3-finnish-13B.bloomz.ggml.q4_0.bin
+  urls:
+    - https://huggingface.co/Vetehinen/gpt3-finnish-13B-GGML
+  tags:
+    - fi
+    - text-generation
+  overrides:
+    params:
+        model: gpt3-finnish-13B.bloomz.ggml.q4_0.bin
+  files:
+    - filename: gpt3-finnish-13B.bloomz.ggml.q4_0.bin
+      sha256: df56052c1f207739a51f6186aee9865a242332870148fb914a5d218ac85d9102
+      uri: https://huggingface.co/Vetehinen/gpt3-finnish-13B-GGML/resolve/main/gpt3-finnish-13B.bloomz.ggml.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Vetehinen/gpt3-finnish-3B.bloomz.ggml.q4_0.bin
+  urls:
+    - https://huggingface.co/Vetehinen/gpt3-finnish-3B-GGML
+  tags:
+    - fi
+    - text-generation
+  overrides:
+    params:
+        model: gpt3-finnish-3B.bloomz.ggml.q4_0.bin
+  files:
+    - filename: gpt3-finnish-3B.bloomz.ggml.q4_0.bin
+      sha256: e534293f05b4e5c4c3dbf731ba86de4a0ba9006874eba5735175ef6a529bda04
+      uri: https://huggingface.co/Vetehinen/gpt3-finnish-3B-GGML/resolve/main/gpt3-finnish-3B.bloomz.ggml.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: Vetehinen/gpt3-finnish-8B.bloomz.ggml.q4_0.bin
+  urls:
+    - https://huggingface.co/Vetehinen/gpt3-finnish-8B-GGML
+  tags:
+    - fi
+    - text-generation
+  overrides:
+    params:
+        model: gpt3-finnish-8B.bloomz.ggml.q4_0.bin
+  files:
+    - filename: gpt3-finnish-8B.bloomz.ggml.q4_0.bin
+      sha256: d07d04d656faf21e57c43e2e45696f398cd8304fbff2a82aa780b33928ef4411
+      uri: https://huggingface.co/Vetehinen/gpt3-finnish-8B-GGML/resolve/main/gpt3-finnish-8B.bloomz.ggml.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: Vishvendra/ggml-model-q4_0.bin
   urls:
     - https://huggingface.co/Vishvendra/ggml-model-q4_0
@@ -28807,6 +29465,17 @@
     - filename: pygmalion-6b-v3-q4_0.bin
       sha256: e02f1a68fc22d0736c6da6e54da51db8341c89a54478fadd3f0e7abb97e9adc2
       uri: https://huggingface.co/alpindale/pygmalion-6b-ggml/resolve/main/pygmalion-6b-v3-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: alpindale/pygmalion-7b-f16.bin
+  urls:
+    - https://huggingface.co/alpindale/pygmalion-7b-ggml
+  overrides:
+    params:
+        model: pygmalion-7b-f16.bin
+  files:
+    - filename: pygmalion-7b-f16.bin
+      sha256: e3589642c1fe1f32d33ecb78b8723f279e14c9f491515988492127686895b9e1
+      uri: https://huggingface.co/alpindale/pygmalion-7b-ggml/resolve/main/pygmalion-7b-f16.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: amesianx/ggml-ko-vicuna-7b-q4_0.bin
   license: other
@@ -28905,7 +29574,7 @@
     - filename: ggml-wizard-vicuna-13b-q4_0.bin
       sha256: 55cf95bc74d71e47a066db9da0164ce59c8765172073358f59d7cc86566613ee
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q4_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: amesianx/ggml-wizard-vicuna-13b-q4_1.bin
   license: other
   urls:
@@ -28919,7 +29588,7 @@
     - filename: ggml-wizard-vicuna-13b-q4_1.bin
       sha256: 70054da953904531eeec079983c276d723018c151dd5f091c387911e37bc3de0
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q4_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: amesianx/ggml-wizard-vicuna-13b-q4_2.bin
   license: other
   urls:
@@ -28961,7 +29630,7 @@
     - filename: ggml-wizard-vicuna-13b-q5_1.bin
       sha256: a4ff4dd0e7234550f3bcfbedc14677b256da97a870b4492b159ffb62845f424e
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q5_1.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: amesianx/ggml-wizard-vicuna-13b-q8_0.bin
   license: other
   urls:
@@ -29550,6 +30219,598 @@
       sha256: 3d6def987be1b67d149bd3ad3d8454b5c595313f1640998ba6435e7014906c1e
       uri: https://huggingface.co/danforbes/santacoder-ggml-q4_1/resolve/main/santacoder-ggml-q4_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: danielus/ggml-base-fp16.bin
+  license: mit
+  urls:
+    - https://huggingface.co/danielus/ggml-whisper-models
+  tags:
+    - en
+    - zh
+    - de
+    - es
+    - ru
+    - ko
+    - fr
+    - ja
+    - pt
+    - tr
+    - pl
+    - ca
+    - nl
+    - ar
+    - sv
+    - it
+    - id
+    - hi
+    - fi
+    - vi
+    - he
+    - uk
+    - el
+    - ms
+    - cs
+    - ro
+    - da
+    - hu
+    - ta
+    - "no"
+    - th
+    - ur
+    - hr
+    - bg
+    - lt
+    - la
+    - mi
+    - ml
+    - cy
+    - sk
+    - te
+    - fa
+    - lv
+    - bn
+    - sr
+    - az
+    - sl
+    - kn
+    - et
+    - mk
+    - br
+    - eu
+    - is
+    - hy
+    - ne
+    - mn
+    - bs
+    - kk
+    - sq
+    - sw
+    - gl
+    - mr
+    - pa
+    - si
+    - km
+    - sn
+    - yo
+    - so
+    - af
+    - oc
+    - ka
+    - be
+    - tg
+    - sd
+    - gu
+    - am
+    - yi
+    - lo
+    - uz
+    - fo
+    - ht
+    - ps
+    - tk
+    - nn
+    - mt
+    - sa
+    - lb
+    - my
+    - bo
+    - tl
+    - mg
+    - as
+    - tt
+    - haw
+    - ln
+    - ha
+    - ba
+    - jw
+    - su
+    - audio
+    - automatic-speech-recognition
+    - license:mit
+  overrides:
+    params:
+        model: ggml-base-fp16.bin
+  files:
+    - filename: ggml-base-fp16.bin
+      sha256: a4f49b415dc06a8c27c1e6006dffcf63da1e6ec35c39e45ed8401dd0eeedaecb
+      uri: https://huggingface.co/danielus/ggml-whisper-models/resolve/main/ggml-base-fp16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: danielus/ggml-large-v2-q5_1.bin
+  license: mit
+  urls:
+    - https://huggingface.co/danielus/ggml-whisper-models
+  tags:
+    - en
+    - zh
+    - de
+    - es
+    - ru
+    - ko
+    - fr
+    - ja
+    - pt
+    - tr
+    - pl
+    - ca
+    - nl
+    - ar
+    - sv
+    - it
+    - id
+    - hi
+    - fi
+    - vi
+    - he
+    - uk
+    - el
+    - ms
+    - cs
+    - ro
+    - da
+    - hu
+    - ta
+    - "no"
+    - th
+    - ur
+    - hr
+    - bg
+    - lt
+    - la
+    - mi
+    - ml
+    - cy
+    - sk
+    - te
+    - fa
+    - lv
+    - bn
+    - sr
+    - az
+    - sl
+    - kn
+    - et
+    - mk
+    - br
+    - eu
+    - is
+    - hy
+    - ne
+    - mn
+    - bs
+    - kk
+    - sq
+    - sw
+    - gl
+    - mr
+    - pa
+    - si
+    - km
+    - sn
+    - yo
+    - so
+    - af
+    - oc
+    - ka
+    - be
+    - tg
+    - sd
+    - gu
+    - am
+    - yi
+    - lo
+    - uz
+    - fo
+    - ht
+    - ps
+    - tk
+    - nn
+    - mt
+    - sa
+    - lb
+    - my
+    - bo
+    - tl
+    - mg
+    - as
+    - tt
+    - haw
+    - ln
+    - ha
+    - ba
+    - jw
+    - su
+    - audio
+    - automatic-speech-recognition
+    - license:mit
+  overrides:
+    params:
+        model: ggml-large-v2-q5_1.bin
+  files:
+    - filename: ggml-large-v2-q5_1.bin
+      sha256: ffe3e1439be3e58a066b1a5ab0adb893245b25e2331cae7d54e25dec2ce7a616
+      uri: https://huggingface.co/danielus/ggml-whisper-models/resolve/main/ggml-large-v2-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: danielus/ggml-medium-q4_2.bin
+  license: mit
+  urls:
+    - https://huggingface.co/danielus/ggml-whisper-models
+  tags:
+    - en
+    - zh
+    - de
+    - es
+    - ru
+    - ko
+    - fr
+    - ja
+    - pt
+    - tr
+    - pl
+    - ca
+    - nl
+    - ar
+    - sv
+    - it
+    - id
+    - hi
+    - fi
+    - vi
+    - he
+    - uk
+    - el
+    - ms
+    - cs
+    - ro
+    - da
+    - hu
+    - ta
+    - "no"
+    - th
+    - ur
+    - hr
+    - bg
+    - lt
+    - la
+    - mi
+    - ml
+    - cy
+    - sk
+    - te
+    - fa
+    - lv
+    - bn
+    - sr
+    - az
+    - sl
+    - kn
+    - et
+    - mk
+    - br
+    - eu
+    - is
+    - hy
+    - ne
+    - mn
+    - bs
+    - kk
+    - sq
+    - sw
+    - gl
+    - mr
+    - pa
+    - si
+    - km
+    - sn
+    - yo
+    - so
+    - af
+    - oc
+    - ka
+    - be
+    - tg
+    - sd
+    - gu
+    - am
+    - yi
+    - lo
+    - uz
+    - fo
+    - ht
+    - ps
+    - tk
+    - nn
+    - mt
+    - sa
+    - lb
+    - my
+    - bo
+    - tl
+    - mg
+    - as
+    - tt
+    - haw
+    - ln
+    - ha
+    - ba
+    - jw
+    - su
+    - audio
+    - automatic-speech-recognition
+    - license:mit
+  overrides:
+    params:
+        model: ggml-medium-q4_2.bin
+  files:
+    - filename: ggml-medium-q4_2.bin
+      sha256: 9da892c261623d2d1d36b2f8b773d550210e17d58bda862cf6ebb90bfff3961e
+      uri: https://huggingface.co/danielus/ggml-whisper-models/resolve/main/ggml-medium-q4_2.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: danielus/ggml-small-fp16.bin
+  license: mit
+  urls:
+    - https://huggingface.co/danielus/ggml-whisper-models
+  tags:
+    - en
+    - zh
+    - de
+    - es
+    - ru
+    - ko
+    - fr
+    - ja
+    - pt
+    - tr
+    - pl
+    - ca
+    - nl
+    - ar
+    - sv
+    - it
+    - id
+    - hi
+    - fi
+    - vi
+    - he
+    - uk
+    - el
+    - ms
+    - cs
+    - ro
+    - da
+    - hu
+    - ta
+    - "no"
+    - th
+    - ur
+    - hr
+    - bg
+    - lt
+    - la
+    - mi
+    - ml
+    - cy
+    - sk
+    - te
+    - fa
+    - lv
+    - bn
+    - sr
+    - az
+    - sl
+    - kn
+    - et
+    - mk
+    - br
+    - eu
+    - is
+    - hy
+    - ne
+    - mn
+    - bs
+    - kk
+    - sq
+    - sw
+    - gl
+    - mr
+    - pa
+    - si
+    - km
+    - sn
+    - yo
+    - so
+    - af
+    - oc
+    - ka
+    - be
+    - tg
+    - sd
+    - gu
+    - am
+    - yi
+    - lo
+    - uz
+    - fo
+    - ht
+    - ps
+    - tk
+    - nn
+    - mt
+    - sa
+    - lb
+    - my
+    - bo
+    - tl
+    - mg
+    - as
+    - tt
+    - haw
+    - ln
+    - ha
+    - ba
+    - jw
+    - su
+    - audio
+    - automatic-speech-recognition
+    - license:mit
+  overrides:
+    params:
+        model: ggml-small-fp16.bin
+  files:
+    - filename: ggml-small-fp16.bin
+      sha256: a46a837a38c3847b469270db9a5f1d737625928d0e487e97e0665941f49efc00
+      uri: https://huggingface.co/danielus/ggml-whisper-models/resolve/main/ggml-small-fp16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: danielus/ggml-tiny-fp16.bin
+  license: mit
+  urls:
+    - https://huggingface.co/danielus/ggml-whisper-models
+  tags:
+    - en
+    - zh
+    - de
+    - es
+    - ru
+    - ko
+    - fr
+    - ja
+    - pt
+    - tr
+    - pl
+    - ca
+    - nl
+    - ar
+    - sv
+    - it
+    - id
+    - hi
+    - fi
+    - vi
+    - he
+    - uk
+    - el
+    - ms
+    - cs
+    - ro
+    - da
+    - hu
+    - ta
+    - "no"
+    - th
+    - ur
+    - hr
+    - bg
+    - lt
+    - la
+    - mi
+    - ml
+    - cy
+    - sk
+    - te
+    - fa
+    - lv
+    - bn
+    - sr
+    - az
+    - sl
+    - kn
+    - et
+    - mk
+    - br
+    - eu
+    - is
+    - hy
+    - ne
+    - mn
+    - bs
+    - kk
+    - sq
+    - sw
+    - gl
+    - mr
+    - pa
+    - si
+    - km
+    - sn
+    - yo
+    - so
+    - af
+    - oc
+    - ka
+    - be
+    - tg
+    - sd
+    - gu
+    - am
+    - yi
+    - lo
+    - uz
+    - fo
+    - ht
+    - ps
+    - tk
+    - nn
+    - mt
+    - sa
+    - lb
+    - my
+    - bo
+    - tl
+    - mg
+    - as
+    - tt
+    - haw
+    - ln
+    - ha
+    - ba
+    - jw
+    - su
+    - audio
+    - automatic-speech-recognition
+    - license:mit
+  overrides:
+    params:
+        model: ggml-tiny-fp16.bin
+  files:
+    - filename: ggml-tiny-fp16.bin
+      sha256: be07e048e1e599ad46341c8d2a135645097a538221678b7acdd1b1919c6e1b21
+      uri: https://huggingface.co/danielus/ggml-whisper-models/resolve/main/ggml-tiny-fp16.bin
+- url: github:go-skynet/model-gallery/hypermantis.yaml
+  name: digitous/ggmlv2-model-q5_1.bin
+  urls:
+    - https://huggingface.co/digitous/13B-HyperMantis_GGML
+  tags:
+    - llama
+    - alpaca
+    - mix
+    - merge
+    - ggml
+  overrides:
+    params:
+        model: ggmlv2-model-q5_1.bin
+  files:
+    - filename: ggmlv2-model-q5_1.bin
+      sha256: 343b6158e37b6a8c1c2f99650aebede24a7f617c076404d6218c14031d927fb3
+      uri: https://huggingface.co/digitous/13B-HyperMantis_GGML/resolve/main/ggmlv2-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: dnato/ggml-gpt4all-j-v1.3-groovy.bin
   urls:
     - https://huggingface.co/dnato/ggml-gpt4all-j-v1.3-groovy.bin
@@ -29645,6 +30906,20 @@
     - filename: ggml-model-f16.bin
       sha256: 946c5886354312d9ca68243692d2759aa4d125e2e061e725eb8154254af2e99d
       uri: https://huggingface.co/eachadea/ggml-dante-2.8b/resolve/main/ggml-model-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: eachadea/ggml-stellar-2.8b-10-q8_0.bin
+  license: cc-by-nc-sa-4.0
+  urls:
+    - https://huggingface.co/eachadea/ggml-stellar-2.8b-10
+  tags:
+    - license:cc-by-nc-sa-4.0
+  overrides:
+    params:
+        model: ggml-stellar-2.8b-10-q8_0.bin
+  files:
+    - filename: ggml-stellar-2.8b-10-q8_0.bin
+      sha256: ca53f498074baee4c9028a2f4c3ce0223437ea209c9438c08f546d9f140086b3
+      uri: https://huggingface.co/eachadea/ggml-stellar-2.8b-10/resolve/main/ggml-stellar-2.8b-10-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: eachadea/ggml-toolpaca-13b-4bit.bin
   urls:
@@ -29785,19 +31060,33 @@
       sha256: 9f6cd4830a3c45a86147c80a32888e7be8f8a489284c87cdb882a7cfe40940c1
       uri: https://huggingface.co/eachadea/ggml-gpt4all-7b-4bit/resolve/main/gpt4all-lora-quantized-ggml.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
-  name: edp1096/ggml-model-f32.bin
-  license: apache-2.0
+  name: edp1096/ggml-model-f16.bin
+  license: other
   urls:
-    - https://huggingface.co/edp1096/korean-vicuna-7b-1.1-ggml
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
   tags:
-    - license:apache-2.0
+    - license:other
+  overrides:
+    params:
+        model: ggml-model-f16.bin
+  files:
+    - filename: ggml-model-f16.bin
+      sha256: e70b4776135296b305aae8e24ade204907e30c59d8a4dd529a3cf0a18d723fa8
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/ggml-model-f16.bin
+- url: github:go-skynet/model-gallery/vicuna.yaml
+  name: edp1096/ggml-model-f32.bin
+  license: other
+  urls:
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
+  tags:
+    - license:other
   overrides:
     params:
         model: ggml-model-f32.bin
   files:
     - filename: ggml-model-f32.bin
-      sha256: 4ce4e58153e9d03b7f25e91ce71d0dc5c68ad754ad1bf2e08b98c1fa6761788e
-      uri: https://huggingface.co/edp1096/korean-vicuna-7b-1.1-ggml/resolve/main/ggml-model-f32.bin
+      sha256: b1f3060a0f5456ceb7e4bbb09eb33d9d499563c16cda55fc9d08acff5b5fdd34
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/ggml-model-f32.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: edp1096/korean-vicuna-7b-1.1-ggml-q4_0-ggjt_v2.bin
   license: apache-2.0
@@ -29910,6 +31199,76 @@
     - filename: korean-vicuna-7b-1.1-ggml-q8_0-ggjt_v3.bin
       sha256: 0d100131e5ad0283c02eb97711cc28d215c899d915b392fd948bbb4e08c5750a
       uri: https://huggingface.co/edp1096/korean-vicuna-7b-1.1-ggml/resolve/main/korean-vicuna-7b-1.1-ggml-q8_0-ggjt_v3.bin
+- url: github:go-skynet/model-gallery/vicuna.yaml
+  name: edp1096/vicuna-7B-1.1-ggml_q4_0-ggjt_v3.bin
+  license: other
+  urls:
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: vicuna-7B-1.1-ggml_q4_0-ggjt_v3.bin
+  files:
+    - filename: vicuna-7B-1.1-ggml_q4_0-ggjt_v3.bin
+      sha256: b546e17f2d7941975dbe46f1a2ef632cd66293367fedc61f79fefe4bfb8b481e
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/vicuna-7B-1.1-ggml_q4_0-ggjt_v3.bin
+- url: github:go-skynet/model-gallery/vicuna.yaml
+  name: edp1096/vicuna-7B-1.1-ggml_q4_1-ggjt_v3.bin
+  license: other
+  urls:
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: vicuna-7B-1.1-ggml_q4_1-ggjt_v3.bin
+  files:
+    - filename: vicuna-7B-1.1-ggml_q4_1-ggjt_v3.bin
+      sha256: aa0814bb89adb09b90621186a39fc531d59393cbad3005d4bf2c7c92b7fe7872
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/vicuna-7B-1.1-ggml_q4_1-ggjt_v3.bin
+- url: github:go-skynet/model-gallery/vicuna.yaml
+  name: edp1096/vicuna-7B-1.1-ggml_q5_0-ggjt_v3.bin
+  license: other
+  urls:
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: vicuna-7B-1.1-ggml_q5_0-ggjt_v3.bin
+  files:
+    - filename: vicuna-7B-1.1-ggml_q5_0-ggjt_v3.bin
+      sha256: 24da430695ec49655de627168f11f1c2c030733768f1e77b5c32754b6057d3dc
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/vicuna-7B-1.1-ggml_q5_0-ggjt_v3.bin
+- url: github:go-skynet/model-gallery/vicuna.yaml
+  name: edp1096/vicuna-7B-1.1-ggml_q5_1-ggjt_v3.bin
+  license: other
+  urls:
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: vicuna-7B-1.1-ggml_q5_1-ggjt_v3.bin
+  files:
+    - filename: vicuna-7B-1.1-ggml_q5_1-ggjt_v3.bin
+      sha256: 6a2e678d585648929b6d7def5dcbd1ddf81c947b4b738048999afee4420b2ca0
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/vicuna-7B-1.1-ggml_q5_1-ggjt_v3.bin
+- url: github:go-skynet/model-gallery/vicuna.yaml
+  name: edp1096/vicuna-7B-1.1-ggml_q8_0-ggjt_v3.bin
+  license: other
+  urls:
+    - https://huggingface.co/edp1096/vicuna-7B-1.1-ggml
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: vicuna-7B-1.1-ggml_q8_0-ggjt_v3.bin
+  files:
+    - filename: vicuna-7B-1.1-ggml_q8_0-ggjt_v3.bin
+      sha256: e2e8eee1a433d2a231ce2c10a4e1adf44bd8df5e8ac776dd15e7b9918f56c8a4
+      uri: https://huggingface.co/edp1096/vicuna-7B-1.1-ggml/resolve/main/vicuna-7B-1.1-ggml_q8_0-ggjt_v3.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
   name: execveat/ggml-model-q4_0.bin
   license: gpl-3.0
@@ -30125,6 +31484,50 @@
       sha256: 765059d6c463777d252fbdab7d6f342f70fef90a16c9f6865d3414b5548bdfe9
       uri: https://huggingface.co/gabluz/loras-ggml/resolve/main/ggml-alpaca-lora-ptbr-7b.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: gabluz/ggml-large-v2-q5_1.bin
+  urls:
+    - https://huggingface.co/gabluz/ggml-whisper-large-quantized
+  overrides:
+    params:
+        model: ggml-large-v2-q5_1.bin
+  files:
+    - filename: ggml-large-v2-q5_1.bin
+      sha256: 017ad0266a13e6e26dc97c95c928ceac8583ef7922ad008c233aab2ca1c06998
+      uri: https://huggingface.co/gabluz/ggml-whisper-large-quantized/resolve/main/ggml-large-v2-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gabluz/large_q5_0.bin
+  urls:
+    - https://huggingface.co/gabluz/ggml-whisper-large-quantized
+  overrides:
+    params:
+        model: large_q5_0.bin
+  files:
+    - filename: large_q5_0.bin
+      sha256: 3a214837221e4530dbc1fe8d734f302af393eb30bd0ed046042ebf4baf70f6f2
+      uri: https://huggingface.co/gabluz/ggml-whisper-large-quantized/resolve/main/large_q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gabluz/qqml-small-q5_1.bin
+  urls:
+    - https://huggingface.co/gabluz/ggml-whisper-small-quantized
+  overrides:
+    params:
+        model: qqml-small-q5_1.bin
+  files:
+    - filename: qqml-small-q5_1.bin
+      sha256: ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb
+      uri: https://huggingface.co/gabluz/ggml-whisper-small-quantized/resolve/main/qqml-small-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gabluz/qqml-tiny-q5_1.bin
+  urls:
+    - https://huggingface.co/gabluz/ggml-whisper-tiny-quantized
+  overrides:
+    params:
+        model: qqml-tiny-q5_1.bin
+  files:
+    - filename: qqml-tiny-q5_1.bin
+      sha256: 818710568da3ca15689e31a743197b520007872ff9576237bda97bd1b469c3d7
+      uri: https://huggingface.co/gabluz/ggml-whisper-tiny-quantized/resolve/main/qqml-tiny-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: getwavery/ggml-base-en.bin
   license: mit
   urls:
@@ -30251,6 +31654,39 @@
       sha256: be07e048e1e599ad46341c8d2a135645097a538221678b7acdd1b1919c6e1b21
       uri: https://huggingface.co/getwavery/ggml-models/resolve/main/ggml-tiny.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-3b-q4_0.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-3b-ggml
+  overrides:
+    params:
+        model: dolly-v2-3b-q4_0.bin
+  files:
+    - filename: dolly-v2-3b-q4_0.bin
+      sha256: 94a7f099f9abcf182d46703658eb3bcbf91568f102b1e4b60ce6a2fe5d70b087
+      uri: https://huggingface.co/gexai/dolly-v2-3b-ggml/resolve/main/dolly-v2-3b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-3b-q4_1.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-3b-ggml
+  overrides:
+    params:
+        model: dolly-v2-3b-q4_1.bin
+  files:
+    - filename: dolly-v2-3b-q4_1.bin
+      sha256: 7807a83cf09d3eae4abee77452972456c51e7b3ed24e9cfb634a5c3a542313a7
+      uri: https://huggingface.co/gexai/dolly-v2-3b-ggml/resolve/main/dolly-v2-3b-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-3b-q4_2.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-3b-ggml
+  overrides:
+    params:
+        model: dolly-v2-3b-q4_2.bin
+  files:
+    - filename: dolly-v2-3b-q4_2.bin
+      sha256: a3f664f2cd1158f44698c1ab68b3879fa7b1c9b4f9e9c813448a30047a0face4
+      uri: https://huggingface.co/gexai/dolly-v2-3b-ggml/resolve/main/dolly-v2-3b-q4_2.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: gexai/dolly-v2-3b-q5_0.bin
   urls:
     - https://huggingface.co/gexai/dolly-v2-3b-ggml
@@ -30261,6 +31697,94 @@
     - filename: dolly-v2-3b-q5_0.bin
       sha256: c25fc712b19bcdb8f074d5d17628d362dd5b84542a1091666ffb29835ff555ca
       uri: https://huggingface.co/gexai/dolly-v2-3b-ggml/resolve/main/dolly-v2-3b-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-3b-q5_1.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-3b-ggml
+  overrides:
+    params:
+        model: dolly-v2-3b-q5_1.bin
+  files:
+    - filename: dolly-v2-3b-q5_1.bin
+      sha256: 0885979e755e8c48bec87cd78dcb9a5ba9fe917464785f69cb90375fb49bf45c
+      uri: https://huggingface.co/gexai/dolly-v2-3b-ggml/resolve/main/dolly-v2-3b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-3b-q8_0.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-3b-ggml
+  overrides:
+    params:
+        model: dolly-v2-3b-q8_0.bin
+  files:
+    - filename: dolly-v2-3b-q8_0.bin
+      sha256: 71f298ab226f4a440e01a3a237f79097003f5019a93687788e0b89a24cb04e38
+      uri: https://huggingface.co/gexai/dolly-v2-3b-ggml/resolve/main/dolly-v2-3b-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-7b-q4_0.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-7b-ggml
+  overrides:
+    params:
+        model: dolly-v2-7b-q4_0.bin
+  files:
+    - filename: dolly-v2-7b-q4_0.bin
+      sha256: 6f44959e4893bc4fa6df1836501725fdae799b4184ddb1aea7846ac626d9e325
+      uri: https://huggingface.co/gexai/dolly-v2-7b-ggml/resolve/main/dolly-v2-7b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-7b-q4_1.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-7b-ggml
+  overrides:
+    params:
+        model: dolly-v2-7b-q4_1.bin
+  files:
+    - filename: dolly-v2-7b-q4_1.bin
+      sha256: 205061342a5c500941ebf97d967e33e457177b022c751e3f1add04126b2277a9
+      uri: https://huggingface.co/gexai/dolly-v2-7b-ggml/resolve/main/dolly-v2-7b-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-7b-q4_2.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-7b-ggml
+  overrides:
+    params:
+        model: dolly-v2-7b-q4_2.bin
+  files:
+    - filename: dolly-v2-7b-q4_2.bin
+      sha256: 6fe21fd3c07e451d418a101276bc188bd41671296cb253c06ca96fdbafb7671e
+      uri: https://huggingface.co/gexai/dolly-v2-7b-ggml/resolve/main/dolly-v2-7b-q4_2.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-7b-q5_0.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-7b-ggml
+  overrides:
+    params:
+        model: dolly-v2-7b-q5_0.bin
+  files:
+    - filename: dolly-v2-7b-q5_0.bin
+      sha256: 1668f50ce9bdf700abab3c6e4e30313d0d0d1ad8759f10aa8397de700d628e75
+      uri: https://huggingface.co/gexai/dolly-v2-7b-ggml/resolve/main/dolly-v2-7b-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-7b-q5_1.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-7b-ggml
+  overrides:
+    params:
+        model: dolly-v2-7b-q5_1.bin
+  files:
+    - filename: dolly-v2-7b-q5_1.bin
+      sha256: 1a70295da3f81c6c3e096d160368b0d3e8f79a1b82753f6406e53834647c950d
+      uri: https://huggingface.co/gexai/dolly-v2-7b-ggml/resolve/main/dolly-v2-7b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gexai/dolly-v2-7b-q8_0.bin
+  urls:
+    - https://huggingface.co/gexai/dolly-v2-7b-ggml
+  overrides:
+    params:
+        model: dolly-v2-7b-q8_0.bin
+  files:
+    - filename: dolly-v2-7b-q8_0.bin
+      sha256: e9ac6cd9b4e6e20c2979b4a21ca6db6d0cf4ee453f58c435449e5c7a4b4225ca
+      uri: https://huggingface.co/gexai/dolly-v2-7b-ggml/resolve/main/dolly-v2-7b-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: ggerganov/ggml-model-gpt-2-117M.bin
   license: mit
@@ -30539,6 +32063,61 @@
       sha256: 4a6e06643c99e9280d22e38279be7bd78243f6e661bc565060e16e52a2f9cff2
       uri: https://huggingface.co/gotzmann/LLaMA-GGML-v2/resolve/main/llama-13b-ggml-v2-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-13b-ggml-v3-q4_0.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-13b-ggml-v3-q4_0.bin
+  files:
+    - filename: llama-13b-ggml-v3-q4_0.bin
+      sha256: fad169e6f0f575402cf75945961cb4a8ecd824ba4da6be2af831f320c4348fa5
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-13b-ggml-v3-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-13b-ggml-v3-q4_1.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-13b-ggml-v3-q4_1.bin
+  files:
+    - filename: llama-13b-ggml-v3-q4_1.bin
+      sha256: 56a3a18060251210796362a5c4e3e199cb46b8c3b481ae9389b0ca717c498cb4
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-13b-ggml-v3-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-13b-ggml-v3-q5_0.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-13b-ggml-v3-q5_0.bin
+  files:
+    - filename: llama-13b-ggml-v3-q5_0.bin
+      sha256: 11c14c64ec3476bda003ef60f2ba8bf223082f9a0cf66e94cd8cecd76dc96da8
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-13b-ggml-v3-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-13b-ggml-v3-q5_1.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-13b-ggml-v3-q5_1.bin
+  files:
+    - filename: llama-13b-ggml-v3-q5_1.bin
+      sha256: 11ee79f6009ecdb157ac7f9801aa8c77f857fc9819ec4c00c0164507a79a7117
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-13b-ggml-v3-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-13b-ggml-v3-q8_0.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-13b-ggml-v3-q8_0.bin
+  files:
+    - filename: llama-13b-ggml-v3-q8_0.bin
+      sha256: 15d424ebd8e9f3355bc5dcef5da36856ac9672caefdb64e1b0fe3da424c3f08c
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-13b-ggml-v3-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: gotzmann/llama-30b-ggml-v2-q4_0.bin
   urls:
     - https://huggingface.co/gotzmann/LLaMA-GGML-v2
@@ -30594,6 +32173,61 @@
     - filename: llama-7b-ggml-v2-q8_0.bin
       sha256: d3e36532ac11c4a63798ac6ec1471c1dc5a89305c9dec0319dfcb7efc146d001
       uri: https://huggingface.co/gotzmann/LLaMA-GGML-v2/resolve/main/llama-7b-ggml-v2-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-7b-ggml-v3-q4_0.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-7b-ggml-v3-q4_0.bin
+  files:
+    - filename: llama-7b-ggml-v3-q4_0.bin
+      sha256: ec2f2d1f0dfb73b72a4cbac7fa121abbe04c37ab327125a38248f930c0f09ddf
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-7b-ggml-v3-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-7b-ggml-v3-q4_1.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-7b-ggml-v3-q4_1.bin
+  files:
+    - filename: llama-7b-ggml-v3-q4_1.bin
+      sha256: 49502a30eb9c1cc36ed9a00686c4f4f5e9942dd095b5a8c4f7fcd8e8f9d41a97
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-7b-ggml-v3-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-7b-ggml-v3-q5_0.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-7b-ggml-v3-q5_0.bin
+  files:
+    - filename: llama-7b-ggml-v3-q5_0.bin
+      sha256: c399ae266de0f87a4677a913fd20cda35480af0f1a60ece6cac87e1672a8a9ee
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-7b-ggml-v3-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-7b-ggml-v3-q5_1.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-7b-ggml-v3-q5_1.bin
+  files:
+    - filename: llama-7b-ggml-v3-q5_1.bin
+      sha256: ff23829c94be4da3ea8d51d00189fee162ad33b42e8eb0732e87c6e004d2cc90
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-7b-ggml-v3-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: gotzmann/llama-7b-ggml-v3-q8_0.bin
+  urls:
+    - https://huggingface.co/gotzmann/LLaMA-GGML-v3
+  overrides:
+    params:
+        model: llama-7b-ggml-v3-q8_0.bin
+  files:
+    - filename: llama-7b-ggml-v3-q8_0.bin
+      sha256: 1eaae5a0e3d044c6f535e91a493dd49073d63f293401df0340d22de2587cdf8a
+      uri: https://huggingface.co/gotzmann/LLaMA-GGML-v3/resolve/main/llama-7b-ggml-v3-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: hakanbaba/ggml-model-f16.bin
   urls:
@@ -30926,6 +32560,76 @@
     - filename: training_args.bin
       sha256: 5f5bf2d1244c8483c138602eae8404ee62ee7ea2493c526ea4d1d3cf2814eee2
       uri: https://huggingface.co/keldenl/Dante_1.3B3-GGML/resolve/main/training_args.bin
+- url: github:go-skynet/model-gallery/hypermantis.yaml
+  name: khushman/13B-HyperMantis-ggml-model-f16.bin
+  license: other
+  urls:
+    - https://huggingface.co/khushman/13B-HyperMantis-GGML
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: 13B-HyperMantis-ggml-model-f16.bin
+  files:
+    - filename: 13B-HyperMantis-ggml-model-f16.bin
+      sha256: 43a3f8067d593690ea8e873f58d2b21937b659b8cedc3feb8394c700334772f5
+      uri: https://huggingface.co/khushman/13B-HyperMantis-GGML/resolve/main/13B-HyperMantis-ggml-model-f16.bin
+- url: github:go-skynet/model-gallery/hypermantis.yaml
+  name: khushman/13B-HyperMantis-ggml-model-q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/khushman/13B-HyperMantis-GGML
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: 13B-HyperMantis-ggml-model-q4_0.bin
+  files:
+    - filename: 13B-HyperMantis-ggml-model-q4_0.bin
+      sha256: 7953e06626d6d0b739cb76da5f5187876ba28a8e18f46952fd29f0f3922320a7
+      uri: https://huggingface.co/khushman/13B-HyperMantis-GGML/resolve/main/13B-HyperMantis-ggml-model-q4_0.bin
+- url: github:go-skynet/model-gallery/hypermantis.yaml
+  name: khushman/13B-HyperMantis-ggml-model-q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/khushman/13B-HyperMantis-GGML
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: 13B-HyperMantis-ggml-model-q4_1.bin
+  files:
+    - filename: 13B-HyperMantis-ggml-model-q4_1.bin
+      sha256: 2ba05caf97e0af6482bd25540fdf201d2d4cabb861648ddd684b2ea073808858
+      uri: https://huggingface.co/khushman/13B-HyperMantis-GGML/resolve/main/13B-HyperMantis-ggml-model-q4_1.bin
+- url: github:go-skynet/model-gallery/hypermantis.yaml
+  name: khushman/13B-HyperMantis-ggml-model-q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/khushman/13B-HyperMantis-GGML
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: 13B-HyperMantis-ggml-model-q5_0.bin
+  files:
+    - filename: 13B-HyperMantis-ggml-model-q5_0.bin
+      sha256: 67b34386fce69d0d047d97b8b7f6405015bbea105ed1a2be4ae6589af95c6df5
+      uri: https://huggingface.co/khushman/13B-HyperMantis-GGML/resolve/main/13B-HyperMantis-ggml-model-q5_0.bin
+- url: github:go-skynet/model-gallery/hypermantis.yaml
+  name: khushman/13B-HyperMantis-ggml-model-q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/khushman/13B-HyperMantis-GGML
+  tags:
+    - license:other
+  overrides:
+    params:
+        model: 13B-HyperMantis-ggml-model-q5_1.bin
+  files:
+    - filename: 13B-HyperMantis-ggml-model-q5_1.bin
+      sha256: 7b969f64006a1fb56800beaa72e09707233a12809cfd950731ff6b171ee165ef
+      uri: https://huggingface.co/khushman/13B-HyperMantis-GGML/resolve/main/13B-HyperMantis-ggml-model-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: khushman/medalpaca-13b-ggml-model-q4_0.bin
   license: cc
@@ -30982,6 +32686,188 @@
     - filename: medalpaca-13b-ggml-model-q5_1.bin
       sha256: 8c01290e9fe8dbec85c6f18c70b4fe1c0095cc2326856c74a5dda76ca0de35a1
       uri: https://huggingface.co/khushman/medalpaca-13b-GGML-4bit/resolve/main/medalpaca-13b-ggml-model-q5_1.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+      sha256: 13b93917f959da589fb7ee01dc9fe49095e40bd4bfea1735ade2e33cc40f3d25
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+      sha256: 5e5e6daeb55764cae47708ffb0fdffc30bd707310997c95e195f0fffb6f469ad
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+      sha256: 65c766cdc4c121b5658b1d2ab0b8936f42655006f96bf941b3dfa9f3726b8b65
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+      sha256: b36bca356398c445f67fa385f49fe7dc0bb6ef0fe658c29c01d1d76a6fb0ebc3
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+      sha256: 37eda8419a7221bee5933c2270c8feda098e2c82380d57659f1cc612df5ed477
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+      sha256: 4f31f6efc8f9d0d6879e88f59d61dae25e892ab1413626abaed8c375bca0ed0b
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f16-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f16-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
+  files:
+    - filename: f16-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
+      sha256: 035b8ab8f1c457f8b8d67d2f2e098023bbe7d76ad7ec8f5a3c99cf2f5a85833e
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+  files:
+    - filename: f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+      sha256: 34028612bdb696463f0d64d2d3c1ad416814c8ea279a2460e8491af3027bc815
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+  files:
+    - filename: f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+      sha256: 5944f7a8ac996c87f83dbfe712ded8c1976b7cafd487fe8681eeb3a69b655e43
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f32-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f32-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+  files:
+    - filename: f32-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+      sha256: 13ae9c23d1d52740f68b25eba06cacfdf060d104ed2850e5d3363175159d5452
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f32-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f32-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+  files:
+    - filename: f32-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+      sha256: 55755abbad4007b000f340aae4b84a395640000bcf3a9292cbbef701421f9187
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-3B-v1-20230619-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f32-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f32-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+  files:
+    - filename: f32-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+      sha256: a96a93b2c4db828efcadde5f264089f52c35bfadf817d6fd9dcc42456a8001cd
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-CHNtuned-0.1B-v1-20230617-ctx4096.bin
+- url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
+  name: latestissue/f32-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/latestissue/rwkv-4-world-ggml
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: f32-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+  files:
+    - filename: f32-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
+      sha256: cae46da6a852cae603db7fb303cbb2ecaca4f5b5a9b6f35ab6c793e414d54646
+      uri: https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-CHNtuned-0.4B-v1-20230618-ctx4096.bin
 - url: github:go-skynet/model-gallery/rwkv-raven-1b.yaml
   name: latestissue/q4_0-RWKV-4-PilePlus-1B5-20230520-2942-486Gtokens-ctx4096.bin
   license: apache-2.0
@@ -31402,6 +33288,61 @@
     - filename: q8_0-RWKV-4-RaccoonV5.9-7B-50281.bin
       sha256: 109b5774adaef9b4d495ad2451b59c43b26faa6bfc4d537ed73e8fc8830999d8
       uri: https://huggingface.co/latestissue/rwkv-4-raccoon-ggml-quantized/resolve/main/q8_0-RWKV-4-RaccoonV5.9-7B-50281.bin
+- url: github:go-skynet/model-gallery/airoboros.yaml
+  name: latimar/airoboros-13B.f16.bin
+  urls:
+    - https://huggingface.co/latimar/airoboros-13b-ggml
+  overrides:
+    params:
+        model: airoboros-13B.f16.bin
+  files:
+    - filename: airoboros-13B.f16.bin
+      sha256: f44ce252c44f8bd2552cf02cf070091ce45eb64dbbfbe9a154585347f391f74f
+      uri: https://huggingface.co/latimar/airoboros-13b-ggml/resolve/main/airoboros-13B.f16.bin
+- url: github:go-skynet/model-gallery/airoboros.yaml
+  name: latimar/airoboros-13B.q4_0.bin
+  urls:
+    - https://huggingface.co/latimar/airoboros-13b-ggml
+  overrides:
+    params:
+        model: airoboros-13B.q4_0.bin
+  files:
+    - filename: airoboros-13B.q4_0.bin
+      sha256: 52bc28310160807d869bc76816d09d67bd94776d462c13b37e9bcab0d85cb128
+      uri: https://huggingface.co/latimar/airoboros-13b-ggml/resolve/main/airoboros-13B.q4_0.bin
+- url: github:go-skynet/model-gallery/airoboros.yaml
+  name: latimar/airoboros-13B.q4_1.bin
+  urls:
+    - https://huggingface.co/latimar/airoboros-13b-ggml
+  overrides:
+    params:
+        model: airoboros-13B.q4_1.bin
+  files:
+    - filename: airoboros-13B.q4_1.bin
+      sha256: 21966d38cc8e07b0fd23e9f631e44b17889e5412b12139d2012c972dc0389c58
+      uri: https://huggingface.co/latimar/airoboros-13b-ggml/resolve/main/airoboros-13B.q4_1.bin
+- url: github:go-skynet/model-gallery/airoboros.yaml
+  name: latimar/airoboros-13B.q5_1.bin
+  urls:
+    - https://huggingface.co/latimar/airoboros-13b-ggml
+  overrides:
+    params:
+        model: airoboros-13B.q5_1.bin
+  files:
+    - filename: airoboros-13B.q5_1.bin
+      sha256: 68ec4f4434ce4b01512506446a816500fa81ad4cde89f4e61d9ce982774bec06
+      uri: https://huggingface.co/latimar/airoboros-13b-ggml/resolve/main/airoboros-13B.q5_1.bin
+- url: github:go-skynet/model-gallery/airoboros.yaml
+  name: latimar/airoboros-13B.q8_0.bin
+  urls:
+    - https://huggingface.co/latimar/airoboros-13b-ggml
+  overrides:
+    params:
+        model: airoboros-13B.q8_0.bin
+  files:
+    - filename: airoboros-13B.q8_0.bin
+      sha256: aa418bb292fbc07660430122a5fb732aa92c57e6234c5911ae487f6c173b3256
+      uri: https://huggingface.co/latimar/airoboros-13b-ggml/resolve/main/airoboros-13B.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: llama-anon/ggml-model-q4_0.bin
   license: agpl-3.0
@@ -31509,7 +33450,7 @@
   name: mverrilli/ggml-model-f16.bin
   license: mit
   urls:
-    - https://huggingface.co/mverrilli/dolly-v2-7b-ggml
+    - https://huggingface.co/mverrilli/dolly-v2-12b-ggml
   tags:
     - en
     - dataset:databricks/databricks-dolly-15k
@@ -31521,13 +33462,13 @@
         model: ggml-model-f16.bin
   files:
     - filename: ggml-model-f16.bin
-      sha256: 629d9238876ae487419fccabe9c61221a35b8f08b3643bbb689925298b2d4525
-      uri: https://huggingface.co/mverrilli/dolly-v2-7b-ggml/resolve/main/ggml-model-f16.bin
+      sha256: a3d75b05e86488602eabc31e90b1b30cdcb3ec9efdeee954a3144c5d9ce936ae
+      uri: https://huggingface.co/mverrilli/dolly-v2-12b-ggml/resolve/main/ggml-model-f16.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: mverrilli/ggml-model-q5_0.bin
   license: mit
   urls:
-    - https://huggingface.co/mverrilli/dolly-v2-7b-ggml
+    - https://huggingface.co/mverrilli/dolly-v2-12b-ggml
   tags:
     - en
     - dataset:databricks/databricks-dolly-15k
@@ -31539,8 +33480,8 @@
         model: ggml-model-q5_0.bin
   files:
     - filename: ggml-model-q5_0.bin
-      sha256: 42f67ed59bf16adcef0b5dc1282995044ecb92927c2cfe2e665ae2a61afbb778
-      uri: https://huggingface.co/mverrilli/dolly-v2-7b-ggml/resolve/main/ggml-model-q5_0.bin
+      sha256: 79280421cc792330eaa56621060b8e2fb48ef570ace4572a91a1cf0e18ce7f38
+      uri: https://huggingface.co/mverrilli/dolly-v2-12b-ggml/resolve/main/ggml-model-q5_0.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: myeolinmalchi/ggml-kovic7b-f32.bin
   urls:
@@ -31585,6 +33526,128 @@
     - filename: ggml-model-q4_0.bin
       sha256: 941205dccbbe71d33bf93769ef09b205429c17d22fd8f4dd86c54ae4dfd298e2
       uri: https://huggingface.co/next-social/dcard-int4-ggml/resolve/main/ggml-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: nnakasato/ggml-model-f16.bin
+  urls:
+    - https://huggingface.co/nnakasato/ggml-model-test
+  tags:
+    - pytorch
+    - gpt_neox
+    - text-generation
+    - transformers
+  overrides:
+    params:
+        model: ggml-model-f16.bin
+  files:
+    - filename: ggml-model-f16.bin
+      sha256: 57dbb8772c62b3e156e5db2256d59587355b94c18d534c63d4bc77b0dc08f434
+      uri: https://huggingface.co/nnakasato/ggml-model-test/resolve/main/ggml-model-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: nnakasato/ggml-model-q4.bin
+  urls:
+    - https://huggingface.co/nnakasato/ggml-model-test
+  tags:
+    - pytorch
+    - gpt_neox
+    - text-generation
+    - transformers
+  overrides:
+    params:
+        model: ggml-model-q4.bin
+  files:
+    - filename: ggml-model-q4.bin
+      sha256: 704eec4cb230685b2fe2759826aad70965b0fc2f02f34d6dc482dac1d88f758c
+      uri: https://huggingface.co/nnakasato/ggml-model-test/resolve/main/ggml-model-q4.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: notstoic/ggml-model-f16.bin
+  license: other
+  urls:
+    - https://huggingface.co/notstoic/pygmalion-13b-ggml
+  tags:
+    - en
+    - license:other
+  overrides:
+    params:
+        model: ggml-model-f16.bin
+  files:
+    - filename: ggml-model-f16.bin
+      sha256: 62a2bf4f209d5007262e2131b91474635b84a612175546c6abd45b30fb6e0dee
+      uri: https://huggingface.co/notstoic/pygmalion-13b-ggml/resolve/main/ggml-model-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: notstoic/pygmalion-13b-ggml-q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/notstoic/pygmalion-13b-ggml
+  tags:
+    - en
+    - license:other
+  overrides:
+    params:
+        model: pygmalion-13b-ggml-q4_0.bin
+  files:
+    - filename: pygmalion-13b-ggml-q4_0.bin
+      sha256: 39f3dd5064d9acd53156aacd96ea8d300f454c77298325ffd3abcb940dffcfcc
+      uri: https://huggingface.co/notstoic/pygmalion-13b-ggml/resolve/main/pygmalion-13b-ggml-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: notstoic/pygmalion-13b-ggml-q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/notstoic/pygmalion-13b-ggml
+  tags:
+    - en
+    - license:other
+  overrides:
+    params:
+        model: pygmalion-13b-ggml-q4_1.bin
+  files:
+    - filename: pygmalion-13b-ggml-q4_1.bin
+      sha256: 17aab7959d781622bec03876b9e0dfd9fc76b7667a07ec09e428ffc89b825af3
+      uri: https://huggingface.co/notstoic/pygmalion-13b-ggml/resolve/main/pygmalion-13b-ggml-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: notstoic/pygmalion-13b-ggml-q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/notstoic/pygmalion-13b-ggml
+  tags:
+    - en
+    - license:other
+  overrides:
+    params:
+        model: pygmalion-13b-ggml-q5_0.bin
+  files:
+    - filename: pygmalion-13b-ggml-q5_0.bin
+      sha256: f7b916daa0c75a920f72f6b949ef57e3a9b73256273453db4db7c929290034c9
+      uri: https://huggingface.co/notstoic/pygmalion-13b-ggml/resolve/main/pygmalion-13b-ggml-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: notstoic/pygmalion-13b-ggml-q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/notstoic/pygmalion-13b-ggml
+  tags:
+    - en
+    - license:other
+  overrides:
+    params:
+        model: pygmalion-13b-ggml-q5_1.bin
+  files:
+    - filename: pygmalion-13b-ggml-q5_1.bin
+      sha256: 276455d29dbd7c5a10ab5ea640a8be9d9f5fb58024608de7cdce55953ee6fdbc
+      uri: https://huggingface.co/notstoic/pygmalion-13b-ggml/resolve/main/pygmalion-13b-ggml-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: notstoic/pygmalion-13b-ggml-q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/notstoic/pygmalion-13b-ggml
+  tags:
+    - en
+    - license:other
+  overrides:
+    params:
+        model: pygmalion-13b-ggml-q8_0.bin
+  files:
+    - filename: pygmalion-13b-ggml-q8_0.bin
+      sha256: f72e449a3d1e613ec7552c922f0bd593b52bd100257d770beb2f9b405dbc2dfc
+      uri: https://huggingface.co/notstoic/pygmalion-13b-ggml/resolve/main/pygmalion-13b-ggml-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: nouamanetazi/ggml-model-bloomz-560m-f16-q4_0.bin
   urls:
@@ -31648,23 +33711,23 @@
       uri: https://huggingface.co/ocrickard/LLaMa-7B-ggml-4bit-updated/resolve/main/ggml-model-q4_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: oeathus/ggml-model-f16.bin
-  license: cc-by-nc-4.0
+  license: cc-by-sa-4.0
   urls:
-    - https://huggingface.co/oeathus/stablelm-tuned-alpha-7b-ggml-q4
+    - https://huggingface.co/oeathus/stablelm-base-alpha-7b-ggml-q4
   tags:
-    - license:cc-by-nc-4.0
+    - license:cc-by-sa-4.0
   overrides:
     params:
         model: ggml-model-f16.bin
   files:
     - filename: ggml-model-f16.bin
-      sha256: 0279a711ea8232801a8c62a4636179bc9be96dfc7097f7b9a9218a54b535ff9d
-      uri: https://huggingface.co/oeathus/stablelm-tuned-alpha-7b-ggml-q4/resolve/main/ggml-model-f16.bin
+      sha256: d1709d8195670914331fa0bf560d72ad51f034d621cbf82b2ce36781debe44b2
+      uri: https://huggingface.co/oeathus/stablelm-base-alpha-7b-ggml-q4/resolve/main/ggml-model-f16.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: oeathus/ggml-model-q4_0.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4
+    - https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4
   tags:
     - license:apache-2.0
   overrides:
@@ -31672,13 +33735,13 @@
         model: ggml-model-q4_0.bin
   files:
     - filename: ggml-model-q4_0.bin
-      sha256: df1eaee7ac4a9c164da1f24a18d12269c8200d93cf3d5499b0c952da7f3f84bf
-      uri: https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4/resolve/main/ggml-model-q4_0.bin
+      sha256: 3b2fd7cca97284467de0be8f638925f40cbff4c70a2e10ba1094f83bfa24d86b
+      uri: https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4/resolve/main/ggml-model-q4_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: oeathus/ggml-model-q4_1.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4
+    - https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4
   tags:
     - license:apache-2.0
   overrides:
@@ -31686,13 +33749,13 @@
         model: ggml-model-q4_1.bin
   files:
     - filename: ggml-model-q4_1.bin
-      sha256: 98304d6ab7bbbeafbb354d4c595d8224f964cdb2acdb4a59ee4c381c7e3f9cd7
-      uri: https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4/resolve/main/ggml-model-q4_1.bin
+      sha256: 5de46949fd3e342626b797a6708359bce669b156745a932c820635641aae3d00
+      uri: https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4/resolve/main/ggml-model-q4_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: oeathus/ggml-model-q4_2.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4
+    - https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4
   tags:
     - license:apache-2.0
   overrides:
@@ -31700,13 +33763,13 @@
         model: ggml-model-q4_2.bin
   files:
     - filename: ggml-model-q4_2.bin
-      sha256: af1fe7d6110991dd60c25711bdca4d64de2eeab48773cfe645f30bf6c1b6982d
-      uri: https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4/resolve/main/ggml-model-q4_2.bin
+      sha256: 23f9b32b4064f19cc4a7750b514ede30dc72911cf5ac8d6163a566a88b7861c6
+      uri: https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4/resolve/main/ggml-model-q4_2.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: oeathus/ggml-model-q4_3.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4
+    - https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4
   tags:
     - license:apache-2.0
   overrides:
@@ -31714,8 +33777,8 @@
         model: ggml-model-q4_3.bin
   files:
     - filename: ggml-model-q4_3.bin
-      sha256: a2ea479a21e50476aba2ec58ea2d72b03bca812f1a741a6ad599cc6efeed3231
-      uri: https://huggingface.co/oeathus/gpt4all-j-v1.2-jazzy-ggml-q4/resolve/main/ggml-model-q4_3.bin
+      sha256: 6983a8ec099c756b39f51b2526f7253a1d32f39de314a1b02ab72ce357a2f0b6
+      uri: https://huggingface.co/oeathus/gpt4all-j-v1.3-groovy-ggml-q4/resolve/main/ggml-model-q4_3.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: ooferdoodles/ggml-model-q4_0.bin
   license: openrail
@@ -31820,6 +33883,611 @@
     - filename: ggml-model-q4_0.bin
       sha256: 8ca66eeb3fbab90eee62ef25fc07091b0877f59ea164d34ab39564bf84056ad2
       uri: https://huggingface.co/rtgiskard/alpaca-lora-7b-zh-ggml/resolve/main/ggml-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Base-3B-v1-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Base-3B-v1-f16.bin
+  files:
+    - filename: RedPajama-INCITE-Base-3B-v1-f16.bin
+      sha256: b972784210257bad31bc653a54ee976ac0577085a7367c35375fa139e62a534f
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Base-3B-v1-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Base-3B-v1-q4_0-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Base-3B-v1-q4_0-ggjt.bin
+  files:
+    - filename: RedPajama-INCITE-Base-3B-v1-q4_0-ggjt.bin
+      sha256: b17d63ed3d1b2d2520e15fc83f188f99505a3b139a97d252962a4df321af81b3
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Base-3B-v1-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Base-3B-v1-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Base-3B-v1-q4_0.bin
+  files:
+    - filename: RedPajama-INCITE-Base-3B-v1-q4_0.bin
+      sha256: 549b4f8d5f153aacdd635ff999d16f63ed0e7b8458ad1a1a41ac235a89e4582d
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Base-3B-v1-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Base-3B-v1-q5_1-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Base-3B-v1-q5_1-ggjt.bin
+  files:
+    - filename: RedPajama-INCITE-Base-3B-v1-q5_1-ggjt.bin
+      sha256: 83f29ec49106e2d6ee52b72b2b0d07322987396d976fc366638cd2546d72a855
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Base-3B-v1-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Base-3B-v1-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Base-3B-v1-q5_1.bin
+  files:
+    - filename: RedPajama-INCITE-Base-3B-v1-q5_1.bin
+      sha256: 0c9ae150758a3dee22b287e4d78c3ac621ba205b2041922bd68679e0c963b06b
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Base-3B-v1-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Chat-3B-v1-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Chat-3B-v1-f16.bin
+  files:
+    - filename: RedPajama-INCITE-Chat-3B-v1-f16.bin
+      sha256: f893f671e4146aa2d03176c8381ffd9759844583174a238082fbecc0ecfe8dcd
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Chat-3B-v1-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Chat-3B-v1-q4_0-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Chat-3B-v1-q4_0-ggjt.bin
+  files:
+    - filename: RedPajama-INCITE-Chat-3B-v1-q4_0-ggjt.bin
+      sha256: 3abed30a3b8a21b59729ad0f00030485fa44797a8ef572a994b62664e14877aa
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Chat-3B-v1-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Chat-3B-v1-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Chat-3B-v1-q4_0.bin
+  files:
+    - filename: RedPajama-INCITE-Chat-3B-v1-q4_0.bin
+      sha256: 600981984587dde210f1d3a7336c0f2ad75383b74e3105eda75cfa94975d3a49
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Chat-3B-v1-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Chat-3B-v1-q5_1-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Chat-3B-v1-q5_1-ggjt.bin
+  files:
+    - filename: RedPajama-INCITE-Chat-3B-v1-q5_1-ggjt.bin
+      sha256: 3cce3b9463c287744e233802306c3fb340f9194e688d84ef775c70deccd364e2
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Chat-3B-v1-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Chat-3B-v1-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Chat-3B-v1-q5_1.bin
+  files:
+    - filename: RedPajama-INCITE-Chat-3B-v1-q5_1.bin
+      sha256: b2c4be6b5fbe8b6ddd15356b8c14948b68bcc7d609772c129f0b08426f90ec17
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Chat-3B-v1-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Instruct-3B-v1-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Instruct-3B-v1-f16.bin
+  files:
+    - filename: RedPajama-INCITE-Instruct-3B-v1-f16.bin
+      sha256: 0d935411114ed8c09888ead728f54acf2c79ff604a1758b769e85a2b1f09f628
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Instruct-3B-v1-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Instruct-3B-v1-q4_0-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Instruct-3B-v1-q4_0-ggjt.bin
+  files:
+    - filename: RedPajama-INCITE-Instruct-3B-v1-q4_0-ggjt.bin
+      sha256: d047117df75f629e5dd0db3a573f4092891545f725f4f7677d368f407e59188f
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Instruct-3B-v1-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Instruct-3B-v1-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Instruct-3B-v1-q4_0.bin
+  files:
+    - filename: RedPajama-INCITE-Instruct-3B-v1-q4_0.bin
+      sha256: 7a1f5b0113ff75575c1e00f5ad2b68a46fa18ab17ecaef1662ef6c635b9f4915
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Instruct-3B-v1-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Instruct-3B-v1-q5_1-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Instruct-3B-v1-q5_1-ggjt.bin
+  files:
+    - filename: RedPajama-INCITE-Instruct-3B-v1-q5_1-ggjt.bin
+      sha256: 9038274fe9d5e709b66ccd01c2e769e83c539dac8103e87fe2de4e25cb540d03
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Instruct-3B-v1-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/RedPajama-INCITE-Instruct-3B-v1-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/redpajama-3b-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: RedPajama-INCITE-Instruct-3B-v1-q5_1.bin
+  files:
+    - filename: RedPajama-INCITE-Instruct-3B-v1-q5_1.bin
+      sha256: 9404b44bdf0a80a3bc03c94e7bd8a414afc1566e9cee26a1fc0e270f8b49cb3b
+      uri: https://huggingface.co/rustformers/redpajama-3b-ggml/resolve/main/RedPajama-INCITE-Instruct-3B-v1-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/bloom-1b1-f16.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloom-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    params:
+        model: bloom-1b1-f16.bin
+  files:
+    - filename: bloom-1b1-f16.bin
+      sha256: 5edca0494dc6824c8356aa0f481e2c62a1ef9578ea607bdba82b8b88c00b84c5
+      uri: https://huggingface.co/rustformers/bloom-ggml/resolve/main/bloom-1b1-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/bloom-1b1-q4_0-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloom-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    params:
+        model: bloom-1b1-q4_0-ggjt.bin
+  files:
+    - filename: bloom-1b1-q4_0-ggjt.bin
+      sha256: 6df9f5140efce1eb607966e159f0c7ddf528a98d52885ef555a61dc8ad228baf
+      uri: https://huggingface.co/rustformers/bloom-ggml/resolve/main/bloom-1b1-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/bloom-1b1-q4_0.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloom-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    params:
+        model: bloom-1b1-q4_0.bin
+  files:
+    - filename: bloom-1b1-q4_0.bin
+      sha256: 33a3a50c21a414de16a40225b776217e0b293435469124c74f3075bf52ee74ed
+      uri: https://huggingface.co/rustformers/bloom-ggml/resolve/main/bloom-1b1-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/bloom-1b1-q5_1-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloom-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    params:
+        model: bloom-1b1-q5_1-ggjt.bin
+  files:
+    - filename: bloom-1b1-q5_1-ggjt.bin
+      sha256: 541b680ff3388a25308ebf1d33b45e216fe25739fcd779a486c6b6b4db027c05
+      uri: https://huggingface.co/rustformers/bloom-ggml/resolve/main/bloom-1b1-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/bloom-1b1-q5_1.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloom-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    params:
+        model: bloom-1b1-q5_1.bin
+  files:
+    - filename: bloom-1b1-q5_1.bin
+      sha256: 54b664713a3aee2ee03a6088c72011e6ac84549c92b8971c400acfacf75d22e2
+      uri: https://huggingface.co/rustformers/bloom-ggml/resolve/main/bloom-1b1-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: rustformers/mpt-7b-chat-f16.bin
   license: apache-2.0
@@ -32341,6 +35009,310 @@
       sha256: adcfe25604eb0e375d4a85ab3b874214ac64ce28b66db8a0f924ac557d8a474f
       uri: https://huggingface.co/rustformers/mpt-7b-ggml/resolve/main/mpt-7b-storywriter-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1.4b-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1.4b-f16.bin
+  files:
+    - filename: pythia-1.4b-f16.bin
+      sha256: 9e6b0a559d83096a6aa5d15b56804df2524b815a0a52c1615d60afa6710ae7ce
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1.4b-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1.4b-q4_0-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1.4b-q4_0-ggjt.bin
+  files:
+    - filename: pythia-1.4b-q4_0-ggjt.bin
+      sha256: 1259f0f141cab2b3c2eb6924bbfd48da8ad657934d80c43ab106bad37a66e88a
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1.4b-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1.4b-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1.4b-q4_0.bin
+  files:
+    - filename: pythia-1.4b-q4_0.bin
+      sha256: 10c4d7580372bed29f2053b7a075b65663b7fd915fc8b2b20bc1dd973738873e
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1.4b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1.4b-q5_1-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1.4b-q5_1-ggjt.bin
+  files:
+    - filename: pythia-1.4b-q5_1-ggjt.bin
+      sha256: 75f05a455162844ae0a5b32b56854972400f9015510cf4d9425b902b79c5581d
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1.4b-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1.4b-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1.4b-q5_1.bin
+  files:
+    - filename: pythia-1.4b-q5_1.bin
+      sha256: 09f568f18f7883f26609d99ce31d168814051ab3be74a4e59002d37e55bd642e
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1.4b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-160m-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-160m-f16.bin
+  files:
+    - filename: pythia-160m-f16.bin
+      sha256: ec859fd171b97c12efe085e306c024a0ba8941c0deaca7ae50ffee98589cb375
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-160m-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-160m-q4_0-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-160m-q4_0-ggjt.bin
+  files:
+    - filename: pythia-160m-q4_0-ggjt.bin
+      sha256: e715cc584c784d7de4c7493acb95ee5890963c52844d352426a3c322874c2df0
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-160m-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-160m-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-160m-q4_0.bin
+  files:
+    - filename: pythia-160m-q4_0.bin
+      sha256: 962a1107cc46eba85278915a4249f7ee45ae2b941d216e28caaaa27cfc91810c
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-160m-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-160m-q5_1-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-160m-q5_1-ggjt.bin
+  files:
+    - filename: pythia-160m-q5_1-ggjt.bin
+      sha256: af63ac98269afa273925bedf063bd04632ad27325f05f51dcf96a3a0f8cc33c0
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-160m-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-160m-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-160m-q5_1.bin
+  files:
+    - filename: pythia-160m-q5_1.bin
+      sha256: 1660f9a5f9a60abff8d6ae39b719a196029c0e10c6ff5fa4fc1e79eba5489d49
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-160m-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1b-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1b-f16.bin
+  files:
+    - filename: pythia-1b-f16.bin
+      sha256: 32ad8aa1da587df12941e050ae86ad4ca3819296b2aa3ffd5a446be2ff99c22e
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1b-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1b-q4_0-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1b-q4_0-ggjt.bin
+  files:
+    - filename: pythia-1b-q4_0-ggjt.bin
+      sha256: cd9641605bb6677b3ef6956963bf1bf2f4a8d93d30464ea25a380b2307163ee4
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1b-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1b-q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1b-q4_0.bin
+  files:
+    - filename: pythia-1b-q4_0.bin
+      sha256: 966186d047d2e30af7e5016077978d6f2a529bdb5a7f5944742c1ee4bd3417b5
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1b-q5_1-ggjt.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1b-q5_1-ggjt.bin
+  files:
+    - filename: pythia-1b-q5_1-ggjt.bin
+      sha256: 2a4fe11e42af93158aa1c4845fd656fc255dd7d4f96d9ecdaa361190d3cd309a
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1b-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-1b-q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-1b-q5_1.bin
+  files:
+    - filename: pythia-1b-q5_1.bin
+      sha256: 7af0d91ac1dfab5ff40ce15e0f49fc7f712ccf400f741ecdb3e81d4c4c527dc2
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-1b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers/pythia-2.8b-f16.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/rustformers/pythia-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:apache-2.0
+    - text-generation
+  overrides:
+    params:
+        model: pythia-2.8b-f16.bin
+  files:
+    - filename: pythia-2.8b-f16.bin
+      sha256: 32dbf92d7796c515a3fbe627b27a5cc3ba2b57382dbaf6ed75456f7d677837b6
+      uri: https://huggingface.co/rustformers/pythia-ggml/resolve/main/pythia-2.8b-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: sBPOH/ggml-model-ru.bin
   urls:
     - https://huggingface.co/sBPOH/whisper-small-ru-1k-steps-ggml
@@ -32453,6 +35425,20 @@
     - filename: ggml-model-q8_0.bin
       sha256: 81abd7b8d04a08f9cf2b2c79e72513b0cb5fc016e3ea630bf30409b1bca8768a
       uri: https://huggingface.co/sasha0552/pygmalion-7b-q8_0-ggml/resolve/main/ggml-model-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: shanyou/ggml-chinese-alpaca-plus-lora-13B-q5_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/shanyou/ggml-chinese-alpaca-plus-lora
+  tags:
+    - license:apache-2.0
+  overrides:
+    params:
+        model: ggml-chinese-alpaca-plus-lora-13B-q5_0.bin
+  files:
+    - filename: ggml-chinese-alpaca-plus-lora-13B-q5_0.bin
+      sha256: 93dbdde5a5fb2e44bccd8ad508156a5732a43f4b7d5d7686ce00af0cb6d80ae0
+      uri: https://huggingface.co/shanyou/ggml-chinese-alpaca-plus-lora/resolve/main/ggml-chinese-alpaca-plus-lora-13B-q5_0.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: shidowake/ggml-model-q4_0.bin
   license: unknown
@@ -32848,6 +35834,58 @@
     - filename: ggml-q4_1.bin
       sha256: 082d51c5fabeca2f7f6c528f5ab8fbe98b283fa475bb292eabe1801ae95ac264
       uri: https://huggingface.co/tekkithorse/GPT-J-6B-PNY-GGML/resolve/main/ggml-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thatname/Ziya-LLaMA-13B-v1-ggml-q4_0.bin
+  urls:
+    - https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml
+  tags:
+    - doi:10.57967/hf/0682
+  overrides:
+    params:
+        model: Ziya-LLaMA-13B-v1-ggml-q4_0.bin
+  files:
+    - filename: Ziya-LLaMA-13B-v1-ggml-q4_0.bin
+      sha256: 0f6c63aaa363379b9fb5259d5fcfa931bb1810852376961eb8407f47ceddb765
+      uri: https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml/resolve/main/Ziya-LLaMA-13B-v1-ggml-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thatname/Ziya-LLaMA-13B-v1-ggml-q4_1.bin
+  urls:
+    - https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml
+  tags:
+    - doi:10.57967/hf/0682
+  overrides:
+    params:
+        model: Ziya-LLaMA-13B-v1-ggml-q4_1.bin
+  files:
+    - filename: Ziya-LLaMA-13B-v1-ggml-q4_1.bin
+      sha256: d225f9067f02d2cd39e43a85a5bdc722fd15a2d47f7185927654b42bea78a6b3
+      uri: https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml/resolve/main/Ziya-LLaMA-13B-v1-ggml-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thatname/Ziya-LLaMA-13B-v1-ggml-q5_0.bin
+  urls:
+    - https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml
+  tags:
+    - doi:10.57967/hf/0682
+  overrides:
+    params:
+        model: Ziya-LLaMA-13B-v1-ggml-q5_0.bin
+  files:
+    - filename: Ziya-LLaMA-13B-v1-ggml-q5_0.bin
+      sha256: 07c34012ad3adf64c04532ebc252652b7650499845ea285a53868ca782cccd90
+      uri: https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml/resolve/main/Ziya-LLaMA-13B-v1-ggml-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thatname/Ziya-LLaMA-13B-v1-ggml-q5_1.bin
+  urls:
+    - https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml
+  tags:
+    - doi:10.57967/hf/0682
+  overrides:
+    params:
+        model: Ziya-LLaMA-13B-v1-ggml-q5_1.bin
+  files:
+    - filename: Ziya-LLaMA-13B-v1-ggml-q5_1.bin
+      sha256: b4c42e67b4b111363b35df985499bfa88a8ce421fa953e577fddfd0cb355f88e
+      uri: https://huggingface.co/thatname/Ziya-LLaMA-13B-v1-ggml/resolve/main/Ziya-LLaMA-13B-v1-ggml-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: verymuchawful/Alpacino-13b-q4_0.bin
   urls:
@@ -33379,7 +36417,7 @@
   name: vihangd/ggml-model-q4_0.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/vihangd/open_llama_7b_400bt_ggml
+    - https://huggingface.co/vihangd/open_llama_7b_700bt_ggml
   tags:
     - license:apache-2.0
   overrides:
@@ -33387,13 +36425,13 @@
         model: ggml-model-q4_0.bin
   files:
     - filename: ggml-model-q4_0.bin
-      sha256: 447da3b93beeac0bf154e21aacba3f573a4ef00e0d9b53fd01a8ff466de21f57
-      uri: https://huggingface.co/vihangd/open_llama_7b_400bt_ggml/resolve/main/ggml-model-q4_0.bin
+      sha256: 96c57b6f8fb9171c16e67cbb464b6967b62299f31c99f9324c1eeb35b1fd4b4a
+      uri: https://huggingface.co/vihangd/open_llama_7b_700bt_ggml/resolve/main/ggml-model-q4_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: vihangd/ggml-model-q4_1.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/vihangd/open_llama_7b_400bt_ggml
+    - https://huggingface.co/vihangd/open_llama_7b_700bt_ggml
   tags:
     - license:apache-2.0
   overrides:
@@ -33401,13 +36439,13 @@
         model: ggml-model-q4_1.bin
   files:
     - filename: ggml-model-q4_1.bin
-      sha256: ef36bc74efa710fade4ce8dbb5bfb9ba35eecbf9b091c34b383c4e09629cd89c
-      uri: https://huggingface.co/vihangd/open_llama_7b_400bt_ggml/resolve/main/ggml-model-q4_1.bin
+      sha256: 57ccfd3027525324fc2a790076ca18fcf440a798894e1948f62690147fc0a018
+      uri: https://huggingface.co/vihangd/open_llama_7b_700bt_ggml/resolve/main/ggml-model-q4_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: vihangd/ggml-model-q5_0.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/vihangd/open_llama_7b_400bt_ggml
+    - https://huggingface.co/vihangd/open_llama_7b_700bt_ggml
   tags:
     - license:apache-2.0
   overrides:
@@ -33415,13 +36453,13 @@
         model: ggml-model-q5_0.bin
   files:
     - filename: ggml-model-q5_0.bin
-      sha256: 0496f002f91883cd210127d986fcd50ae210dccafdb549859de479680c8452e8
-      uri: https://huggingface.co/vihangd/open_llama_7b_400bt_ggml/resolve/main/ggml-model-q5_0.bin
+      sha256: 0b2d5e35d141695c9ac660e177024465a6136e3541848052f17d4d631cb41a69
+      uri: https://huggingface.co/vihangd/open_llama_7b_700bt_ggml/resolve/main/ggml-model-q5_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: vihangd/ggml-model-q5_1.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/vihangd/open_llama_7b_400bt_ggml
+    - https://huggingface.co/vihangd/open_llama_7b_700bt_ggml
   tags:
     - license:apache-2.0
   overrides:
@@ -33429,13 +36467,13 @@
         model: ggml-model-q5_1.bin
   files:
     - filename: ggml-model-q5_1.bin
-      sha256: fc71611354f666d24b0972f8fd2f12fa8d85c21f0ca0156c53746ff4da7d89b2
-      uri: https://huggingface.co/vihangd/open_llama_7b_400bt_ggml/resolve/main/ggml-model-q5_1.bin
+      sha256: 35893ac9de1208d7ce804c4c4c6bca422f77aaa32b5634b56a8a6382636c298f
+      uri: https://huggingface.co/vihangd/open_llama_7b_700bt_ggml/resolve/main/ggml-model-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: vihangd/ggml-model-q8_0.bin
   license: apache-2.0
   urls:
-    - https://huggingface.co/vihangd/open_llama_7b_400bt_ggml
+    - https://huggingface.co/vihangd/open_llama_7b_700bt_ggml
   tags:
     - license:apache-2.0
   overrides:
@@ -33443,8 +36481,8 @@
         model: ggml-model-q8_0.bin
   files:
     - filename: ggml-model-q8_0.bin
-      sha256: 3055c7bceefc1a68eb4c1ca03b1fb91e57d9f68206a3a2a87ea7697377ef4e62
-      uri: https://huggingface.co/vihangd/open_llama_7b_400bt_ggml/resolve/main/ggml-model-q8_0.bin
+      sha256: cc7b9146a5f65468516793f6b6db1bf47e74dffe368a15673e03725c14a24ada
+      uri: https://huggingface.co/vihangd/open_llama_7b_700bt_ggml/resolve/main/ggml-model-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: waifu-workshop/ggml-model-f16.bin
   license: creativeml-openrail-m
@@ -33523,6 +36561,269 @@
     - filename: ggml-model-q4_0.bin
       sha256: 4e398f05842206e08cdc5e7bb4f6c7c34b9dc373435ece6f261b14b7b4fe9b89
       uri: https://huggingface.co/xfh/alpaca.cpp_65b_ggml/resolve/main/ggml-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-f16.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-f16.bin
+  files:
+    - filename: ggjtv1-model-f16.bin
+      sha256: 7d3f4ed5317aa9c2b3d7792ac86ae4052275b1802cf57dacb866a3480c309355
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q4_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q4_0.bin
+  files:
+    - filename: ggjtv1-model-q4_0.bin
+      sha256: b5809b26f14fc5866725a9152c617e6fb9ba6726bac0607639ce22b3d189a47d
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q4_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q4_1.bin
+  files:
+    - filename: ggjtv1-model-q4_1.bin
+      sha256: 00164ed5053e1342e02e0ed13efe3dc83ed94f528683f48b094dacc5c0e8d392
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q4_2.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q4_2.bin
+  files:
+    - filename: ggjtv1-model-q4_2.bin
+      sha256: 5f7feda1d06cc2b2644b21182e1be62d9d49f3245155a061bf115b8842e7da1b
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q4_2.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q4_3.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q4_3.bin
+  files:
+    - filename: ggjtv1-model-q4_3.bin
+      sha256: a8a7a0f747e08ffb4b4bb20d4f10817781f6d087b9a9e3203a1143a36223e0a2
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q4_3.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q5_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q5_0.bin
+  files:
+    - filename: ggjtv1-model-q5_0.bin
+      sha256: 1f01daa5b6c090b2afcaf35d7657f1b64291ff0baba78e02c0920f8a6551483d
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q5_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q5_1.bin
+  files:
+    - filename: ggjtv1-model-q5_1.bin
+      sha256: 0d714799004ee80d6423b577ff089304ccfe2b01273f41596cb0789f4a5e5dd9
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv1-model-q8_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv1-model-q8_0.bin
+  files:
+    - filename: ggjtv1-model-q8_0.bin
+      sha256: a249af35d39b96b0f618ed13d89587ca6e137a609c1a69c3bbdd3aebd176ac00
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv1-model-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv2-model-f16.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv2-model-f16.bin
+  files:
+    - filename: ggjtv2-model-f16.bin
+      sha256: cc0c88bfbfae309d7a6186f0ee49b3de0c1f133862dccd00c7fdbc8b72a7b0b1
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv2-model-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv2-model-q4_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv2-model-q4_0.bin
+  files:
+    - filename: ggjtv2-model-q4_0.bin
+      sha256: 260493d98d51c702d1b1d33f521770e3c65f533cd8fd38ce16c091659744a5cc
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv2-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv2-model-q4_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv2-model-q4_1.bin
+  files:
+    - filename: ggjtv2-model-q4_1.bin
+      sha256: 5f3bf2f7c96645395c806429f79cb29cf16076c3f59e02fd96b9aa1c9539f0c4
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv2-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv2-model-q5_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv2-model-q5_0.bin
+  files:
+    - filename: ggjtv2-model-q5_0.bin
+      sha256: 72ce1cee9c7127e18d903580fee8c403ec9468a6644f3b399fd814985fa4e01d
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv2-model-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv2-model-q5_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv2-model-q5_1.bin
+  files:
+    - filename: ggjtv2-model-q5_1.bin
+      sha256: 5639b54636782d8f7bad9fc73557b48eba70a8553b922258c3d4eba92f8b24cf
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv2-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv2-model-q8_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv2-model-q8_0.bin
+  files:
+    - filename: ggjtv2-model-q8_0.bin
+      sha256: 29a93a599df42d554e87b145cfeab8976dc71b4af0b82eef33e8afad20dc4e3d
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv2-model-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv3-model-f16.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv3-model-f16.bin
+  files:
+    - filename: ggjtv3-model-f16.bin
+      sha256: cc0c88bfbfae309d7a6186f0ee49b3de0c1f133862dccd00c7fdbc8b72a7b0b1
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv3-model-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv3-model-q4_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Alpaca-Native-7B-GGML
+  tags:
+    - llama
+    - alpaca
+  overrides:
+    params:
+        model: ggjtv3-model-q4_0.bin
+  files:
+    - filename: ggjtv3-model-q4_0.bin
+      sha256: 317829e6a7614c40fc9327bec0d6869a97bf1c31bede2ba066e7214f97db735f
+      uri: https://huggingface.co/xzuyn/Alpaca-Native-7B-GGML/resolve/main/ggjtv3-model-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv3-model-q4_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Alpaca-Native-7B-GGML
+  tags:
+    - llama
+    - alpaca
+  overrides:
+    params:
+        model: ggjtv3-model-q4_1.bin
+  files:
+    - filename: ggjtv3-model-q4_1.bin
+      sha256: 7de454fcd5457ad750042cb653c8be93fc563e7e2e8e97bb4a4405b6233a17f1
+      uri: https://huggingface.co/xzuyn/Alpaca-Native-7B-GGML/resolve/main/ggjtv3-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv3-model-q5_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Alpaca-Native-7B-GGML
+  tags:
+    - llama
+    - alpaca
+  overrides:
+    params:
+        model: ggjtv3-model-q5_0.bin
+  files:
+    - filename: ggjtv3-model-q5_0.bin
+      sha256: 34eac9591b6257ca421290354275570d44432eb9003794462c56931bc378d39a
+      uri: https://huggingface.co/xzuyn/Alpaca-Native-7B-GGML/resolve/main/ggjtv3-model-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv3-model-q5_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv3-model-q5_1.bin
+  files:
+    - filename: ggjtv3-model-q5_1.bin
+      sha256: 2eddffc960b8416d17fa0a6b0b1772510800490f8d9d808e10bf2ffbc677144f
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv3-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn/ggjtv3-model-q8_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    params:
+        model: ggjtv3-model-q8_0.bin
+  files:
+    - filename: ggjtv3-model-q8_0.bin
+      sha256: b70e720d3ce970650ae3dfa61feced829cb5af8101e4dca7200d08fb9c7c1796
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-160M-GGML/resolve/main/ggjtv3-model-q8_0.bin
 - url: github:go-skynet/model-gallery/openllama_3b.yaml
   name: xzuyn/ggml-adapter-model.bin
   urls:

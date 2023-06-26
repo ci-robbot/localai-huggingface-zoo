@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
@@ -101,7 +102,8 @@ func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 		if !strings.HasSuffix(sibling.RFileName, ".bin") {
 			continue
 		}
-		if strings.HasPrefix(sibling.RFileName, "pytorch") {
+		basePath := filepath.Base(sibling.RFileName)
+		if strings.HasPrefix(basePath, "pytorch") {
 			continue
 		}
 		fileURL := fmt.Sprintf("https://huggingface.co/%s/resolve/main/%s", repository, sibling.RFileName)
@@ -285,5 +287,4 @@ func main() {
 	}
 	scrapeHuggingFace("TheBloke", concurrency)
 	scrapeHuggingFace("ggml", concurrency)
-
 }

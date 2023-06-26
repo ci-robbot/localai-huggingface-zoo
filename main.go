@@ -110,8 +110,10 @@ func main() {
 					break
 				}
 			}
-			currentGalleryMap[m.Filename] = GalleryModel{
-				Name:        m.Filename,
+
+			modelName := fmt.Sprintf("%s/%s", mm.Author, m.Filename)
+			currentGalleryMap[modelName] = GalleryModel{
+				Name:        modelName,
 				Description: model.ModelID,
 				URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
 				License:     mm.CardData.License,

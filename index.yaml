@@ -362,7 +362,7 @@
     - filename: ggml-wizard-vicuna-13b-q5_0.bin
       sha256: e34466d97b1db9f7f12bf137c73f42475b913d30d6e08766d4dc22ad560230ec
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q5_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: amesianx__wizard-vicuna-13b-ggml__ggml-wizard-vicuna-13b-q5_1.bin
   license: other
   urls:
@@ -376,7 +376,7 @@
     - filename: ggml-wizard-vicuna-13b-q5_1.bin
       sha256: a4ff4dd0e7234550f3bcfbedc14677b256da97a870b4492b159ffb62845f424e
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: amesianx__wizard-vicuna-13b-ggml__ggml-wizard-vicuna-13b-q8_0.bin
   license: other
   urls:
@@ -2415,7 +2415,7 @@
     - filename: legacy-ggml-vicuna-7B-1.1-q8_0.bin
       sha256: 35abb80d0bf2cde932a1e1a2e8fe50b746941e63eb0cdd216cfb0d2c8dfc2256
       uri: https://huggingface.co/CRD716/ggml-vicuna-1.1-quantized/resolve/main/legacy-ggml-vicuna-7B-1.1-q8_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: creative420__wizard-vicuna-13b-uncensored_old_ggml__ehartford_wizard-vicuna-13b-uncensored_old_ggml_q5_1.bin
   urls:
     - https://huggingface.co/creative420/Wizard-Vicuna-13b-Uncensored_old_ggml
@@ -2426,7 +2426,7 @@
     - filename: ehartford_Wizard-Vicuna-13b-Uncensored_old_ggml_q5_1.bin
       sha256: da703bb9a8d7b3417bd5c46876f5a0777671697f31be07c715d64f46e4597471
       uri: https://huggingface.co/creative420/Wizard-Vicuna-13b-Uncensored_old_ggml/resolve/main/ehartford_Wizard-Vicuna-13b-Uncensored_old_ggml_q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: creative420__wizard-vicuna-13b-uncensored_old_ggml__ehartford_wizard-vicuna-13b-uncensored_old_ggml_q8_0.bin
   urls:
     - https://huggingface.co/creative420/Wizard-Vicuna-13b-Uncensored_old_ggml
@@ -5078,7 +5078,7 @@
     - filename: pygmalion-ggml-model-f32.bin
       sha256: 2f7422f00a94c7f41a5232c5ef6d42fa02ae1a3809d13726cbc9fcc0e15693ff
       uri: https://huggingface.co/ifonlyiweresmarter/pygmalion-ggml-model-f32/resolve/main/pygmalion-ggml-model-f32.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: jahaz__multi-lora-llama-7b-ggml-q5-1__13b-ggml-model-wizardvicunaunsensored-starcoderq5_1.bin
   urls:
     - https://huggingface.co/Jahaz/multi-lora-llama-7b-ggml-q5-1
@@ -6247,6 +6247,39 @@
     - filename: guanaco-65b-ggml-q4_0.bin
       sha256: 13a2efdfba3631be655d09fe15d6e1fffa68391c602eae299fee9fefed27e25d
       uri: https://huggingface.co/localmodels/guanaco-65b-ggml/resolve/main/guanaco-65b-ggml-q4_0.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: localmodels__guanaco-65b-ggml__guanaco-65b-ggml-q4_1.bin
+  urls:
+    - https://huggingface.co/localmodels/guanaco-65b-ggml
+  overrides:
+    parameters:
+        model: guanaco-65b-ggml-q4_1.bin
+  files:
+    - filename: guanaco-65b-ggml-q4_1.bin
+      sha256: a1b5f9f21e39114c1e65f3eef802dd84791adc08c9e81f3d1d7037d95abb6567
+      uri: https://huggingface.co/localmodels/guanaco-65b-ggml/resolve/main/guanaco-65b-ggml-q4_1.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: localmodels__guanaco-65b-ggml__guanaco-65b-ggml-q5_0.bin
+  urls:
+    - https://huggingface.co/localmodels/guanaco-65b-ggml
+  overrides:
+    parameters:
+        model: guanaco-65b-ggml-q5_0.bin
+  files:
+    - filename: guanaco-65b-ggml-q5_0.bin
+      sha256: 6e5fd9f31ac1161e3ef79927a3d1c57540aedb08c7cf3743589633ae5e69ca5c
+      uri: https://huggingface.co/localmodels/guanaco-65b-ggml/resolve/main/guanaco-65b-ggml-q5_0.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: localmodels__guanaco-65b-ggml__guanaco-65b-ggml-q5_1.bin
+  urls:
+    - https://huggingface.co/localmodels/guanaco-65b-ggml
+  overrides:
+    parameters:
+        model: guanaco-65b-ggml-q5_1.bin
+  files:
+    - filename: guanaco-65b-ggml-q5_1.bin
+      sha256: e0aa9e7bb98f87d0b79044563afc59e8d79fd2be7e9f3a1b9049ea1be028a754
+      uri: https://huggingface.co/localmodels/guanaco-65b-ggml/resolve/main/guanaco-65b-ggml-q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: localmodels__supercot-30b-ggml__llama-30b-supercot-ggml-q4_0.bin
   urls:
@@ -6324,7 +6357,7 @@
     - filename: wizard-vicuna-30b-uncensored-ggml-q4_1.bin
       sha256: 78e353388e4e3ec183709079630c568c6fa8300a2504afe968707a3b9306df08
       uri: https://huggingface.co/localmodels/Wizard-Vicuna-30B-Uncensored-ggml/resolve/main/wizard-vicuna-30b-uncensored-ggml-q4_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: localmodels__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored-ggml-q5_0.bin
   urls:
     - https://huggingface.co/localmodels/Wizard-Vicuna-30B-Uncensored-ggml
@@ -7098,6 +7131,101 @@
     - filename: ggml-oasst-sft-6-llama-30b-q4_2.bin
       sha256: f14c739159488129cf015f90dfc983db667d1cf1629c8c690c4f21cbdb6e90ad
       uri: https://huggingface.co/MildlyAggressiveGoose1/ggml-oasst-sft-6-llama-30B-q4_2/resolve/main/ggml-oasst-sft-6-llama-30b-q4_2.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: mindrage__manticore-13b-chat-pyg-guanaco-ggml__manticore-13b-chat-pyg-guanaco-ggml-q2_k.bin
+  urls:
+    - https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML
+  tags:
+    - llama
+    - text-generation
+    - transformers
+    - manticore
+    - guanaco
+    - uncensored
+    - has_space
+  overrides:
+    parameters:
+        model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q2_K.bin
+  files:
+    - filename: Manticore-13B-Chat-Pyg-Guanaco-GGML-q2_K.bin
+      sha256: a7e4266280523d2fab915e8d800fa67908582477ee27bb5bed7edc5565747613
+      uri: https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q2_K.bin
+- url: github:go-skynet/model-gallery/manticore.yaml
+  name: mindrage__manticore-13b-chat-pyg-guanaco-ggml__manticore-13b-chat-pyg-guanaco-ggml-q3_k_m.bin
+  urls:
+    - https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML
+  tags:
+    - llama
+    - text-generation
+    - transformers
+    - manticore
+    - guanaco
+    - uncensored
+    - has_space
+  overrides:
+    parameters:
+        model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin
+  files:
+    - filename: Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin
+      sha256: ea266b52d6080e7df1b8d98ea290d0b4e261dc9cfe5fc9169abcef0c154831e5
+      uri: https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: mindrage__manticore-13b-chat-pyg-guanaco-ggml__manticore-13b-chat-pyg-guanaco-ggml-q4_0.bin
+  urls:
+    - https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML
+  tags:
+    - llama
+    - text-generation
+    - transformers
+    - manticore
+    - guanaco
+    - uncensored
+    - has_space
+  overrides:
+    parameters:
+        model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0.bin
+  files:
+    - filename: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0.bin
+      sha256: e17d99eeaaf150a5404d3e279280e1b1c87f12a33150aa3af0bf14f87053b4ff
+      uri: https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0.bin
+- url: github:go-skynet/model-gallery/guanaco.yaml
+  name: mindrage__manticore-13b-chat-pyg-guanaco-ggml__manticore-13b-chat-pyg-guanaco-ggml-q4_k_m.bin
+  urls:
+    - https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML
+  tags:
+    - llama
+    - text-generation
+    - transformers
+    - manticore
+    - guanaco
+    - uncensored
+    - has_space
+  overrides:
+    parameters:
+        model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_K_M.bin
+  files:
+    - filename: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_K_M.bin
+      sha256: d6af08082d1b5d0991564f353134ebc2261a0312df1e0334268ade41de63d789
+      uri: https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_K_M.bin
+- url: github:go-skynet/model-gallery/manticore.yaml
+  name: mindrage__manticore-13b-chat-pyg-guanaco-ggml__manticore-13b-chat-pyg-guanaco-ggml-q4_k_s.bin
+  urls:
+    - https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML
+  tags:
+    - llama
+    - text-generation
+    - transformers
+    - manticore
+    - guanaco
+    - uncensored
+    - has_space
+  overrides:
+    parameters:
+        model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_K_S.bin
+  files:
+    - filename: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_K_S.bin
+      sha256: 864b8a4be073d9fc273747615e0f0b0d5b7e2338a823c3e7660f2ef1043e6964
+      uri: https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_K_S.bin
 - url: github:go-skynet/model-gallery/koala.yaml
   name: mongolian-basket-weaving__koala-13b-ggml-f16__ggml-model-f16.bin
   license: other
@@ -7318,6 +7446,90 @@
     - filename: ggml-kovic7b-q5_1.bin
       sha256: 3088b14ff3bc50a227638d1902e0c3100e70d16ecf2ae30a5d5d3ac6aec536f3
       uri: https://huggingface.co/myeolinmalchi/ggml-korean-vicuna-7b-1.1/resolve/main/ggml-kovic7b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: myeolinmalchi__kullm-polyglot-12.8b-v2-ggml__ggml-model.bin
+  urls:
+    - https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML
+  tags:
+    - gpt-neox
+    - transformers
+  overrides:
+    parameters:
+        model: ggml-model.bin
+  files:
+    - filename: ggml-model.bin
+      sha256: 5b7c6c9aa57cbbfd045f3f58d8861a06195722e9e63b8245628562db626fe3d6
+      uri: https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML/resolve/main/ggml-model.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: myeolinmalchi__kullm-polyglot-12.8b-v2-ggml__kullm-polyglot-12.8b-v2.ggmlv3.q4_0.bin
+  urls:
+    - https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML
+  tags:
+    - gpt-neox
+    - transformers
+  overrides:
+    parameters:
+        model: kullm-polyglot-12.8B-v2.ggmlv3.q4_0.bin
+  files:
+    - filename: kullm-polyglot-12.8B-v2.ggmlv3.q4_0.bin
+      sha256: f046bbc94d432554b3f5bffaadf715875de2a03e5b1b8354b0dff7989bf4cea3
+      uri: https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML/resolve/main/kullm-polyglot-12.8B-v2.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: myeolinmalchi__kullm-polyglot-12.8b-v2-ggml__kullm-polyglot-12.8b-v2.ggmlv3.q4_1.bin
+  urls:
+    - https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML
+  tags:
+    - gpt-neox
+    - transformers
+  overrides:
+    parameters:
+        model: kullm-polyglot-12.8B-v2.ggmlv3.q4_1.bin
+  files:
+    - filename: kullm-polyglot-12.8B-v2.ggmlv3.q4_1.bin
+      sha256: 719f1cb2c35330a0905d7a35383abf9539023c35dfff861fb99074d996c955e5
+      uri: https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML/resolve/main/kullm-polyglot-12.8B-v2.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: myeolinmalchi__kullm-polyglot-12.8b-v2-ggml__kullm-polyglot-12.8b-v2.ggmlv3.q5_0.bin
+  urls:
+    - https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML
+  tags:
+    - gpt-neox
+    - transformers
+  overrides:
+    parameters:
+        model: kullm-polyglot-12.8B-v2.ggmlv3.q5_0.bin
+  files:
+    - filename: kullm-polyglot-12.8B-v2.ggmlv3.q5_0.bin
+      sha256: d25a07dd3f4984eac1d478a5710e4d697a3866da99c4a1ea1a58c6035066dc4b
+      uri: https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML/resolve/main/kullm-polyglot-12.8B-v2.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: myeolinmalchi__kullm-polyglot-12.8b-v2-ggml__kullm-polyglot-12.8b-v2.ggmlv3.q5_1.bin
+  urls:
+    - https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML
+  tags:
+    - gpt-neox
+    - transformers
+  overrides:
+    parameters:
+        model: kullm-polyglot-12.8B-v2.ggmlv3.q5_1.bin
+  files:
+    - filename: kullm-polyglot-12.8B-v2.ggmlv3.q5_1.bin
+      sha256: 5b7c6c9aa57cbbfd045f3f58d8861a06195722e9e63b8245628562db626fe3d6
+      uri: https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML/resolve/main/kullm-polyglot-12.8B-v2.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: myeolinmalchi__kullm-polyglot-12.8b-v2-ggml__kullm-polyglot-12.8b-v2.ggmlv3.q8_0.bin
+  urls:
+    - https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML
+  tags:
+    - gpt-neox
+    - transformers
+  overrides:
+    parameters:
+        model: kullm-polyglot-12.8B-v2.ggmlv3.q8_0.bin
+  files:
+    - filename: kullm-polyglot-12.8B-v2.ggmlv3.q8_0.bin
+      sha256: e67b91c18216a208c67c60d9ebfde7f9ddc3e08c8c2d5a593ddb2cb2696229de
+      uri: https://huggingface.co/myeolinmalchi/kullm-polyglot-12.8b-v2-GGML/resolve/main/kullm-polyglot-12.8B-v2.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: myeolinmalchi__remon-13b-ggml__remon-13b.ggmlv3.q4_0.bin
   urls:
@@ -10783,6 +10995,864 @@
       sha256: 714bcc956fe81c7f62933a2a3b36a70cdbec1f11a38173beba0c73c391534e48
       uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-1b7-q4_0-ggjt.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-1b7-q4_0.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-1b7-q4_0.bin
+  files:
+    - filename: bloomz-1b7-q4_0.bin
+      sha256: 0dbe2193154438f3af1cf96b322a35979554eac7c93890abdfc0af7fc0fc2445
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-1b7-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-1b7-q5_1-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-1b7-q5_1-ggjt.bin
+  files:
+    - filename: bloomz-1b7-q5_1-ggjt.bin
+      sha256: 362d7078712426ec7585614b97df48e0e246e1cfb38004b51579b9fa003d07bf
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-1b7-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-1b7-q5_1.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-1b7-q5_1.bin
+  files:
+    - filename: bloomz-1b7-q5_1.bin
+      sha256: f070f15e29bd1e0ccb6128bf8a74bb490fc6440c044e968cfd16fde008f19fea
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-1b7-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-3b-f16.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-3b-f16.bin
+  files:
+    - filename: bloomz-3b-f16.bin
+      sha256: 0c192e1266efa5c55730b815cfdb9c7331873e2a1082fa8b203de36557909639
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-3b-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-3b-q4_0-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-3b-q4_0-ggjt.bin
+  files:
+    - filename: bloomz-3b-q4_0-ggjt.bin
+      sha256: 2d68b9bbfbd95ab46a00062aed20a7172c34647e00c99ebbe9cde899a56892b5
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-3b-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-3b-q4_0.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-3b-q4_0.bin
+  files:
+    - filename: bloomz-3b-q4_0.bin
+      sha256: 616b6171f3836c32c7a54969c775c3753cc3db17978a436331ccb0627d61bde9
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-3b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-3b-q5_1-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-3b-q5_1-ggjt.bin
+  files:
+    - filename: bloomz-3b-q5_1-ggjt.bin
+      sha256: c13af66d4b309511d6c44f5c1922105b22c0ed4e416594ba48353e21421f2ca1
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-3b-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-3b-q5_1.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-3b-q5_1.bin
+  files:
+    - filename: bloomz-3b-q5_1.bin
+      sha256: 375d0b36f8a349833f096260f9ca2880d4e327340add544518db927543a09cd9
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-3b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-560m-f16.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-560m-f16.bin
+  files:
+    - filename: bloomz-560m-f16.bin
+      sha256: 335ce0deff88f9993c53c0f003ba71e467dbf79cfc74346276f5075304ab9570
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-560m-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-560m-q4_0-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-560m-q4_0-ggjt.bin
+  files:
+    - filename: bloomz-560m-q4_0-ggjt.bin
+      sha256: 639f75400eb342a5f3a19f714dc9b8c71b82905c35e0062a38679875147b8e5a
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-560m-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-560m-q4_0.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-560m-q4_0.bin
+  files:
+    - filename: bloomz-560m-q4_0.bin
+      sha256: 6c73a1df73cd0fe589a7e0425b97a9ba5b38a322677d79b6efa3075db71c5eb5
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-560m-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-560m-q5_1-ggjt.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-560m-q5_1-ggjt.bin
+  files:
+    - filename: bloomz-560m-q5_1-ggjt.bin
+      sha256: 3fcc88021dd89fd1113c84a435a39b72445a4792ba5b8a40a54f81d5b01c2a0c
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-560m-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__bloomz-ggml__bloomz-560m-q5_1.bin
+  license: bigscience-bloom-rail-1.0
+  urls:
+    - https://huggingface.co/rustformers/bloomz-ggml
+  tags:
+    - ak
+    - ar
+    - as
+    - bm
+    - bn
+    - ca
+    - code
+    - en
+    - es
+    - eu
+    - fon
+    - fr
+    - gu
+    - hi
+    - id
+    - ig
+    - ki
+    - kn
+    - lg
+    - ln
+    - ml
+    - mr
+    - ne
+    - nso
+    - ny
+    - or
+    - pa
+    - pt
+    - rn
+    - rw
+    - sn
+    - st
+    - sw
+    - ta
+    - te
+    - tn
+    - ts
+    - tum
+    - tw
+    - ur
+    - vi
+    - wo
+    - xh
+    - yo
+    - zh
+    - zu
+    - dataset:bigscience/xP3
+    - arxiv:2211.01786
+    - transformers
+    - llm-rs
+    - ggml
+    - license:bigscience-bloom-rail-1.0
+    - text-generation
+  overrides:
+    parameters:
+        model: bloomz-560m-q5_1.bin
+  files:
+    - filename: bloomz-560m-q5_1.bin
+      sha256: 34236298d30083e9d4f126bc9f0eeb1ddf86b9a697e6d01217a63b3d747f1f2a
+      uri: https://huggingface.co/rustformers/bloomz-ggml/resolve/main/bloomz-560m-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: rustformers__dolly-v2-ggml__dolly-v2-12b-f16.bin
   license: mit
   urls:
@@ -12688,6 +13758,158 @@
     - filename: stablelm-base-alpha-3b-q5_1-ggjt.bin
       sha256: 0c12263eaf6f4c1fa493b8e5f1219572717f5e77210722d8f59750a5fd6b87d5
       uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-3b-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-base-alpha-3b-q5_1.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-base-alpha-3b-q5_1.bin
+  files:
+    - filename: stablelm-base-alpha-3b-q5_1.bin
+      sha256: 33cbaa07fb77887d04d85df45f76cdb6c44292d66da56be7a5430ae416d72807
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-3b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-base-alpha-7b-f16.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-base-alpha-7b-f16.bin
+  files:
+    - filename: stablelm-base-alpha-7b-f16.bin
+      sha256: d222585c6fa01db93bcedb140222f31430a92e07ea6d3dc64a47a520fc0e32b2
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-7b-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-base-alpha-7b-q4_0-ggjt.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-base-alpha-7b-q4_0-ggjt.bin
+  files:
+    - filename: stablelm-base-alpha-7b-q4_0-ggjt.bin
+      sha256: d8f4d306887c0fc1ca74b2f96dd9e47fb7c6e64130b920778e11f1f80e29fdbe
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-7b-q4_0-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-base-alpha-7b-q4_0.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-base-alpha-7b-q4_0.bin
+  files:
+    - filename: stablelm-base-alpha-7b-q4_0.bin
+      sha256: d8aabea93cec3f5449212b629d42e81d577f09a7dee19c813893c88da045f424
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-7b-q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-base-alpha-7b-q5_1-ggjt.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-base-alpha-7b-q5_1-ggjt.bin
+  files:
+    - filename: stablelm-base-alpha-7b-q5_1-ggjt.bin
+      sha256: ca24df5d22d926a6e0ad15b9b56c815ea0050a782561d2013ec31b8fb8e07d2f
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-7b-q5_1-ggjt.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-base-alpha-7b-q5_1.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-base-alpha-7b-q5_1.bin
+  files:
+    - filename: stablelm-base-alpha-7b-q5_1.bin
+      sha256: f2d14ab7c5570cc08a7a59d8330c9ddd64779588ccb1524bc27e8e0dd1dfa79d
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-base-alpha-7b-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-tuned-alpha-3b-f16.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-tuned-alpha-3b-f16.bin
+  files:
+    - filename: stablelm-tuned-alpha-3b-f16.bin
+      sha256: 1506fdbb1a90597056ab47baf709931ade5bc81ac85ae39dfd617a7d6a7c6089
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-tuned-alpha-3b-f16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: rustformers__stablelm-ggml__stablelm-tuned-alpha-3b-q4_0-ggjt.bin
+  license: cc-by-sa-4.0
+  urls:
+    - https://huggingface.co/rustformers/stablelm-ggml
+  tags:
+    - en
+    - transformers
+    - llm-rs
+    - ggml
+    - license:cc-by-sa-4.0
+    - text-generation
+  overrides:
+    parameters:
+        model: stablelm-tuned-alpha-3b-q4_0-ggjt.bin
+  files:
+    - filename: stablelm-tuned-alpha-3b-q4_0-ggjt.bin
+      sha256: 1e3001002fd262a1fb68105602099e520244b2b2174f6af378bc4be3ebce6726
+      uri: https://huggingface.co/rustformers/stablelm-ggml/resolve/main/stablelm-tuned-alpha-3b-q4_0-ggjt.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: sasha0552__pygmalion-6b-f16-ggml__ggml-model-f16.bin
   license: creativeml-openrail-m
@@ -36701,7 +37923,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q2_K.bin
       sha256: 59729c9597327bede0e17dfa6d1aab037cafccd9cc56c7180deadc9d7b4455fb
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -36791,7 +38013,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_K_M.bin
       sha256: bb8494a25acec7b7917303f6db0fc0fdf551fe1d2974e4a356719aba83b0c661
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -36806,7 +38028,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_K_S.bin
       sha256: c3a0255b7f2d00107aa1f78614fe5575759bb1d6622d81b55f6d9b6e2a333033
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -36866,7 +38088,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_K_S.bin
       sha256: f463057ab8a38cf6d1f0e46ab9245a1832827aa7a41707681d80520f4626c721
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -36896,7 +38118,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q8_0.bin
       sha256: 0e00c89a1cb8ba053358c1ea50508a8e0d404895e780302c6686ad7f6e2d84db
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -36911,7 +38133,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q2_K.bin
       sha256: e212aa8c1e2aa7d7f8af01277014257ce8a527b2cd02cda63b31f42334b3fa0b
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -36926,7 +38148,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_L.bin
       sha256: ebbdcb1859670ce1bfaad69654ead893d105ba5b005fcc9981c906345e75d7cf
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -36941,7 +38163,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: df739fe44b0356c53e4b1aa5f423c4120082b9dba27e81f469f4ecc82e86eecd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -37001,7 +38223,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 77b741f78e5c1eb929425f1a2f23f8dde8076b3b9bdefb336ae2a0203d8c8bcd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -37016,7 +38238,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: 6ad4f7f71d490e71ed25f89e37d0468f9ff3297d8eda6cf1b28104b7001ea007
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -37076,7 +38298,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
       sha256: 7c4d55f15e0da72646fd528f52d79afbfce5f4db307e089e112b08e08c84320a
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -37091,7 +38313,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q6_K.bin
       sha256: cdf3f12a279d92fdfbae0955bf19d9b0604f0d887a3ff0240afee53d2a183581
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q8_0.bin
   license: other
   urls:
@@ -37148,7 +38370,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: 82ab2e1305aff5e40d93aeb9ac452666c4d432063c1880826fa41914060136f4
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -37162,7 +38384,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_S.bin
       sha256: d12b4e8c37fc5895496984380a4dd631c8f647c5e007992abea1053d58be6ff6
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -37176,7 +38398,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1a493c051bbe272d95d7db3bd5747f02e6a6e8c96de24fd863b4cf9b53b63637
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -37218,7 +38440,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: 7f820ce130bf8f8ff80a7d0f7d6755b9e2b3d6770a9314610efec47b75fd2f62
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -37246,7 +38468,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
       sha256: 1d78246264566e529f5ffde4ed5c845f66f6c091ae21ff8e56c7e6de64310919
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -37260,7 +38482,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: 60b40922a954486d5ddf7b046f746ba406a7d260156d42b512e0c002cb1c1336
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -37330,7 +38552,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_L.bin
       sha256: fb0655215208004cd0ea4bbb719dd6592c48187c90214cd394e72c1f466e08a6
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -37344,7 +38566,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: 3d9295af40fbf78e9be216c4435885494adabae06b08a580f861edec34e2a361
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -37358,7 +38580,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
       sha256: 13c47bc79f7433eaf28d0a659b9dae450c33d37301969c985af792d5dabc4c23
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -37372,7 +38594,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_0.bin
       sha256: c31a4edd96527dcd808bcf9b99e3894065ac950747dac84ecd415a2387454e7c
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -37428,7 +38650,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_0.bin
       sha256: 501eefd9f4063c92356519411aa2f93d8f023d2157a3a0538044ec6765a8c338
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -37442,7 +38664,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_1.bin
       sha256: 827002164546eb58733874a80904c8ada5858c48f3795f6431dc07a24c683a06
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -37470,7 +38692,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
       sha256: eda4e45bf5142661e73280012f416de68288f142ae03e1fe508003ef1f4b21af
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -42277,6 +43499,45 @@
     - filename: ggjtv3-model-q4_1.bin
       sha256: b1903b0ab78dea31ec2c6503439f1dbf1b254aea90c6983b27d0daebbaedf3ae
       uri: https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML/resolve/main/ggjtv3-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn__pythia-deduped-410m-ggml__ggjtv3-model-q5_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    parameters:
+        model: ggjtv3-model-q5_0.bin
+  files:
+    - filename: ggjtv3-model-q5_0.bin
+      sha256: 11a7300da51a13fb41abc59887adaa2920f6203fab03fa342e8edf77332230a4
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML/resolve/main/ggjtv3-model-q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn__pythia-deduped-410m-ggml__ggjtv3-model-q5_1.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    parameters:
+        model: ggjtv3-model-q5_1.bin
+  files:
+    - filename: ggjtv3-model-q5_1.bin
+      sha256: a5d0129120f695818158bc2cbb9be7d280dc28d04edce5187d584950e40e5233
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML/resolve/main/ggjtv3-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: xzuyn__pythia-deduped-410m-ggml__ggjtv3-model-q8_0.bin
+  urls:
+    - https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML
+  tags:
+    - gpt_neox
+  overrides:
+    parameters:
+        model: ggjtv3-model-q8_0.bin
+  files:
+    - filename: ggjtv3-model-q8_0.bin
+      sha256: 0837f2ceadc972111053af9e8e6e482c3254123bc3a5994ee2245c8f53faa696
+      uri: https://huggingface.co/xzuyn/Pythia-Deduped-410M-GGML/resolve/main/ggjtv3-model-q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: xzuyn__pythia-deduped-70m-ggml__ggjtv1-model-f16.bin
   urls:

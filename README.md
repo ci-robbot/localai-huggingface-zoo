@@ -16,7 +16,7 @@ you should be able to see then the huggingface models with:
 
 and install is something like:
 ```
-  curl http://localhost:8080/models/apply -H "Content-Type: application/json" -d '{ "id": "hugghingface@thebloke__open-llama-7b-open-instruct-ggml__open-llama-7b-open-instruct.ggmlv3.q4_0.bin" }'
+  curl http://localhost:8080/models/apply -H "Content-Type: application/json" -d '{ "id": "huggingface@thebloke__open-llama-7b-open-instruct-ggml__open-llama-7b-open-instruct.ggmlv3.q4_0.bin" }'
 ```
 
 To search something, you can use `jq`:

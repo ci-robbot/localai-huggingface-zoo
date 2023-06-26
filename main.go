@@ -284,4 +284,6 @@ func main() {
 		concurrency = parallelism
 	}
 	scrapeHuggingFace("TheBloke", concurrency)
+	scrapeHuggingFace("ggml", concurrency)
+
 }

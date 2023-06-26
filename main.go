@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"regexp"
+	"sort"
 	"strings"
 
 	. "github.com/go-skynet/LocalAI/pkg/gallery"
@@ -64,6 +65,20 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	dat, err := ioutil.ReadFile("index.yaml")
+	if err != nil {
+		log.Fatal(err)
+	}
+	currentGallery := []GalleryModel{}
+	currentGalleryMap := map[string]GalleryModel{}
+	err = yaml.Unmarshal(dat, &currentGallery)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for _, model := range currentGallery {
+		currentGalleryMap[model.Name] = model
+	}
 
 	gallery := []GalleryModel{}
 	// Step 2: Process each model and retrieve its files (siblings)
@@ -95,8 +110,7 @@ func main() {
 					break
 				}
 			}
-
-			gallery = append(gallery, GalleryModel{
+			currentGalleryMap[m.Filename] = GalleryModel{
 				Name:        m.Filename,
 				Description: model.ModelID,
 				URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
@@ -110,9 +124,33 @@ func main() {
 				AdditionalFiles: []File{m},
 				URL:             url,
 				Tags:            mm.Tags,
-			})
+			}
+
+			// gallery = append(gallery, GalleryModel{
+			// 	Name:        m.Filename,
+			// 	Description: model.ModelID,
+			// 	URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
+			// 	License:     mm.CardData.License,
+			// 	Icon:        "",
+			// 	Overrides: map[string]interface{}{
+			// 		"params": map[string]interface{}{
+			// 			"model": m.Filename,
+			// 		},
+			// 	},
+			// 	AdditionalFiles: []File{m},
+			// 	URL:             url,
+			// 	Tags:            mm.Tags,
+			// })
 			fmt.Println("Found", m)
 		}
+
+		for _, g := range currentGalleryMap {
+			gallery = append(gallery, g)
+		}
+
+		sort.Slice(gallery, func(i, j int) bool {
+			return gallery[i].Name < gallery[j].Name
+		})
 
 		// Step 5: Save the gallery
 		galleryYAML, err := yaml.Marshal(gallery)

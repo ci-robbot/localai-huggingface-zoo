@@ -1,5 +1,7 @@
 # localai-huggingface-zoo
 
+[LocalAI](https://github.com/go-skynet/LocalAI) model zoo
+
 you can try that out by passing this environment variable (master builds only):
 ```
   GALLERIES=[{"url": "github:ci-robbot/localai-huggingface-zoo/index.yaml","name":"huggingface"}]

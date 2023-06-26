@@ -108,11 +108,9 @@ func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 		shaURL := fmt.Sprintf("https://huggingface.co/%s/blob/main/%s", repository, sibling.RFileName)
 		sha, err := getSHA256(shaURL)
 		if err != nil {
-
-			fmt.Println("Failed to get etag", sibling.RFileName, err)
+			fmt.Println("Failed to get SHA for", sibling.RFileName, err)
 			continue
 		}
-
 		f = append(f, File{
 			Filename: sibling.RFileName,
 			SHA256:   sha,
@@ -144,18 +142,23 @@ func scrape(concurrency int, modelIDs []string) []GalleryModel {
 		close(uris)
 	}()
 
-	doneChan := make(chan bool)
+	doneChan := make(chan bool, 1)
 	go func() {
+		fmt.Println("getting models results")
 		for u := range models {
+			fmt.Println("appending", u.Name)
+
 			muLock.Lock()
 			currentGallery = append(currentGallery, u)
 			muLock.Unlock()
 		}
-		close(models)
 		doneChan <- true
 	}()
 
 	wg.Wait()
+	close(models)
+
+	fmt.Println("Waiting for models")
 	<-doneChan
 
 	return currentGallery

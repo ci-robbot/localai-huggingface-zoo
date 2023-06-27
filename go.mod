@@ -3,7 +3,7 @@ module github.com/ci-robbot/localai-huggingface-zoo
 go 1.20
 
 require (
-	github.com/go-skynet/LocalAI v1.19.3-0.20230626203403-e130b208abb1
+	github.com/go-skynet/LocalAI v1.19.3-0.20230627143102-d2cf1954fc9a
 	gopkg.in/yaml.v3 v3.0.1
 )
 

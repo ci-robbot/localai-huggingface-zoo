@@ -6,8 +6,8 @@ github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5 h1:iFaUwBSo5Svw6L
 github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5/go.mod h1:qssHWj60/X5sZFNxpG4HBPDHVqxNm4DfnCKgrbZOT+s=
 github.com/dsnet/golib v0.0.0-20171103203638-1ea166775780/go.mod h1:Lj+Z9rebOhdfkVLjJ8T6VcRQv3SXugXy999NBtR9aFY=
 github.com/go-logr/logr v1.2.4 h1:g01GSCwiDw2xSZfjJ2/T9M+S6pFdcNtFYsp+Y43HYDQ=
-github.com/go-skynet/LocalAI v1.19.3-0.20230627143102-d2cf1954fc9a h1:VtomY8gP2NLgdqK/Synj0+WOsSOfmDdkP/KyJeA3G7g=
-github.com/go-skynet/LocalAI v1.19.3-0.20230627143102-d2cf1954fc9a/go.mod h1:ycL33M9xmm4NKG9S3dF4XkaVTPWGChZZpA2GSlLhPt8=
+github.com/go-skynet/LocalAI v1.20.1-0.20230628173835-a06e467a1afc h1:tGlOWV6cy4ZHeJU9RtmOtL+m9cjdDQHZtTiwIogWT7U=
+github.com/go-skynet/LocalAI v1.20.1-0.20230628173835-a06e467a1afc/go.mod h1:RZEMel2KWQZh+C4FwNCNfZsNB1L+ktFrgmQ5bHMAYVM=
 github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 h1:tfuBGBXKqDEevZMzYi5KSi8KkcZtzBcTgAUUtapy0OI=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/golang/snappy v0.0.2 h1:aeE13tS0IiQgFjYdoL8qN3K1N2bXXtI6Vi51/y7BpMw=

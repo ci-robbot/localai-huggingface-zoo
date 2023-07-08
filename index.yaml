@@ -306,7 +306,7 @@
     - filename: ggml-ko-vicuna-7b-q8_0.bin
       sha256: 543c0339882529e0811c31db88445d178f2877581a2e123db618bc4046fc15c1
       uri: https://huggingface.co/amesianx/ko-vicuna-7b-ggml/resolve/main/ggml-ko-vicuna-7b-q8_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: amesianx__wizard-vicuna-13b-ggml__ggml-wizard-vicuna-13b-q4_0.bin
   license: other
   urls:
@@ -320,7 +320,7 @@
     - filename: ggml-wizard-vicuna-13b-q4_0.bin
       sha256: 55cf95bc74d71e47a066db9da0164ce59c8765172073358f59d7cc86566613ee
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q4_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: amesianx__wizard-vicuna-13b-ggml__ggml-wizard-vicuna-13b-q4_1.bin
   license: other
   urls:
@@ -348,7 +348,7 @@
     - filename: ggml-wizard-vicuna-13b-q4_2.bin
       sha256: 0666dc6ceca104fbef4bbc5537d4ad8bdb2b132cb417130d741ef93186ffc12f
       uri: https://huggingface.co/amesianx/wizard-vicuna-13b-ggml/resolve/main/ggml-wizard-vicuna-13b-q4_2.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: amesianx__wizard-vicuna-13b-ggml__ggml-wizard-vicuna-13b-q5_0.bin
   license: other
   urls:
@@ -24841,6 +24841,39 @@
       sha256: 32fa83f57778143d60fc0ac47e507d75949a3859be5bce09e6db8cb2c2195624
       uri: https://huggingface.co/TheBloke/BigTrans-13B-GGML/resolve/main/bigtrans-13b.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__bloomz-176b-ggml__bloomz-176b.ggmlv0.joinbeforeuse.split-a.q4_0.bin
+  urls:
+    - https://huggingface.co/TheBloke/bloomz-176B-GGML
+  overrides:
+    parameters:
+        model: bloomz-176B.ggmlv0.JOINBEFOREUSE.split-a.q4_0.bin
+  files:
+    - filename: bloomz-176B.ggmlv0.JOINBEFOREUSE.split-a.q4_0.bin
+      sha256: 007f83150226c589bee29a2117abf3ae73bd9bc9518ba2f908006f288550e656
+      uri: https://huggingface.co/TheBloke/bloomz-176B-GGML/resolve/main/bloomz-176B.ggmlv0.JOINBEFOREUSE.split-a.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__bloomz-176b-ggml__bloomz-176b.ggmlv0.joinbeforeuse.split-b.q4_0.bin
+  urls:
+    - https://huggingface.co/TheBloke/bloomz-176B-GGML
+  overrides:
+    parameters:
+        model: bloomz-176B.ggmlv0.JOINBEFOREUSE.split-b.q4_0.bin
+  files:
+    - filename: bloomz-176B.ggmlv0.JOINBEFOREUSE.split-b.q4_0.bin
+      sha256: 4d3191c88f8ab6cb99a80344d3d56f469d7cc594104756aacbb9b5b9fb8474db
+      uri: https://huggingface.co/TheBloke/bloomz-176B-GGML/resolve/main/bloomz-176B.ggmlv0.JOINBEFOREUSE.split-b.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__bloomz-176b-ggml__bloomz-176b.ggmlv0.joinbeforeuse.split-c.q4_0.bin
+  urls:
+    - https://huggingface.co/TheBloke/bloomz-176B-GGML
+  overrides:
+    parameters:
+        model: bloomz-176B.ggmlv0.JOINBEFOREUSE.split-c.q4_0.bin
+  files:
+    - filename: bloomz-176B.ggmlv0.JOINBEFOREUSE.split-c.q4_0.bin
+      sha256: 59e6c7b6c4a02e35280af75b714c5523a577cadd765e5a02a0c8e29f5bc68b94
+      uri: https://huggingface.co/TheBloke/bloomz-176B-GGML/resolve/main/bloomz-176B.ggmlv0.JOINBEFOREUSE.split-c.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__camel-13b-combined-data-ggml__camel-13b-combined.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -28110,6 +28143,126 @@
     - filename: falcon-40b-top1-560.ggccv1.q8_0.bin
       sha256: 34de4b61f0ce1f67880f13ff1cc9a01045610ee258487f3a1ce157e82ae2c951
       uri: https://huggingface.co/TheBloke/falcon-40b-sft-top1-560-GGML/resolve/main/falcon-40b-top1-560.ggccv1.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__falcon-7b-instruct-ggml__falcon-7b-instruct.ggccv1.q4_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/TheBloke/falcon-7b-instruct-GGML
+  tags:
+    - falcon
+    - en
+    - dataset:tiiuae/falcon-refinedweb
+    - arxiv:2205.14135
+    - arxiv:1911.02150
+    - arxiv:2005.14165
+    - arxiv:2104.09864
+    - arxiv:2306.01116
+    - transformers
+    - license:apache-2.0
+    - has_space
+  overrides:
+    parameters:
+        model: falcon-7b-instruct.ggccv1.q4_0.bin
+  files:
+    - filename: falcon-7b-instruct.ggccv1.q4_0.bin
+      sha256: 6a940331707a1cf765e03858a200df703796de9e1424c8e7d517d9a63781bc13
+      uri: https://huggingface.co/TheBloke/falcon-7b-instruct-GGML/resolve/main/falcon-7b-instruct.ggccv1.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__falcon-7b-instruct-ggml__falcon-7b-instruct.ggccv1.q4_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/TheBloke/falcon-7b-instruct-GGML
+  tags:
+    - falcon
+    - en
+    - dataset:tiiuae/falcon-refinedweb
+    - arxiv:2205.14135
+    - arxiv:1911.02150
+    - arxiv:2005.14165
+    - arxiv:2104.09864
+    - arxiv:2306.01116
+    - transformers
+    - license:apache-2.0
+    - has_space
+  overrides:
+    parameters:
+        model: falcon-7b-instruct.ggccv1.q4_1.bin
+  files:
+    - filename: falcon-7b-instruct.ggccv1.q4_1.bin
+      sha256: 13c8e199f616a01e8930c740bf42a0e2c60ccdd1e54b1e4ab0f7821beb2dbbd8
+      uri: https://huggingface.co/TheBloke/falcon-7b-instruct-GGML/resolve/main/falcon-7b-instruct.ggccv1.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__falcon-7b-instruct-ggml__falcon-7b-instruct.ggccv1.q5_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/TheBloke/falcon-7b-instruct-GGML
+  tags:
+    - falcon
+    - en
+    - dataset:tiiuae/falcon-refinedweb
+    - arxiv:2205.14135
+    - arxiv:1911.02150
+    - arxiv:2005.14165
+    - arxiv:2104.09864
+    - arxiv:2306.01116
+    - transformers
+    - license:apache-2.0
+    - has_space
+  overrides:
+    parameters:
+        model: falcon-7b-instruct.ggccv1.q5_0.bin
+  files:
+    - filename: falcon-7b-instruct.ggccv1.q5_0.bin
+      sha256: ff021bc8c0fdf6d1e0c396d9496cff7a1af923c60502f36f1a294d20e9c96d77
+      uri: https://huggingface.co/TheBloke/falcon-7b-instruct-GGML/resolve/main/falcon-7b-instruct.ggccv1.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__falcon-7b-instruct-ggml__falcon-7b-instruct.ggccv1.q5_1.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/TheBloke/falcon-7b-instruct-GGML
+  tags:
+    - falcon
+    - en
+    - dataset:tiiuae/falcon-refinedweb
+    - arxiv:2205.14135
+    - arxiv:1911.02150
+    - arxiv:2005.14165
+    - arxiv:2104.09864
+    - arxiv:2306.01116
+    - transformers
+    - license:apache-2.0
+    - has_space
+  overrides:
+    parameters:
+        model: falcon-7b-instruct.ggccv1.q5_1.bin
+  files:
+    - filename: falcon-7b-instruct.ggccv1.q5_1.bin
+      sha256: 3d97b78bdcb1093013d3e8a7992798cd9828cb550d12b8c298bca9685838d7c4
+      uri: https://huggingface.co/TheBloke/falcon-7b-instruct-GGML/resolve/main/falcon-7b-instruct.ggccv1.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__falcon-7b-instruct-ggml__falcon-7b-instruct.ggccv1.q8_0.bin
+  license: apache-2.0
+  urls:
+    - https://huggingface.co/TheBloke/falcon-7b-instruct-GGML
+  tags:
+    - falcon
+    - en
+    - dataset:tiiuae/falcon-refinedweb
+    - arxiv:2205.14135
+    - arxiv:1911.02150
+    - arxiv:2005.14165
+    - arxiv:2104.09864
+    - arxiv:2306.01116
+    - transformers
+    - license:apache-2.0
+    - has_space
+  overrides:
+    parameters:
+        model: falcon-7b-instruct.ggccv1.q8_0.bin
+  files:
+    - filename: falcon-7b-instruct.ggccv1.q8_0.bin
+      sha256: ffd799c467a43e3b7fb2fa944215e3c39f4fc2ec4bc5c96ab713cdcf4de3f2a2
+      uri: https://huggingface.co/TheBloke/falcon-7b-instruct-GGML/resolve/main/falcon-7b-instruct.ggccv1.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__falcon-7b-instruct-ggml__falcon-7b-instruct.ggmlv3.q4_0.bin
   license: other
@@ -31747,6 +31900,76 @@
       sha256: e0e3daf7b35e89e6e1de21b3b5a6d202fe7ccf6b799033ebe991867f037c4336
       uri: https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-40b-v2-GGML/resolve/main/h2ogpt-falcon-40b.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-ggml__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML
+  tags:
+    - license:other
+  overrides:
+    parameters:
+        model: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_0.bin
+  files:
+    - filename: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_0.bin
+      sha256: 4bae5f5c2370d0924d6e032648a0df5aff4e5b6dabdeeb217f89c1714baf7084
+      uri: https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML/resolve/main/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-ggml__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML
+  tags:
+    - license:other
+  overrides:
+    parameters:
+        model: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_1.bin
+  files:
+    - filename: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_1.bin
+      sha256: c006d27f7592e0595fa84fe2b67734030a4791089b53f90c88b49d96f41d5359
+      uri: https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML/resolve/main/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-ggml__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML
+  tags:
+    - license:other
+  overrides:
+    parameters:
+        model: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_0.bin
+  files:
+    - filename: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_0.bin
+      sha256: 4d9b7202e6afc6735a3002535bf11cbf5a8f67d3841cfce6938a159ea49fac2f
+      uri: https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML/resolve/main/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-ggml__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML
+  tags:
+    - license:other
+  overrides:
+    parameters:
+        model: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_1.bin
+  files:
+    - filename: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_1.bin
+      sha256: 65ad15634c4b03a37ff262bbae611e2a07758b31e7fcd2acc0f9cf4cd00d5a51
+      uri: https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML/resolve/main/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-ggml__h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML
+  tags:
+    - license:other
+  overrides:
+    parameters:
+        model: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q8_0.bin
+  files:
+    - filename: h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q8_0.bin
+      sha256: 37c0ee9b0cdbb7592e1aa3311d7ecfb3631f1999d7ac78f21a730f5c7384f69f
+      uri: https://huggingface.co/TheBloke/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2-GGML/resolve/main/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2.ggccv1.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__h2ogpt-oasst1-512-30b-ggml__h2ogptq-oasst1-512-30b.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -35024,7 +35247,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q2_K.bin
       sha256: 392b8f3e58ef43a3639de8fcfed90aeb7de0b5c4b32d21c9b8f45297aedbf310
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/manticore.yaml
+- url: github:go-skynet/model-gallery/guanaco.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -35038,7 +35261,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_L.bin
       sha256: 0f36ae45fddc34a353a96ccafb133ac1c920962d759098257830f94c4f55fe5c
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/manticore.yaml
+- url: github:go-skynet/model-gallery/guanaco.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -35080,7 +35303,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q4_K_M.bin
       sha256: 72cf827525d738fe67d55a1bc76ceb23c62408f10c37b4abca00cbf92d44e6d7
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/manticore.yaml
+- url: github:go-skynet/model-gallery/guanaco.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -35094,7 +35317,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q4_K_S.bin
       sha256: e5f2ce29eda093ec9d88154f494d46116780a3641a40f513a3b7bd122b06d14e
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/manticore.yaml
+- url: github:go-skynet/model-gallery/guanaco.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -49664,7 +49887,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q3_K_L.bin
       sha256: 39b9e977a7e4f006b6c54ec160b33a794fffeb720cd3fa637c19a80ca7174a83
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -49679,7 +49902,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q3_K_M.bin
       sha256: 9f4b502562f9b79b8de9b43f776f213e3f3c2492f08846f8a04814d91c3c5c29
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -49694,7 +49917,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q3_K_S.bin
       sha256: 13cf5da0f2939d924c44dfe09cf3e2e874cf350e15a2ea81266fc56abed56695
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -49724,7 +49947,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_1.bin
       sha256: 27e5af7dd10e48a9e7d842c28b058119894fdc0f7855cc74b3f9f674b0d8fbb1
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_1.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -49739,7 +49962,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_K_M.bin
       sha256: bb8494a25acec7b7917303f6db0fc0fdf551fe1d2974e4a356719aba83b0c661
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -49754,7 +49977,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_K_S.bin
       sha256: c3a0255b7f2d00107aa1f78614fe5575759bb1d6622d81b55f6d9b6e2a333033
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -49769,7 +49992,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_0.bin
       sha256: b9e3378a033ec0b470c391097b6e3b697c978360c5e542bd641590ef49f02106
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -49799,7 +50022,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_K_M.bin
       sha256: 58ceeded14cccffdf145b652a1b980ac5c8c179e2cf054c1ac211a52d4b32866
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -49844,7 +50067,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q8_0.bin
       sha256: 0e00c89a1cb8ba053358c1ea50508a8e0d404895e780302c6686ad7f6e2d84db
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -49858,7 +50081,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q2_K.bin
       sha256: 52591665f90ba5a3948157db8c9b3b0bac2a431f58a9c548dd2a39a7206f8fe2
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -49872,7 +50095,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_L.bin
       sha256: 3154b8ed00ea9e0185942c65da2adc933f3920ffc5365ebdc021e83e520d2183
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -49900,7 +50123,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_S.bin
       sha256: 34c1abf5e73c32f2582514319b8bb57ec32186cce48818b1944393903e3dbb02
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -49914,7 +50137,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q4_K_M.bin
       sha256: c5164befd3484bd01b845234422a0a562c2b9a6d66a7d571ac08b12cc9fe71f0
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -49928,7 +50151,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q4_K_S.bin
       sha256: 1599f83f9d53bb05c2d35f83a228590a927241a465b752690e8d996115b325d5
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -49970,7 +50193,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q6_K.bin
       sha256: fc3043feefa806326223955a5c248b815e18c8bd5078449dc8c17cc98c88c4e5
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -49985,7 +50208,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q2_K.bin
       sha256: e212aa8c1e2aa7d7f8af01277014257ce8a527b2cd02cda63b31f42334b3fa0b
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -50000,7 +50223,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_L.bin
       sha256: ebbdcb1859670ce1bfaad69654ead893d105ba5b005fcc9981c906345e75d7cf
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -50015,7 +50238,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: df739fe44b0356c53e4b1aa5f423c4120082b9dba27e81f469f4ecc82e86eecd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -50045,7 +50268,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1f08b147a5bce41cfcbb3fd5d51ba765dea1786e15b5655ab69ba3a337a893b7
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -50060,7 +50283,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_1.bin
       sha256: 76d447846d93cbf1171e24950f0b396fbfd3ec29d5811097df0d76684fe51f73
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -50120,7 +50343,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_1.bin
       sha256: 0c358effc375d67d798b001fcb36ce8739b086197795bc2bf7efa866d288bdae
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -50150,7 +50373,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
       sha256: 7c4d55f15e0da72646fd528f52d79afbfce5f4db307e089e112b08e08c84320a
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -50180,7 +50403,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin
       sha256: 76bea6b983f79a4dda3228a9d29760103ae0a8d3970eb5cd4239722ea86ed809
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -50194,7 +50417,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q2_K.bin
       sha256: 3c68ef69f7b9d2eb084e03c8564951d7d0f2558e1a23ce572a57399c210edc94
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -50222,7 +50445,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_K_M.bin
       sha256: 558f981cbe04002988d4db7eedddff4d0e9217e6e1553f34b2d1ef75e50b7b57
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -50236,7 +50459,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_K_S.bin
       sha256: 4a75581273d2d1f5fd90b5d09c154e7c42afa964143f1039a58062cf7cddb33e
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -50250,7 +50473,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_K_M.bin
       sha256: f285a702523e35337ff8a2db9d1464582f67d6c19f0998c81da34435ac0d2b7e
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -50264,7 +50487,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_K_S.bin
       sha256: de3f16b4eb768734a7e272dcc8e6cb242b9db5809c8f725e9367f75008add466
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -50278,7 +50501,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q5_K_M.bin
       sha256: cdacd6f37de54e7f0133177871266388c20326479b83fae95f7246dd02caeab0
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -50376,7 +50599,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1a493c051bbe272d95d7db3bd5747f02e6a6e8c96de24fd863b4cf9b53b63637
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -50418,7 +50641,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: 7f820ce130bf8f8ff80a7d0f7d6755b9e2b3d6770a9314610efec47b75fd2f62
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -50432,7 +50655,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_0.bin
       sha256: afec38087f503fa404f2629b71ea22b9a17f59b8a5e1fbca6378cb25de441eef
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -50460,7 +50683,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: 60b40922a954486d5ddf7b046f746ba406a7d260156d42b512e0c002cb1c1336
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -50488,7 +50711,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q6_K.bin
       sha256: 01f0a6d75935e257d6ba0d0adae4c117bbfded0a5a125e0608db5740ee89a37c
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q8_0.bin
   license: other
   urls:
@@ -50509,6 +50732,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q2_K.bin
@@ -50523,6 +50747,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_L.bin
@@ -50537,6 +50762,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
@@ -50551,6 +50777,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
@@ -50565,6 +50792,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_0.bin
@@ -50579,6 +50807,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
@@ -50586,13 +50815,14 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
       sha256: 84779e2b9beeacd3a049561202c001d3f254050065a873326518eb225bfdd024
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q4_k_m.bin
   license: other
   urls:
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_M.bin
@@ -50600,13 +50830,14 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 06596a2057660074407bd519c82d2697b26966ebef10fbec95aad0881e7237ca
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q4_k_s.bin
   license: other
   urls:
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_S.bin
@@ -50621,6 +50852,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_0.bin
@@ -50628,13 +50860,14 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_0.bin
       sha256: 501eefd9f4063c92356519411aa2f93d8f023d2157a3a0538044ec6765a8c338
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q5_1.bin
   license: other
   urls:
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_1.bin
@@ -50649,6 +50882,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_M.bin
@@ -50656,13 +50890,14 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: 3807faf5a8aad1cbf23af9630e1c43d36dca19c7b09352ae7c00e948dcb17ecc
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q5_k_s.bin
   license: other
   urls:
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
@@ -50670,13 +50905,14 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
       sha256: eda4e45bf5142661e73280012f416de68288f142ae03e1fe508003ef1f4b21af
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q6_k.bin
   license: other
   urls:
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q6_K.bin
@@ -50691,6 +50927,7 @@
     - https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML
   tags:
     - license:other
+    - has_space
   overrides:
     parameters:
         model: Wizard-Vicuna-7B-Uncensored.ggmlv3.q8_0.bin
@@ -50698,7 +50935,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q8_0.bin
       sha256: e47a2370e0e8ac1d0ac05b9b8a015278874541a349169dad04766f95c05c2020
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-superhot-8k-ggml__wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -50782,7 +51019,7 @@
     - filename: wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q4_K_S.bin
       sha256: 978cd3f83213899e23179f0b24a353b035dc590ee197e6e8b79caaa44db6103d
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-superhot-8k-ggml__wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -53596,6 +53833,86 @@
     - filename: wizard-falcon-7b.ggmlv3.q8_0.bin
       sha256: 0fa6fcefa92c16679257d3070ac469a3a4051dbb1c704f1ae121026c0e4e571d
       uri: https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizard-falcon-7b.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-uncensored-falcon-7b-ggml__wizardlm-7b-uncensored.ggccv1.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML
+  tags:
+    - falcon
+    - transformers
+    - license:other
+  overrides:
+    parameters:
+        model: wizardlm-7b-uncensored.ggccv1.q4_0.bin
+  files:
+    - filename: wizardlm-7b-uncensored.ggccv1.q4_0.bin
+      sha256: 7ceb65701288032650fffd60663a2d08b6dd7130ef13964a3a7ddd04d8811a08
+      uri: https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizardlm-7b-uncensored.ggccv1.q4_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-uncensored-falcon-7b-ggml__wizardlm-7b-uncensored.ggccv1.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML
+  tags:
+    - falcon
+    - transformers
+    - license:other
+  overrides:
+    parameters:
+        model: wizardlm-7b-uncensored.ggccv1.q4_1.bin
+  files:
+    - filename: wizardlm-7b-uncensored.ggccv1.q4_1.bin
+      sha256: 3cbbee3b69abaa933e9c96ef6e4b558fd85ac012f02a7a6fbec034ad2d2172a6
+      uri: https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizardlm-7b-uncensored.ggccv1.q4_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-uncensored-falcon-7b-ggml__wizardlm-7b-uncensored.ggccv1.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML
+  tags:
+    - falcon
+    - transformers
+    - license:other
+  overrides:
+    parameters:
+        model: wizardlm-7b-uncensored.ggccv1.q5_0.bin
+  files:
+    - filename: wizardlm-7b-uncensored.ggccv1.q5_0.bin
+      sha256: 0e5dab12d20998cc2f10a0c7c3fdb5bd51b8b4a47ed114240755fc197b23209b
+      uri: https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizardlm-7b-uncensored.ggccv1.q5_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-uncensored-falcon-7b-ggml__wizardlm-7b-uncensored.ggccv1.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML
+  tags:
+    - falcon
+    - transformers
+    - license:other
+  overrides:
+    parameters:
+        model: wizardlm-7b-uncensored.ggccv1.q5_1.bin
+  files:
+    - filename: wizardlm-7b-uncensored.ggccv1.q5_1.bin
+      sha256: e84769c8beb3911105f743173d4b99f7cf475bb316cdc02875a6cd1e16c77524
+      uri: https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizardlm-7b-uncensored.ggccv1.q5_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-uncensored-falcon-7b-ggml__wizardlm-7b-uncensored.ggccv1.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML
+  tags:
+    - falcon
+    - transformers
+    - license:other
+  overrides:
+    parameters:
+        model: wizardlm-7b-uncensored.ggccv1.q8_0.bin
+  files:
+    - filename: wizardlm-7b-uncensored.ggccv1.q8_0.bin
+      sha256: 8b48cea8251c819f06178b4276b8d3cae5c07488f278e0e9f56cf447c88f760e
+      uri: https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizardlm-7b-uncensored.ggccv1.q8_0.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizardlm-uncensored-supercot-storytelling-30b-ggml__wizardlm-uncensored-supercot-storytelling.ggmlv3.q2_k.bin
   license: other

@@ -3,7 +3,7 @@ module github.com/ci-robbot/localai-huggingface-zoo
 go 1.20
 
 require (
-	github.com/go-skynet/LocalAI v1.20.2-0.20230709145556-a84dee1be10c
+	github.com/go-skynet/LocalAI v1.20.2-0.20230715141613-3c3a9b765af6
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -14,6 +14,7 @@ require (
 	github.com/imdario/mergo v0.3.16 // indirect
 	github.com/klauspost/compress v1.16.3 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/mholt/archiver/v3 v3.5.1 // indirect

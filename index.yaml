@@ -3615,6 +3615,916 @@
     - filename: WizardLM-30b-ggmlv3-q4_K_M.bin
       sha256: b2f2338d182e15453d9fd76f87639243118efb0e87cb3af49155a70801bc1cda
       uri: https://huggingface.co/dareposte/WizardLM-30b-V1.0-ggml/resolve/main/WizardLM-30b-ggmlv3-q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_0.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_0.bin
+  files:
+    - filename: params_shard_0.bin
+      sha256: 71f29b3030ee8701ff762170762294ed347af2b2772c3c02b3018d88b2bc5bc4
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_1.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_1.bin
+  files:
+    - filename: params_shard_1.bin
+      sha256: 23b7308bc0b932f1a9e583220ca2889913862b218820c0d6a29fb5a683b5270a
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_10.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_10.bin
+  files:
+    - filename: params_shard_10.bin
+      sha256: 4a03e2d6117b56028c0a553838dc82c6818ddd630cf60f9f8d70680aaa3f12e2
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_10.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_11.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_11.bin
+  files:
+    - filename: params_shard_11.bin
+      sha256: 608dfb8142e3e886c26605e8ff34e21a406529ece1fa380a3d77212e7b17d661
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_11.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_12.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_12.bin
+  files:
+    - filename: params_shard_12.bin
+      sha256: 3289d2351bd0d2cd161b2e3b7f3bcf443b9d0d993768af7d4ab8801f7d954b16
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_12.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_13.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_13.bin
+  files:
+    - filename: params_shard_13.bin
+      sha256: fa748b29553847ac437bbcefd78643689b17fdde3e0c6a62dd099916b7ec3730
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_13.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_14.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_14.bin
+  files:
+    - filename: params_shard_14.bin
+      sha256: 7564f2c75d41027488f7703d2e634badb8f4d22eebbec345b1993374b131a92b
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_14.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_15.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_15.bin
+  files:
+    - filename: params_shard_15.bin
+      sha256: 3de4bb8ae6cd2e898d620081c477e0fbf6621567db7a1b9a1e188df4d502650e
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_15.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_16.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_16.bin
+  files:
+    - filename: params_shard_16.bin
+      sha256: 62795b7645d414594b3106b4728436af76d7c4d28f8dec93d5e60bdc8e751766
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_16.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_17.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_17.bin
+  files:
+    - filename: params_shard_17.bin
+      sha256: d942efff7f5d7027e9f223b82c153e07b57f760ac195078bde5e7be6629f7752
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_17.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_18.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_18.bin
+  files:
+    - filename: params_shard_18.bin
+      sha256: c0808a39e74ffb6d650b715a7be7a1f2c4e23b5aa50c10cc40b261e4240ff280
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_18.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_19.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_19.bin
+  files:
+    - filename: params_shard_19.bin
+      sha256: df97acf92490a12bfece2d57bdce897a20c3b4a7096ab7d50f664fb52b9086ef
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_19.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_2.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_2.bin
+  files:
+    - filename: params_shard_2.bin
+      sha256: 7febc84862cbef591ad9c758eb0d3e66bb1cbac05dce23d58fc9a90178db8823
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_2.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_20.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_20.bin
+  files:
+    - filename: params_shard_20.bin
+      sha256: 14644ed4a4c2d0f994db466fc46c8483418afceec95337023a21106b89d789ee
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_20.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_21.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_21.bin
+  files:
+    - filename: params_shard_21.bin
+      sha256: 923d1b45f678d682361d2c7267492339583cb3988a6ced729a1e6b4ea8390f0f
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_21.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_22.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_22.bin
+  files:
+    - filename: params_shard_22.bin
+      sha256: 81e628e2590920d4dee97bc90ff600a19e11ccbb0e8e26514321670332cc2bac
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_22.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_23.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_23.bin
+  files:
+    - filename: params_shard_23.bin
+      sha256: c028e1a142bc1c753c12c0b6b77de0fbaa469f087eaa4d9ab858b6f7fe7836f1
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_23.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_24.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_24.bin
+  files:
+    - filename: params_shard_24.bin
+      sha256: 0ddf8c89ec22b7e7e48936472013f7aee4293f0b1eb64235067a7b40d136c814
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_24.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_25.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_25.bin
+  files:
+    - filename: params_shard_25.bin
+      sha256: f3ac2bc2ed1ed494c6519f8ec98498b8618ec9d765a75136acdb69faaab7c1ad
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_25.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_26.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_26.bin
+  files:
+    - filename: params_shard_26.bin
+      sha256: d67c0262361fb3cd960811c56f7dd98c9e7a5cc2508304b4faa63c12932ec3f6
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_26.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_27.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_27.bin
+  files:
+    - filename: params_shard_27.bin
+      sha256: ddcbd3b082dc4110cffde2e772c2774c72f969f812d2696024e1a939e6c19ec3
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_27.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_28.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_28.bin
+  files:
+    - filename: params_shard_28.bin
+      sha256: 730c2f2c672653031dff7d4e628341cbc1736166c965fb729f994ee4d52cd343
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_28.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_29.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_29.bin
+  files:
+    - filename: params_shard_29.bin
+      sha256: 8ad00fb3ae20ac576f344dd2b57fce935b29cd2e2b2d74283ff7722f6f579869
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_29.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_3.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_3.bin
+  files:
+    - filename: params_shard_3.bin
+      sha256: d1fca92f4f445921ce0ee211ff043745bea6ff955a8e41552bebeebf4cc427e3
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_3.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_30.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_30.bin
+  files:
+    - filename: params_shard_30.bin
+      sha256: 5c1582c17e3f82a613222c5792418a828dec2860bb3a58b7f3e48202a718092c
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_30.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_31.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_31.bin
+  files:
+    - filename: params_shard_31.bin
+      sha256: b11c4aa441d5964eb8124384326e853d7ac1ba445755af1b54b901395ec9c77e
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_31.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_32.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_32.bin
+  files:
+    - filename: params_shard_32.bin
+      sha256: 47c435e65876cedba29d86092e7d3ab01e45fbee7ca97d8be8794ed56ad4144d
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_32.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_33.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_33.bin
+  files:
+    - filename: params_shard_33.bin
+      sha256: 506cca07fb5b017bc584f487014b841e0c06dbdea76f2bc19ce67b340e56fb2d
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_33.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_34.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_34.bin
+  files:
+    - filename: params_shard_34.bin
+      sha256: 2237db753d102d445a3ef6e377b7060e8ba3df04b03ef06479ff2527c6235732
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_34.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_35.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_35.bin
+  files:
+    - filename: params_shard_35.bin
+      sha256: b318ddc8df9e5ecc4f5b52fdc067e38c6ffc11303c984706dcc2868bef19fe64
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_35.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_36.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_36.bin
+  files:
+    - filename: params_shard_36.bin
+      sha256: ac44fa0b1e0b5f29a6ff35223c1a9a5d8f8d72961edaa43fe5cca0e092d2cad8
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_36.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_37.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_37.bin
+  files:
+    - filename: params_shard_37.bin
+      sha256: 301250281fa16e1195a80d407d20e7dab47f8b65034d88718942cbb909f2f5f8
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_37.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_38.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_38.bin
+  files:
+    - filename: params_shard_38.bin
+      sha256: cd03d04c774608004e6cb23c8c65c04b1a95bf872d79ea63039cbe582b6cb6bb
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_38.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_39.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_39.bin
+  files:
+    - filename: params_shard_39.bin
+      sha256: 41710c8b047a56b6fab0228dacd591e68a8efbdfc73b92bceaf39ea2f951b243
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_39.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_4.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_4.bin
+  files:
+    - filename: params_shard_4.bin
+      sha256: 83e822bb3e409fd54a2ee50c7064f5eb1246785eaa3fde3d3d96d46b1dca642c
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_4.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_40.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_40.bin
+  files:
+    - filename: params_shard_40.bin
+      sha256: efa3944966474987f3739c190329f4baf8246224a7925f90c57fafe53cc11fcb
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_40.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_41.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_41.bin
+  files:
+    - filename: params_shard_41.bin
+      sha256: 12b24c2827af728a099925309b2ebeb7a2f73dab5bb15d8c0dd6bddf54c3808f
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_41.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_42.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_42.bin
+  files:
+    - filename: params_shard_42.bin
+      sha256: e6c28be1cf8bc6e2335c2755d2cab6d7cd90254c09409c3cebead09bd8b7fdc3
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_42.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_43.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_43.bin
+  files:
+    - filename: params_shard_43.bin
+      sha256: 7fbc693011f0a345dcd8e67d164812958d12b012e3aa883e1bd9451f56d3abae
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_43.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_44.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_44.bin
+  files:
+    - filename: params_shard_44.bin
+      sha256: 6c230c98e2c48f62d8ce070c1f476129547d0fea643279efcf8c9524e7008940
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_44.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_45.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_45.bin
+  files:
+    - filename: params_shard_45.bin
+      sha256: 1a14f95a89664df8898f3d2ab8e70e66c332bef39e79d961989b4c27e7e16ca3
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_45.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_46.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_46.bin
+  files:
+    - filename: params_shard_46.bin
+      sha256: 951cc513640bbee45b7ca8bc2196c7290c3fb9ec03d966e1770cdbe5c50bfac4
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_46.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_47.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_47.bin
+  files:
+    - filename: params_shard_47.bin
+      sha256: 7ca05c25740acb02a0e3a428805cb5ea2fc8a23a7310993a446dc058327279ba
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_47.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_48.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_48.bin
+  files:
+    - filename: params_shard_48.bin
+      sha256: 688a5364ce39da5ecfbaf22c298b628a16d5a74e06bd77b2e1e4979e4cd86441
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_48.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_49.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_49.bin
+  files:
+    - filename: params_shard_49.bin
+      sha256: f9112853d944b293af5c5565a10aff0a6b978da35a2df026c9249b6d8b2bbe5b
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_49.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_5.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_5.bin
+  files:
+    - filename: params_shard_5.bin
+      sha256: 277a8da5575b7a683dc7a52f0c44da558e0aa5c9ddb5024820165681040fa48b
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_5.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_50.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_50.bin
+  files:
+    - filename: params_shard_50.bin
+      sha256: 15467d7052d8d103a5959f227d9522a04c5efee180ff26090fd78d3458742f47
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_50.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_51.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_51.bin
+  files:
+    - filename: params_shard_51.bin
+      sha256: b7f935fb29976246bff76c29d25471e15cdd19fa2b915b5c8c2539fe5723483e
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_51.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_52.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_52.bin
+  files:
+    - filename: params_shard_52.bin
+      sha256: 71109c2a4eb4bb18f20b5ca37fec0ea691d1eb8b233869cc0f43a5fcc88b0680
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_52.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_53.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_53.bin
+  files:
+    - filename: params_shard_53.bin
+      sha256: 28d005a6df739e55f98e166b22d867772593b4705eca6d66a7b9417f9c2b3fd4
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_53.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_54.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_54.bin
+  files:
+    - filename: params_shard_54.bin
+      sha256: 7cfb0ccd6ba3742fccc51a163d130e1a0f39053d325a6e7930b66c30d8afbd76
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_54.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_55.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_55.bin
+  files:
+    - filename: params_shard_55.bin
+      sha256: 2f7ac23d044896847256f10f5b9e0391a6cf88f531b6c704a9957336fd0c83a8
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_55.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_56.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_56.bin
+  files:
+    - filename: params_shard_56.bin
+      sha256: a455808383e06a5061427d42eb390f4ad1ba667590916b0240c472339038d54d
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_56.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_57.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_57.bin
+  files:
+    - filename: params_shard_57.bin
+      sha256: 828f3ccd8342a1b68dea969b0f6d99b9af895e7c489a1640da2f0a9a7730596e
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_57.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_58.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_58.bin
+  files:
+    - filename: params_shard_58.bin
+      sha256: 4af98261fb2447dff41efe3bef86760c06aa9cc4f838db9ecd79dfb64ce85e0c
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_58.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_59.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_59.bin
+  files:
+    - filename: params_shard_59.bin
+      sha256: 842070389b67a58f4912d22d62c97baabccd6e846b22a336fe49d5ea914706cb
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_59.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_6.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_6.bin
+  files:
+    - filename: params_shard_6.bin
+      sha256: f60a0da182349ac82ea90dc9e8540ac8359fe71574dd450a5153c41f0deb1b2c
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_6.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_60.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_60.bin
+  files:
+    - filename: params_shard_60.bin
+      sha256: 5fd675c706d4f3d980b214d9ce20a5b75de3f334f9fb281777859e7b570ecc3d
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_60.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_61.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_61.bin
+  files:
+    - filename: params_shard_61.bin
+      sha256: 5870d637952bc3ba04d261a59e6431d70acee085101b798f2715adba094f1593
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_61.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_62.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_62.bin
+  files:
+    - filename: params_shard_62.bin
+      sha256: f0d0e016498b2cb561e8ff72124e84fbf06dfd6d86afd80715eac93581ac59ec
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_62.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_63.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_63.bin
+  files:
+    - filename: params_shard_63.bin
+      sha256: 6546424a4922b5a3f46e574f1352a26e98a9e69b55da86e981198597c95d2d68
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_63.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_64.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_64.bin
+  files:
+    - filename: params_shard_64.bin
+      sha256: d7774478cdec5a3f16f873ef84e510f88e576cc64eac9943784eb5b5d70872b6
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_64.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_65.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_65.bin
+  files:
+    - filename: params_shard_65.bin
+      sha256: a986eb4dbf77c888803dbbd439031218609b9e28517172d4839f68e74032f972
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_65.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_66.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_66.bin
+  files:
+    - filename: params_shard_66.bin
+      sha256: c9b2f6806d8be7a65061e2a2ab2f3b602ffc8c98eedcd8c087a22c10cf0e0e2f
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_66.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_67.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_67.bin
+  files:
+    - filename: params_shard_67.bin
+      sha256: 2cbad25c62c1d3e79f229b0018489ceaf7281ead5d8272da4961f8e1b34e8273
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_67.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_68.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_68.bin
+  files:
+    - filename: params_shard_68.bin
+      sha256: 1c18d41b8c52ab28ab25e67fc50c8cfd09f478177c4507819bfda7c748e63037
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_68.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_69.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_69.bin
+  files:
+    - filename: params_shard_69.bin
+      sha256: 36f4724ae168ee5dc29955ff764b9028ad48d93232eeeb6fe0d4a658bcf08356
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_69.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_7.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_7.bin
+  files:
+    - filename: params_shard_7.bin
+      sha256: 197f9c126b9800a1c9bddcf9cb038e6339597de3be7bbcbc4ae4d1d853454806
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_7.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_70.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_70.bin
+  files:
+    - filename: params_shard_70.bin
+      sha256: 430b0960a6a8abc697e0c741b933364a7b23f478d3e1ed220821e9ca4772c232
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_70.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: davidsharma__thebloke_llama-2-7b-fp16_q3f16_1__params_shard_71.bin
+  urls:
+    - https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1
+  tags:
+    - region:us
+  overrides:
+    parameters:
+        model: params_shard_71.bin
+  files:
+    - filename: params_shard_71.bin
+      sha256: 0dc80a1693b20e21db16a6b5f4b8f18a52062186ad80866cdc863e729f789b2a
+      uri: https://huggingface.co/DavidSharma/TheBloke_Llama-2-7B-fp16_q3f16_1/resolve/main/params_shard_71.bin
 - url: github:go-skynet/model-gallery/hypermantis.yaml
   name: digitous__13b-hypermantis_ggml__ggmlv2-model-q5_1.bin
   urls:
@@ -34971,6 +35881,46 @@
       sha256: d7f09a244a6862dd5b28387992c4760b4f44d1cdd14d583d49eaede3c4bbca89
       uri: https://huggingface.co/TheBloke/Camel-Platypus2-70B-GGML/resolve/main/camel-platypus2-70b.ggmlv3.q5_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__camel-platypus2-70b-ggml__camel-platypus2-70b.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Camel-Platypus2-70B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: camel-platypus2-70b.ggmlv3.q5_K_M.bin
+  files:
+    - filename: camel-platypus2-70b.ggmlv3.q5_K_M.bin
+      sha256: a780175b109a363918aefcd75ae46bd7b5cbd96912b7ff0cd8779d5d6fe7c4a2
+      uri: https://huggingface.co/TheBloke/Camel-Platypus2-70B-GGML/resolve/main/camel-platypus2-70b.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__camel-platypus2-70b-ggml__camel-platypus2-70b.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Camel-Platypus2-70B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: camel-platypus2-70b.ggmlv3.q5_K_S.bin
+  files:
+    - filename: camel-platypus2-70b.ggmlv3.q5_K_S.bin
+      sha256: b5f0f45ab28e5be8dda37be3b55ede2db5a0e6402c90130c33eacf6b66b3b5e5
+      uri: https://huggingface.co/TheBloke/Camel-Platypus2-70B-GGML/resolve/main/camel-platypus2-70b.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__cassandra-6.9b-ggml__cassandra-6.9b.ggmlv0.q4_0.bin
   license: other
   urls:
@@ -38286,6 +39236,314 @@
       sha256: e6842bcb751ae4a95fda97d8c2f7d094e95ef96b6d4264255576a5afe049a5ea
       uri: https://huggingface.co/TheBloke/chronos-wizardlm-uc-scot-st-13B-GGML/resolve/main/chronos-wizardlm-uc-scot-st-13B.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q2_K.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q2_K.bin
+      sha256: 44b541ae1717503072e1dd341a1f7c1de81b7ffcfe75ecd952fa2fdf02f74880
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q3_K_L.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q3_K_L.bin
+      sha256: c741d015435d9c88675f74bb15f1b5d091a13265940730e2fc6ee4f9bf654547
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q3_K_M.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q3_K_M.bin
+      sha256: d4542084b9b071f2c86b9924cb731f9981c6e73c44d223c81668182a5afa0333
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q3_K_S.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q3_K_S.bin
+      sha256: c266d30df4c4ac746b6d0e23fe8c3ea02fb17799ec6ebc0cff96b6a4b956bf0c
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q4_0.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q4_0.bin
+      sha256: a7356fa9c03a3a23a7757c79beb726eb95fd4d300b69c195624018bc1cb5a070
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q4_1.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q4_1.bin
+      sha256: 7d732700c02dcec4df853f319de1314bfca810e2292a65f5cfa1860996d7fced
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q4_K_M.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q4_K_M.bin
+      sha256: 1c6bd5bf0a98c3b25564855410e702717f2bb19aeb052db7135be511c1278c38
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q4_K_S.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q4_K_S.bin
+      sha256: df5eb630834bd427d9d709db4427f05bfcb1514e451a36ade64e610cb134e0ad
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q5_0.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q5_0.bin
+      sha256: 7e945332ff676c5c305e12b656465aeb3bf9571eb84b5e93c40c0283642a3b85
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q5_1.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q5_1.bin
+      sha256: deddcf339fd783103c3a730a84b543995e6d06cf31625b9b1364271bcd307ab1
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q5_K_M.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q5_K_M.bin
+      sha256: a95313aaa095c5a698c5ee0f19ccf94ac813d767e4de1452a4ab6795b9510a4d
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q5_K_S.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q5_K_S.bin
+      sha256: 72c3b48de03526d198d1a4cc57d1cb827fc118e986fd99749aea2d15e037baeb
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q6_K.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q6_K.bin
+      sha256: 35d00600e772da08eae3b46b60e55a2beb2bef53bb13631f6215930f62522ed4
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__codeup-alpha-13b-hf-ggml__codeup-alpha-13b-hf.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML
+  tags:
+    - llama
+    - en
+    - dataset:rombodawg/Legacy_MegaCodeTraining200k
+    - transformers
+    - text-to-code
+    - multilingual-code-generation
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: codeup-alpha-13b-hf.ggmlv3.q8_0.bin
+  files:
+    - filename: codeup-alpha-13b-hf.ggmlv3.q8_0.bin
+      sha256: 0a7da3c524ccdc5d55ea07d31f6623ecfd4210c49424630956b937801b2bca2b
+      uri: https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGML/resolve/main/codeup-alpha-13b-hf.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__codeup-llama-2-13b-chat-hf-ggml__codeup-llama-2-13b-chat-hf.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -39594,6 +40852,272 @@
     - filename: dromedary-lora-65B.ggmlv3.q5_K_S.bin
       sha256: 19e1b1693a4e9f78a6ee988ad87c79df718dcd7253332a616882874b802b66ce
       uri: https://huggingface.co/TheBloke/dromedary-65B-lora-GGML/resolve/main/dromedary-lora-65B.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q2_K.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q2_K.bin
+      sha256: b40226f3dd8f9793a0a95802006ac143769138c21a819a71575a81dc897abe07
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q3_K_L.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q3_K_L.bin
+      sha256: acd9197ff80a6f5b7dc477410732731dfcd5f9254e204e10426caec2332ccffe
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q3_K_M.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q3_K_M.bin
+      sha256: 618c6ef91d47b2f7b8d65cd0852e290cbf9ebabdccfc9e36fca4d123bc7946ad
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q3_K_S.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q3_K_S.bin
+      sha256: 11314ce2088783af92c0ba4d109c9f12d442a4e358d471916aa2100b4f42ce9a
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q4_0.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q4_0.bin
+      sha256: 867ecbd78b310356838fe99115444b24a01ae91458f52c396b1b7c45d2e5ff56
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q4_1.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q4_1.bin
+      sha256: b9955f87888c6c376ab0374813fe523ab81b59c2b79149113fe25edc6fe0d9b9
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q4_K_M.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q4_K_M.bin
+      sha256: 8e5d7e137aa03f56a70faf35d83162eb734917c51b657848a682e3600e76499c
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q4_K_S.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q4_K_S.bin
+      sha256: 9946d7e1059441ef10248968bb217978e05f8aac49b8747f819a03a2e4c04395
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q5_0.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q5_0.bin
+      sha256: 649683aefbb23c15c1d0754ac7e46b4f89f4b09d9088cbeba65c687549a8dc20
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q5_1.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q5_1.bin
+      sha256: cefe48a663f11e72293842c0ccb292a8887f95ccf7d4a9b7881cca2d534a0814
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q5_K_M.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q5_K_M.bin
+      sha256: f61f4bdbcc7ee970fef7321011ffe1853fe23ed588435c22fb8d68213ee7a716
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q5_K_S.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q5_K_S.bin
+      sha256: f6e6e1f6ca19ccb8fd117917ef27f7c7611d01da58a111156d7b315ee3752fa9
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q6_K.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q6_K.bin
+      sha256: d4a11a1e9fc6660e4a8a12932cf0e0b3a5962bfd459ad0010f6e62b874d7d747
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__everythinglm-13b-16k-ggml__everythinglm-13b-16k.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML
+  tags:
+    - llama
+    - dataset:totally-not-an-llm/EverythingLM-data
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: everythinglm-13b-16k.ggmlv3.q8_0.bin
+  files:
+    - filename: everythinglm-13b-16k.ggmlv3.q8_0.bin
+      sha256: 4f8a6c6dfd38b66e4446f0cc938aad5db3b5e309447f8fb0ac7a359bb75a3fe6
+      uri: https://huggingface.co/TheBloke/EverythingLM-13B-16K-GGML/resolve/main/everythinglm-13b-16k.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__evol-replit-v1-ggml__evol-replit-v1.ggmlv1.q4_0.bin
   license: cc-by-sa-4.0
@@ -44938,6 +46462,256 @@
       sha256: c266d30df4c4ac746b6d0e23fe8c3ea02fb17799ec6ebc0cff96b6a4b956bf0c
       uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q3_K_S.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_0.bin
+      sha256: a7356fa9c03a3a23a7757c79beb726eb95fd4d300b69c195624018bc1cb5a070
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_1.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_1.bin
+      sha256: 7d732700c02dcec4df853f319de1314bfca810e2292a65f5cfa1860996d7fced
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_K_M.bin
+      sha256: 1c6bd5bf0a98c3b25564855410e702717f2bb19aeb052db7135be511c1278c38
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_K_S.bin
+      sha256: df5eb630834bd427d9d709db4427f05bfcb1514e451a36ade64e610cb134e0ad
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_0.bin
+      sha256: 7e945332ff676c5c305e12b656465aeb3bf9571eb84b5e93c40c0283642a3b85
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_1.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_1.bin
+      sha256: deddcf339fd783103c3a730a84b543995e6d06cf31625b9b1364271bcd307ab1
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_K_M.bin
+      sha256: a95313aaa095c5a698c5ee0f19ccf94ac813d767e4de1452a4ab6795b9510a4d
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_K_S.bin
+      sha256: 72c3b48de03526d198d1a4cc57d1cb827fc118e986fd99749aea2d15e037baeb
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q6_K.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q6_K.bin
+      sha256: 35d00600e772da08eae3b46b60e55a2beb2bef53bb13631f6215930f62522ed4
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-chat-ggml__h2ogpt-4096-llama2-13b-chat.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b-chat.ggmlv3.q8_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b-chat.ggmlv3.q8_0.bin
+      sha256: 0a7da3c524ccdc5d55ea07d31f6623ecfd4210c49424630956b937801b2bca2b
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-chat-GGML/resolve/main/h2ogpt-4096-llama2-13b-chat.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -44953,6 +46727,7 @@
     - h2ogpt
     - license:other
     - text-generation
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -44978,6 +46753,7 @@
     - h2ogpt
     - license:other
     - text-generation
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -45003,6 +46779,7 @@
     - h2ogpt
     - license:other
     - text-generation
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -45012,6 +46789,567 @@
     - filename: h2ogpt-4096-llama2-13b.ggmlv3.q3_K_M.bin
       sha256: adfa346182af9d3b0266a4ec4841994f4e2c306bbcd242a17973907b8318a253
       uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q3_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q3_K_S.bin
+      sha256: c8743b3ace1ad6b25da033ef47203c77dc08a2b9bf4a4baf72a9904cf1032be1
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q4_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q4_0.bin
+      sha256: 4702312416a7010e7903d017317b70ab5eb82da65b25c9b4714837973fceab88
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q4_1.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q4_1.bin
+      sha256: 35d2dcaefd3ae98ca6abee62fdd61c13adbd119c9e6ab454d5e8cb043a0b9b6e
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q4_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q4_K_M.bin
+      sha256: 637afa2a7695c088d6944c79989cbc631fce8299722fb24e94dd1adc8d28379c
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q4_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q4_K_S.bin
+      sha256: 8151bc49a741d89379512ab46a4830f4b9f4c15806282585be4cffddf1545af7
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q5_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q5_0.bin
+      sha256: aa504015175637d0a4251326465fab7a48fb5db5bd72c13b605ce31bb471de16
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q5_1.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q5_1.bin
+      sha256: 314febedc87f22d73d28b25393494afb5c7c55e62291615cd43b344c27548da1
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q5_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q5_K_M.bin
+      sha256: 5635cf4b29068cd59ff9f7a695fd66a4b1420f097e40629677f5c6e526755e66
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q5_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q5_K_S.bin
+      sha256: b63e92fa595b131fb982e858146b3fd687f6ca5a7955930f160e593358fd8e74
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q6_K.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q6_K.bin
+      sha256: 6620bde5c02e8079eed5cd58e3bdcc49ec358d00869703089ed0615e60cf3444
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-13b-ggml__h2ogpt-4096-llama2-13b.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - has_space
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-13b.ggmlv3.q8_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-13b.ggmlv3.q8_0.bin
+      sha256: 722822c7c4e5e7763b532fe7bbce648497456ab72dd641c549521914d85978dd
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-13B-GGML/resolve/main/h2ogpt-4096-llama2-13b.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q2_K.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q2_K.bin
+      sha256: 5d872e0723c7ec3738b595281ae380db7b0ceec1f69c16810cf5699fa74d1125
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q3_K_L.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q3_K_L.bin
+      sha256: 16a3550296d4c0b54185b91285c14f8a85f5d50a0ab47d4e73dc95d3ab6864a3
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q3_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q3_K_M.bin
+      sha256: 66f8a912e683fe1a573bb4cfb4a41bb255deb190e15b6e3f7b86e55471aaf307
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q3_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q3_K_S.bin
+      sha256: 43975d7cd493afea9cf9c06eeee75a165199bde65d735d638c221a124778fd7a
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q4_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q4_0.bin
+      sha256: 9c95ccc53b94d539f5aefed3a7688bbc95ced7da82aba9654d6a5478d3cd8ba8
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q4_1.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q4_1.bin
+      sha256: 7e4f79dbf27cbda72bddd7a7ebf1083aaa83a3445166d4ec94cc85dbc1b8e54d
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q4_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q4_K_M.bin
+      sha256: f00c84accf40a1d844f7415a0bf5b245da98581b94720301c278436a4ba0b8b1
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q4_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q4_K_S.bin
+      sha256: 236a77c5e9b53dd92ad2841cbd132d237f741bd7e8ed661865be4437beda0474
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q5_0.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q5_0.bin
+      sha256: eb17e09f01cd0f6b9e9d306603d1501b070c147431079cfbb4fb1c98d57987a2
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q5_K_M.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q5_K_M.bin
+      sha256: 1ddf73614c20d4cb11b8dcb24473c40c8086a2760ad1ecbd56ccacb4fc3b9105
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__h2ogpt-4096-llama2-70b-ggml__h2ogpt-4096-llama2-70b.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - facebook
+    - meta
+    - pytorch
+    - llama-2
+    - h2ogpt
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: h2ogpt-4096-llama2-70b.ggmlv3.q5_K_S.bin
+  files:
+    - filename: h2ogpt-4096-llama2-70b.ggmlv3.q5_K_S.bin
+      sha256: 3aad0e77fc273f1216a2dc132406d11d2a8a3f39f8558021c38391b9595bb7d0
+      uri: https://huggingface.co/TheBloke/h2ogpt-4096-llama2-70B-GGML/resolve/main/h2ogpt-4096-llama2-70b.ggmlv3.q5_K_S.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__h2ogpt-gm-oasst1-en-2048-falcon-40b-v2-ggml__h2ogpt-falcon-40b.ggmlv3.q2_k.bin
   license: apache-2.0
@@ -47078,6 +49416,258 @@
     - filename: huggin-13b.ggmlv3.q8_0.bin
       sha256: 18b60f6c6d412dd24fa7c90792f084368446cb2e53c1b8863eb7ffe0edbb0d02
       uri: https://huggingface.co/TheBloke/Huginn-13B-GGML/resolve/main/huggin-13b.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q2_K.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q2_K.bin
+      sha256: 57603a6fffebc5501240f9138ac3e84d0d07feaec7807440324c5eaf69f03013
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q3_K_L.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q3_K_L.bin
+      sha256: c7356148e3ae53ed22cd099b7a36c7e2a6310df0eacc110eed07a5e9de933045
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q3_K_M.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q3_K_M.bin
+      sha256: ca746364ac90b6b4a0383b53e9cf3d2f32a6ecb11fc50a0d065d39979eedba06
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q3_K_S.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q3_K_S.bin
+      sha256: 8bc9ed99aaea90645859085a80c7026150c6960df61777a366e1e944ab2380c2
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q4_0.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q4_0.bin
+      sha256: 82ff85ada1042845146e86426e8cbb88b6095ccf2e9ab621369d9ebbe6f75146
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q4_1.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q4_1.bin
+      sha256: af796c0a1f57cf0c8cdb7a942ebacc9cc04978853a33966027844d0cee8db236
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q4_K_M.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q4_K_M.bin
+      sha256: 5e1cbd67c0cd3c3ac22352f7feaa337ea7dee17df27c2e084b9bb834dfbb2644
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q4_K_S.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q4_K_S.bin
+      sha256: e1c5163db4ce9ba0c722807ec9fc699888f2767c84797c919a85bad305906235
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q5_0.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q5_0.bin
+      sha256: 9e12c14b5fd4d4aa979e3bb1eb78edafafd6adf6584558dfb878f1bae503d130
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q5_1.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q5_1.bin
+      sha256: 6d37fad5fd90cd5168f5b97de6710d77e9993ed1d8b12603f1cfe781c64ea4ca
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q5_K_M.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q5_K_M.bin
+      sha256: 83b22cb01275d67478640ce7ce904814f8b64aec047a627652ab8a535141f665
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q5_K_S.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q5_K_S.bin
+      sha256: 7375a46203e6b73a782b5d2a5fb60304afe26f05ef2dd6feb28018b810807061
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q6_K.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q6_K.bin
+      sha256: e58ee458875d5a49ae544d9a232410718c301efce9a912222026fa6022f40857
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__huginn-v3-13b-ggml__huginn-v3-13b.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/Huginn-v3-13B-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: huginn-v3-13b.ggmlv3.q8_0.bin
+  files:
+    - filename: huginn-v3-13b.ggmlv3.q8_0.bin
+      sha256: 4302a28c8790e42abe74ca255c15e2c1df2a6df2a7601b5c230146d144cc5b2b
+      uri: https://huggingface.co/TheBloke/Huginn-v3-13B-GGML/resolve/main/huginn-v3-13b.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__huginnv1.2-ggml__huginnv1.2.ggmlv3.q2_k.bin
   license: other
@@ -53641,6 +56231,258 @@
       sha256: 22a366f1925f832ee6a9f28329e92f8216c61d6d22d95d62ca9ea3a817ebeac3
       uri: https://huggingface.co/TheBloke/llama-deus-7b-v3-GGML/resolve/main/llama-deus-7b-v3.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q2_K.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q2_K.bin
+      sha256: bd525da80a69ec00ce0dc18a3dda849e93ecca76008f7ee0872829b198796393
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q3_K_L.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q3_K_L.bin
+      sha256: b13ec8241d232d85224fb3170913c65b762cee179d63c53895d7665063557d57
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q3_K_M.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q3_K_M.bin
+      sha256: 698f39f892cdea99733add8efbabb934c245d3d4d05bfb846a308a670fd08586
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q3_K_S.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q3_K_S.bin
+      sha256: d831484111995515136fa72260b05ff1ab5e81741eb944612ce7e5cdc7afbf6a
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q4_0.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q4_0.bin
+      sha256: dde967b3514de844b97c53af5a2ab82c8388e83c9a58fd578c4284c036986d34
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q4_1.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q4_1.bin
+      sha256: cf8597f61887b7caae482b112832710997a4261eda62f3a05921d37d4fa562af
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q4_K_M.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q4_K_M.bin
+      sha256: 0a897e7ffec6800e9572f84ba57926e5808c0297429413b35bf086801b9d5326
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q4_K_S.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q4_K_S.bin
+      sha256: 0be33e6400c5491d31f273d57bbde2850e269a63b96368a1f8144b51a5c31930
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q5_0.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q5_0.bin
+      sha256: cc59ea92153a2765268e1da16e26bda2f9b6f4e90b80af81fb825e3ad672f161
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q5_1.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q5_1.bin
+      sha256: e4976fb5d71a3b41b930e6156d45963a60b9591c4714cb99d7329ead2a0df7f0
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q5_K_M.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q5_K_M.bin
+      sha256: f5aeb64a52bd7c91dd26af8cc7d35702a885f1855b7ac0701af7e659877a02b3
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q5_K_S.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q5_K_S.bin
+      sha256: a9ac92f63ee7761af8b3859f55a20b731629e0b7878b1c0e63615c3ba9e93bcc
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q6_K.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q6_K.bin
+      sha256: 0a8f5c8366289f91047eed680ce4a09f47609d8ef7ce893fa1f25a773c942616
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v2-ggml__llama2-22b-daydreamer-v2.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML
+  tags:
+    - llama
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v2.ggmlv3.q8_0.bin
+  files:
+    - filename: llama2-22b-daydreamer-v2.ggmlv3.q8_0.bin
+      sha256: 7390fd2f9f413c071eeae336fb401dd2e0ea53fa8d34880a6e8afcddfc3ae5a5
+      uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__llama2-7b-chat-codecherrypop-qlora-ggml__llama-2-7b-chat-codecherrypop.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -54698,6 +57540,342 @@
       sha256: 412d9510c3698a2360f513d06b6e2eaf4a99d3366904cdc0515234feb036d410
       uri: https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q2_K.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q2_K.bin
+      sha256: 30b5d50f6de9986ac699773babe07bf42cf8ec4d2de50aac3afd3ea20b62060d
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q3_K_L.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q3_K_L.bin
+      sha256: bb74b3f3b1f243d992dcbc41a7d59641541faedda67ff5e9c4d5fbfe16ec8012
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q3_K_M.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q3_K_M.bin
+      sha256: 8ceb621a6591cb59d367e159511cdd3d354b3ea78405ce61ba7b14e177b82d80
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q3_K_S.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q3_K_S.bin
+      sha256: 1322e8afbe39372c8fbe25a8e3bfb4f0901e1a2dc95780a5d88fb098ae9fe6eb
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q4_0.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q4_0.bin
+      sha256: 92d97a802bd3a88be3c4c035be6048062ef14d942a1dc6984eff692dd14b4874
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q4_1.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q4_1.bin
+      sha256: 0e60a444daa6af6e6390c0eb1c5a6be0d8096e4a1dce636cc30ddcd574613999
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q4_K_M.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q4_K_M.bin
+      sha256: cc0fb6e0b998c14fef9e2bc0e85245d358ff5ab01373deec2df84fd5bb34eb28
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q4_K_S.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q4_K_S.bin
+      sha256: 0574ce181d1d72e4133b4f3daad4d60af4b7b6e5a66620a5a1c8d1d31c68288e
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q5_0.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q5_0.bin
+      sha256: e82ef2f8e4305dc8570581a22386d286f488cf786b8060ae771d81d2d78847ff
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q5_1.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q5_1.bin
+      sha256: aab25844782214364326503e71f4ee298e3a444158e54126d6ae121c4aa064e0
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q5_K_M.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q5_K_M.bin
+      sha256: c3787eabfe022bf70307dae7c6220ab113da810374028ccc4fdd8d8c2e3d8fa6
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q5_K_S.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q5_K_S.bin
+      sha256: 70b8a3bd954df0a1d60428c59f059d3d9d79a27422eedccfcc45c00ca185e32d
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q6_K.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q6_K.bin
+      sha256: c89f7daa933a6fa4dc821bf8946a7dbda684cb796f99beeb3229bad8469f2da8
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llongorca-7b-16k-ggml__llongorca-7b-16k.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML
+  tags:
+    - llama
+    - en
+    - dataset:Open-Orca/OpenOrca
+    - arxiv:2306.02707
+    - arxiv:2301.13688
+    - arxiv:2307.09288
+    - transformers
+    - license:other
+    - text-generation
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llongorca-7b-16k.ggmlv3.q8_0.bin
+  files:
+    - filename: llongorca-7b-16k.ggmlv3.q8_0.bin
+      sha256: 3eb21189579895fe15c669933572a44b090e760931abcfe7498d0c2add3abdce
+      uri: https://huggingface.co/TheBloke/LlongOrca-7B-16K-GGML/resolve/main/llongorca-7b-16k.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__longchat-13b-ggml__longchat-13b-16k.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -54967,6 +58145,272 @@
     - filename: longchat-7b-16k.ggmlv3.q6_K.bin
       sha256: 845218e39dce701a7925f4c554b23ae614de3a0083ae4cb5694f824544e7d231
       uri: https://huggingface.co/TheBloke/LongChat-7B-GGML/resolve/main/longchat-7b-16k.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q2_K.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q2_K.bin
+      sha256: 46fc424c7fd50a5fc36ea405201feb3508f714cdc525b04e50fc12b6e0458ae1
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_L.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_L.bin
+      sha256: 81f1202bb8877333ed4724c7d3c1e0f5e59143ae05eed699de3057736b9a3d09
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_M.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_M.bin
+      sha256: 8a36ee16372a4fb5618e3cb659d07108fe2fb1f6da6f2da47cfb26b052a48461
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_S.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_S.bin
+      sha256: 994439a09f66fea8698c1198ebefa461a338787b49f4d94ba49cbb087e591fe0
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_0.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_0.bin
+      sha256: bb8f241a60bccc57dbd6b5bee697d9a025370a01c98c952a4489b048fad36c0d
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_1.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_1.bin
+      sha256: 8dab7f7a17313e4fc4b25d0957d0ca4f26c354c55f8eb57a70accb974903323d
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_K_M.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_K_M.bin
+      sha256: a46fb1570e5c4dd93f93d439c4fbd879d55934558c2472f3f6dfe227da9d6bf5
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_K_S.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q4_K_S.bin
+      sha256: d51a23a8da10c6842c60089c80024f166d4edf5f524481d48c1f3433943e8c96
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_0.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_0.bin
+      sha256: c2370276d9265422429d08c945dd57149fbe3901adfb032ba158c0d2f7b5aaef
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_1.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_1.bin
+      sha256: 8130a0d5457b558a92f8f47fadb58fec1c9f9ee42ce325e95b5dedf8e40083d1
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_K_M.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_K_M.bin
+      sha256: 201c69a074141a404ae10bbc8f36bcafadf76048a17c0265697486e42ff80ad8
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_K_S.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q5_K_S.bin
+      sha256: 78b2c0d48a3bd77ec1cc324b018198e0eb7cd1c4984b818589b8bd475fabe61b
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q6_K.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q6_K.bin
+      sha256: bf348129cecd61084036d22aca13d6da07c875a03e4eb4e1d380f5756e0b3768
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__losslessmegacoder-llama2-7b-mini-ggml__losslessmegacoder-llama2-7b-mini.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML
+  tags:
+    - llama
+    - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: losslessmegacoder-llama2-7b-mini.ggmlv3.q8_0.bin
+  files:
+    - filename: losslessmegacoder-llama2-7b-mini.ggmlv3.q8_0.bin
+      sha256: 88f21e9d8801132541f08bcc315cc9f3e264575620405c9126af8d02688c25d0
+      uri: https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-7B-Mini-GGML/resolve/main/losslessmegacoder-llama2-7b-mini.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__luna-ai-llama2-uncensored-ggml__luna-ai-llama2-uncensored.ggmlv3.q2_k.bin
   license: other
@@ -55443,7 +58887,7 @@
     - filename: Manticore-13B-Chat-Pyg.ggmlv3.q8_0.bin
       sha256: d6daa77c0935d507c18ba931e1cf5ac7c16e32383144fe0e169818ff9cb287c1
       uri: https://huggingface.co/TheBloke/manticore-13b-chat-pyg-GGML/resolve/main/Manticore-13B-Chat-Pyg.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/guanaco.yaml
+- url: github:go-skynet/model-gallery/manticore.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -55473,7 +58917,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_L.bin
       sha256: 0f36ae45fddc34a353a96ccafb133ac1c920962d759098257830f94c4f55fe5c
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/guanaco.yaml
+- url: github:go-skynet/model-gallery/manticore.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -55488,7 +58932,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_M.bin
       sha256: 191964e8b5644b5957cbb929249b8685ff0f0cbe9d0dde21f38007c4575a2687
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/manticore.yaml
+- url: github:go-skynet/model-gallery/guanaco.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -55503,7 +58947,7 @@
     - filename: manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_S.bin
       sha256: 672ad27cf6142178d4007df5309b6c211511091a88829a6dd20c47fb35af8701
       uri: https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GGML/resolve/main/manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/manticore.yaml
+- url: github:go-skynet/model-gallery/guanaco.yaml
   name: thebloke__manticore-13b-chat-pyg-guanaco-superhot-8k-ggml__manticore-13b-chat-pyg-guanaco-superhot-8k.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -59923,6 +63367,82 @@
       sha256: f56a8b39391cb5a82a58d055f18953f1ed6a9b77f80e95aaa8f60fb1ab2c08bb
       uri: https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q5_1.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__mythomax-l2-13b-ggml__mythomax-l2-13b.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: mythomax-l2-13b.ggmlv3.q5_K_M.bin
+  files:
+    - filename: mythomax-l2-13b.ggmlv3.q5_K_M.bin
+      sha256: c3ddd2874e4b9a7d8ba43f227929f1e0b947b39bf9c46c1343f5f94cf0469910
+      uri: https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__mythomax-l2-13b-ggml__mythomax-l2-13b.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: mythomax-l2-13b.ggmlv3.q5_K_S.bin
+  files:
+    - filename: mythomax-l2-13b.ggmlv3.q5_K_S.bin
+      sha256: d93b4c54879d2e8d4f120ab1f79878015a1102ed0d8d67d210631d59e95c06f3
+      uri: https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__mythomax-l2-13b-ggml__mythomax-l2-13b.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: mythomax-l2-13b.ggmlv3.q6_K.bin
+  files:
+    - filename: mythomax-l2-13b.ggmlv3.q6_K.bin
+      sha256: 37a1ea28a3a08721d2956a8bb87a06127c6036742267174b79d9c7b83133dba0
+      uri: https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__mythomax-l2-13b-ggml__mythomax-l2-13b.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML
+  tags:
+    - llama
+    - en
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: mythomax-l2-13b.ggmlv3.q8_0.bin
+  files:
+    - filename: mythomax-l2-13b.ggmlv3.q8_0.bin
+      sha256: d8318689aa766a0d0a78e7ba5000f64ac4601dbe74365c541ddffb393d67bc62
+      uri: https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__mythomix-l2-13b-ggml__mythomix-l2-13b.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -63165,6 +66685,246 @@
       sha256: 39642c942c2de89f54f709d8fac5abd6b084f7dacf8281aa766ba969b108f947
       uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q3_K_L.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q3_K_M.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q3_K_M.bin
+      sha256: 369ac460a7504e6af322cb4e2d943fb38657d4d1be5c7a19f54b8ae9667fa0d8
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q3_K_S.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q3_K_S.bin
+      sha256: 3673835374857bfae5657997783867dbb010509249c46a40a4896530a49e565c
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q4_0.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q4_0.bin
+      sha256: d2fd07fa066785e2f4ad3d7a19886b050c3dae4acde2bc65629554d3226de139
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q4_1.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q4_1.bin
+      sha256: 91f0c22e61d96e5391880ebaa565cf68014e4ea52d8a5d77f3b5f13c8325e282
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q4_K_M.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q4_K_M.bin
+      sha256: fffe078c5ac1b23bbd529a0036babb5716eadc6e4680f1ac56969ea8a1336e84
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q4_K_S.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q4_K_S.bin
+      sha256: 55318c58c22c4e4a8dd5504919cefde5f843e848b6c96cd06a3ad69f2f41365b
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q5_0.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q5_0.bin
+      sha256: 418610cfc2a6c404b66b193ac1a225a15fc9c6682e938ea201650010d13a554d
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q5_1.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q5_1.bin
+      sha256: 4edb4d50c56e3a543522d92e1a59c8ca4c197a2caa062b0eb895315d3f4164d1
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q5_K_M.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q5_K_M.bin
+      sha256: c887fc1d8ae0511ec3fe677027625359a51c5672602fce83293584a8c5e941c7
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q5_K_S.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q5_K_S.bin
+      sha256: 73ea5c1b432bde26c4e9b26cd18b5659954302b2f02fa38d1d947cb8c9c9e633
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q6_K.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q6_K.bin
+      sha256: 0487eb1a91683020cb8dc59b096b9f7e086735efdf1cf5f5ec84c842ec0a6799
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__openorca-platypus2-13b-ggml__openorca-platypus2-13b.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML
+  tags:
+    - llama
+    - en
+    - dataset:garage-bAInd/Open-Platypus
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: openorca-platypus2-13b.ggmlv3.q8_0.bin
+  files:
+    - filename: openorca-platypus2-13b.ggmlv3.q8_0.bin
+      sha256: 50fe559e8062b62a3c3bb4eec65176f7cecfadd66425d5cbd264c9d9132fb4f6
+      uri: https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__openorca-preview1-13b-ggml__openorca-preview1-200k-llama-13b.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -65091,6 +68851,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65111,6 +68872,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65131,6 +68893,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65151,6 +68914,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65171,6 +68935,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65191,6 +68956,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65211,6 +68977,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65231,6 +68998,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65251,6 +69019,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65271,6 +69040,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65291,6 +69061,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65311,6 +69082,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65331,6 +69103,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -65351,6 +69124,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -67462,6 +71236,106 @@
     - filename: baize-v2-7b.ggmlv3.q8_0.bin
       sha256: 4092cec8a136da37fffc22a783cd1636aea0b61f2f0b5e5e57d94c34cd821248
       uri: https://huggingface.co/TheBloke/Project-Baize-v2-7B-GGML/resolve/main/baize-v2-7b.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__puli-gpt-3sx-ggml__puli-gpt-3sx.ggmlv1.q4_0.bin
+  license: cc-by-nc-4.0
+  urls:
+    - https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML
+  tags:
+    - gpt-neox
+    - hu
+    - transformers
+    - text-generation
+    - puli
+    - license:cc-by-nc-4.0
+    - region:us
+  overrides:
+    parameters:
+        model: puli-gpt-3sx.ggmlv1.q4_0.bin
+  files:
+    - filename: puli-gpt-3sx.ggmlv1.q4_0.bin
+      sha256: f5a44d5f73ed44ca71bc09931743cae372939589da3f5092f892dfac854dd00b
+      uri: https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML/resolve/main/puli-gpt-3sx.ggmlv1.q4_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__puli-gpt-3sx-ggml__puli-gpt-3sx.ggmlv1.q4_1.bin
+  license: cc-by-nc-4.0
+  urls:
+    - https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML
+  tags:
+    - gpt-neox
+    - hu
+    - transformers
+    - text-generation
+    - puli
+    - license:cc-by-nc-4.0
+    - region:us
+  overrides:
+    parameters:
+        model: puli-gpt-3sx.ggmlv1.q4_1.bin
+  files:
+    - filename: puli-gpt-3sx.ggmlv1.q4_1.bin
+      sha256: 7c7efaa3b05bcdc5b7ece3a711027d086ab45cf93a780bbd09fb597a7be05721
+      uri: https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML/resolve/main/puli-gpt-3sx.ggmlv1.q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__puli-gpt-3sx-ggml__puli-gpt-3sx.ggmlv1.q5_0.bin
+  license: cc-by-nc-4.0
+  urls:
+    - https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML
+  tags:
+    - gpt-neox
+    - hu
+    - transformers
+    - text-generation
+    - puli
+    - license:cc-by-nc-4.0
+    - region:us
+  overrides:
+    parameters:
+        model: puli-gpt-3sx.ggmlv1.q5_0.bin
+  files:
+    - filename: puli-gpt-3sx.ggmlv1.q5_0.bin
+      sha256: ca1423f5d5ffd9f25aff96e6c285c3883483812b88e93159f9d0e7c98c534dc7
+      uri: https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML/resolve/main/puli-gpt-3sx.ggmlv1.q5_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__puli-gpt-3sx-ggml__puli-gpt-3sx.ggmlv1.q5_1.bin
+  license: cc-by-nc-4.0
+  urls:
+    - https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML
+  tags:
+    - gpt-neox
+    - hu
+    - transformers
+    - text-generation
+    - puli
+    - license:cc-by-nc-4.0
+    - region:us
+  overrides:
+    parameters:
+        model: puli-gpt-3sx.ggmlv1.q5_1.bin
+  files:
+    - filename: puli-gpt-3sx.ggmlv1.q5_1.bin
+      sha256: 8ee89e5234fe0223ac4c54c566b92a815d1da8e399f3f82badf814a3e90d7322
+      uri: https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML/resolve/main/puli-gpt-3sx.ggmlv1.q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__puli-gpt-3sx-ggml__puli-gpt-3sx.ggmlv1.q8_0.bin
+  license: cc-by-nc-4.0
+  urls:
+    - https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML
+  tags:
+    - gpt-neox
+    - hu
+    - transformers
+    - text-generation
+    - puli
+    - license:cc-by-nc-4.0
+    - region:us
+  overrides:
+    parameters:
+        model: puli-gpt-3sx.ggmlv1.q8_0.bin
+  files:
+    - filename: puli-gpt-3sx.ggmlv1.q8_0.bin
+      sha256: 3a1b12fb39893381a2d5abd9c74abed548864dadd135a2420d2816c16793c0dd
+      uri: https://huggingface.co/TheBloke/PULI-GPT-3SX-GGML/resolve/main/puli-gpt-3sx.ggmlv1.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__pygmalion-13b-superhot-8k-ggml__pygmalion-13b-superhot-8k.ggmlv3.q2_k.bin
   license: other
@@ -83116,7 +86990,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_1.bin
       sha256: 27e5af7dd10e48a9e7d842c28b058119894fdc0f7855cc74b3f9f674b0d8fbb1
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -83132,7 +87006,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q4_K_M.bin
       sha256: bb8494a25acec7b7917303f6db0fc0fdf551fe1d2974e4a356719aba83b0c661
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -83180,7 +87054,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_1.bin
       sha256: f5b92a22d1eb0469e55155086ffd9af50c5e25e8a91eac4181ec23fa142ced9b
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -83196,7 +87070,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q5_K_M.bin
       sha256: 58ceeded14cccffdf145b652a1b980ac5c8c179e2cf054c1ac211a52d4b32866
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -83228,7 +87102,7 @@
     - filename: wizard-vicuna-13B.ggmlv3.q6_K.bin
       sha256: 2f627c83147dffafac90d2e7575fd9f475b0f35362736f66320597d4340cb864
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-GGML/resolve/main/wizard-vicuna-13B.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-ggml__wizard-vicuna-13b.ggmlv3.q8_0.bin
   license: other
   urls:
@@ -83289,7 +87163,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_M.bin
       sha256: 173b04973806bc4ce32d48349d13a49dfcc681be0886837201181e58d6b7c1b5
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -83304,7 +87178,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_S.bin
       sha256: 34c1abf5e73c32f2582514319b8bb57ec32186cce48818b1944393903e3dbb02
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -83364,7 +87238,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q5_K_S.bin
       sha256: f72f15761a88aeb60721e7da7e8a46dda2def9cffe245bf89c84dde033878fdf
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-superhot-8k-ggml__wizard-vicuna-13b-superhot-8k.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -83379,7 +87253,7 @@
     - filename: wizard-vicuna-13b-superhot-8k.ggmlv3.q6_K.bin
       sha256: fc3043feefa806326223955a5c248b815e18c8bd5078449dc8c17cc98c88c4e5
       uri: https://huggingface.co/TheBloke/wizard-vicuna-13B-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-superhot-8k.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -83395,7 +87269,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q2_K.bin
       sha256: e212aa8c1e2aa7d7f8af01277014257ce8a527b2cd02cda63b31f42334b3fa0b
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -83427,7 +87301,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: df739fe44b0356c53e4b1aa5f423c4120082b9dba27e81f469f4ecc82e86eecd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -83443,7 +87317,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_S.bin
       sha256: 6c65468082ee46fe07974ce13e67b518601bf45c7e3704e9b71c1833212bc7b7
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -83459,7 +87333,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1f08b147a5bce41cfcbb3fd5d51ba765dea1786e15b5655ab69ba3a337a893b7
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -83491,7 +87365,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 77b741f78e5c1eb929425f1a2f23f8dde8076b3b9bdefb336ae2a0203d8c8bcd
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -83507,7 +87381,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: 6ad4f7f71d490e71ed25f89e37d0468f9ff3297d8eda6cf1b28104b7001ea007
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -83523,7 +87397,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_0.bin
       sha256: 550ed0bd50acace2940bc39a1da89706cb6afd514deb481dacf54e4ccc56d0f8
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q5_1.bin
   license: other
   urls:
@@ -83539,7 +87413,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_1.bin
       sha256: 0c358effc375d67d798b001fcb36ce8739b086197795bc2bf7efa866d288bdae
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-ggml__wizard-vicuna-13b-uncensored.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -83603,7 +87477,7 @@
     - filename: Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin
       sha256: 76bea6b983f79a4dda3228a9d29760103ae0a8d3970eb5cd4239722ea86ed809
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -83618,7 +87492,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q2_K.bin
       sha256: 3c68ef69f7b9d2eb084e03c8564951d7d0f2558e1a23ce572a57399c210edc94
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -83663,7 +87537,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_K_S.bin
       sha256: 4a75581273d2d1f5fd90b5d09c154e7c42afa964143f1039a58062cf7cddb33e
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -83678,7 +87552,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_K_M.bin
       sha256: f285a702523e35337ff8a2db9d1464582f67d6c19f0998c81da34435ac0d2b7e
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -83723,7 +87597,7 @@
     - filename: wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q5_K_S.bin
       sha256: ab4cdf31c0b9d5ab8a63b4a20a44f982b2f8fdec3acaacd4020cb6fddaec7267
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-13b-uncensored-superhot-8k-ggml__wizard-vicuna-13b-uncensored-superhot-8k.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -83753,7 +87627,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q2_K.bin
       sha256: bb2f48996c48ad9f0c0e6742a08fef671b27f922132577715faa6fbd0e4bef9c
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -83768,7 +87642,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_L.bin
       sha256: 5416485a12dd1e3496a61f02cdb8b21c87996e4c93761b61dd557b849cffa5ff
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -83813,7 +87687,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
       sha256: 1a493c051bbe272d95d7db3bd5747f02e6a6e8c96de24fd863b4cf9b53b63637
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_0.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q4_1.bin
   license: other
   urls:
@@ -83843,7 +87717,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin
       sha256: 124793cd078ff66d3f79e2960e540f27013de30deb1dfee4b5a92b4656250f0d
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -83858,7 +87732,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: 7f820ce130bf8f8ff80a7d0f7d6755b9e2b3d6770a9314610efec47b75fd2f62
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -83888,7 +87762,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
       sha256: 1d78246264566e529f5ffde4ed5c845f66f6c091ae21ff8e56c7e6de64310919
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_1.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_k_m.bin
   license: other
   urls:
@@ -83903,7 +87777,7 @@
     - filename: Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
       sha256: 60b40922a954486d5ddf7b046f746ba406a7d260156d42b512e0c002cb1c1336
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GGML/resolve/main/Wizard-Vicuna-30B-Uncensored.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-30b-uncensored-ggml__wizard-vicuna-30b-uncensored.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -83964,7 +87838,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q2_K.bin
       sha256: 84de26f5894cee3fbd6073b96fc136b1fe5169ae8351a6bccc2ba34f1fbce043
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -83980,7 +87854,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_L.bin
       sha256: fb0655215208004cd0ea4bbb719dd6592c48187c90214cd394e72c1f466e08a6
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_L.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q3_k_m.bin
   license: other
   urls:
@@ -83996,7 +87870,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
       sha256: 3d9295af40fbf78e9be216c4435885494adabae06b08a580f861edec34e2a361
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q3_k_s.bin
   license: other
   urls:
@@ -84012,7 +87886,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
       sha256: 13c47bc79f7433eaf28d0a659b9dae450c33d37301969c985af792d5dabc4c23
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q3_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q4_0.bin
   license: other
   urls:
@@ -84044,7 +87918,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
       sha256: 84779e2b9beeacd3a049561202c001d3f254050065a873326518eb225bfdd024
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_1.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q4_k_m.bin
   license: other
   urls:
@@ -84076,7 +87950,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_S.bin
       sha256: d50252e40124eefb16ae9cbab3fa35004b0f0c6df0a2b173decf2ce9be3f19fc
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_K_S.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q5_0.bin
   license: other
   urls:
@@ -84140,7 +88014,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
       sha256: eda4e45bf5142661e73280012f416de68288f142ae03e1fe508003ef1f4b21af
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q5_K_S.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q6_k.bin
   license: other
   urls:
@@ -84156,7 +88030,7 @@
     - filename: Wizard-Vicuna-7B-Uncensored.ggmlv3.q6_K.bin
       sha256: f615081aef74120663e6717580115e278d1632a92d9f8c61a16115aabc8190ce
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGML/resolve/main/Wizard-Vicuna-7B-Uncensored.ggmlv3.q6_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-ggml__wizard-vicuna-7b-uncensored.ggmlv3.q8_0.bin
   license: other
   urls:
@@ -84187,7 +88061,7 @@
     - filename: wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q2_K.bin
       sha256: f7534bde860e560702db33e5ae7b1a9f1e0c2a8fb41372ae604e5c063023af22
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q2_K.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-superhot-8k-ggml__wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q3_k_l.bin
   license: other
   urls:
@@ -84247,7 +88121,7 @@
     - filename: wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q4_K_M.bin
       sha256: a243d91382e217b0cdf202ea6463ec083974602d300ceb2fa29d92fa637ec966
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q4_K_M.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-superhot-8k-ggml__wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q4_k_s.bin
   license: other
   urls:
@@ -84277,7 +88151,7 @@
     - filename: wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q5_K_M.bin
       sha256: f320e00b81eba8f500ae5e4ac01fa679a6a89f8af5b1a790977a96eb6b7440be
       uri: https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-GGML/resolve/main/wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q5_K_M.bin
-- url: github:go-skynet/model-gallery/vicuna.yaml
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizard-vicuna-7b-uncensored-superhot-8k-ggml__wizard-vicuna-7b-uncensored-superhot-8k.ggmlv3.q5_k_s.bin
   license: other
   urls:
@@ -88651,6 +92525,186 @@
       sha256: 06e19017f9281bce83c4529e7383d9d3d30d20c96eedef7fccc3a79ad28c6884
       uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q4_0.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q4_1.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q4_1.bin
+      sha256: 24560c5dcd6710644001ae0925f2864f881c6ac1fb7b72f5b1397825628482f7
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q4_K_M.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q4_K_M.bin
+      sha256: 30e4670f8029b1599d2f62a196cf8c8d9cd6e80cde965bb80ddc78923dd5bd79
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q4_K_S.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q4_K_S.bin
+      sha256: a8277e88fa2a5e3d0092f6bf92594247bb8237418b7cb5abbbc40bc61b882b75
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q5_0.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q5_0.bin
+      sha256: 19a50ebd6212ed651bda64a7c529be1734c30a1bae26cab32f33e3ee00483ff7
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q5_1.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q5_1.bin
+      sha256: 606b44677964a38196a327a70acf57f49e02dde571e31aaa17b96e57d25e9d55
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q5_K_M.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q5_K_M.bin
+      sha256: cd79c89b7886bb70384dfd6a7ab734412cfec9146cdb0e0822674071232b21b2
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q5_K_S.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q5_K_S.bin
+      sha256: 841d05576731e3777d66645f4f2c4331cc477c1866d2e39cde180b3127262504
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q6_K.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q6_K.bin
+      sha256: 8afbd0bbd62e9ababe9cb06a0fc27bcb447474c042f7e092e1550f4cc14d03e3
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-13b-v1.0-ggml__wizardmath-13b-v1.0.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-13b-v1.0.ggmlv3.q8_0.bin
+  files:
+    - filename: wizardmath-13b-v1.0.ggmlv3.q8_0.bin
+      sha256: b508aa9423046af6eb7519657d1d0a13ecbd87c7c631004edf79686cbc8247cd
+      uri: https://huggingface.co/TheBloke/WizardMath-13B-V1.0-GGML/resolve/main/wizardmath-13b-v1.0.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q2_k.bin
   license: other
   urls:
@@ -88730,6 +92784,146 @@
     - filename: wizardmath-70b-v1.0.ggmlv3.q3_K_S.bin
       sha256: 5449c37898cb0cbc0731732df0b1b6abe4a10c73a558acb73bb2944ed98a712c
       uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q4_0.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q4_0.bin
+      sha256: 8aa408cd539f010a6b64e03cae6331c862894f33a4ee11f0bc046ee493cb2d1d
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q4_1.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q4_1.bin
+      sha256: 7ed509763e919f665a3dbccb4da251b1765568f9df541c6d3f20b9d22a39cfd5
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q4_K_M.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q4_K_M.bin
+      sha256: 140a07afe5034897d0d269a20ae303879e07e6e92ad867305d30181aa98314ab
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q4_K_S.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q4_K_S.bin
+      sha256: eb0855c94836c5fd59016664b35d2a8d25b23393882b066b66a2919f298e046d
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q5_0.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q5_0.bin
+      sha256: a85abc6cef7dfc7476d5a83dc3871d9309612cb424b46e2caaa42763ddb5a091
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q5_K_M.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q5_K_M.bin
+      sha256: 5a038859602f7877e570fdada78c5c8da515d64e6d23d13887d6a413c1343d5c
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-70b-v1.0-ggml__wizardmath-70b-v1.0.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-70b-v1.0.ggmlv3.q5_K_S.bin
+  files:
+    - filename: wizardmath-70b-v1.0.ggmlv3.q5_K_S.bin
+      sha256: df518d1e62c9ae6eb809cda8bc98258e236b0755a721642fc42345acfff462ce
+      uri: https://huggingface.co/TheBloke/WizardMath-70B-V1.0-GGML/resolve/main/wizardmath-70b-v1.0.ggmlv3.q5_K_S.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q2_k.bin
   license: other
@@ -88870,6 +93064,146 @@
     - filename: wizardmath-7b-v1.0.ggmlv3.q4_K_M.bin
       sha256: 0967413f1be942bb9ed230f9192b94d1ec4cbbbb71d99d3500b91a67f0bfbcb1
       uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+      sha256: dceb93f8f6e8caab1bf75cf44bd383912078de637ae213382a8fa165039c6ec9
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+      sha256: ee4877a30cbdeb6b2ef6ee2530fc8963c5623ca02cf6f99fb5452553f608f450
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+      sha256: c8708707dc9f40233c7577f91650dbfc3b2f63bdda990377263370a3793beeb7
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+      sha256: 1ec1b55f9637c1733f65663bdcfafca62ef76c88ecc478936395e6928c4e8c3b
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+      sha256: e054ae804b0e9703f701fa957cc7c75102639cec678f3da5f75aa1de5acdf9b1
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+      sha256: 3c4e092c0b500b80efbcb76ba77fc0e5e5eba0cd8ae000092b4ac402077e93b4
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardmath-7b-v1.0-ggml__wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - arxiv:2306.08568
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+  files:
+    - filename: wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+      sha256: d10ca96161a8b2f0f1354eedb219e76f165320bbecbf73f4229fbe95c7ea950f
+      uri: https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
   name: tuxifan__ggmlv1_models__ggml-wizardlm-7b.q4_2.bin
   urls:
